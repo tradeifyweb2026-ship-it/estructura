@@ -1,0 +1,278 @@
+
+> site-creator-vinext-starter@0.1.0 test:security
+> node tests/check-secret-scanner.mjs && node tests/check-validation-csp.mjs && node tests/check-quote-sync.mjs && node tests/check-request-body.mjs && node tests/check-quote-provenance.mjs && node tests/check-csp.mjs && node tests/check-security-boundaries.mjs && node tests/check-account-erasure.mjs && node tests/check-storage-cleanup.mjs && node tests/check-user-abuse.mjs && node tests/check-access-matrix.mjs && node tests/check-admin-search.mjs
+
+check-secret-scanner: JSON entrecomillado, asignación sin comillas e historial de mensajes detectados sin imprimir valores. Repositorio ficticio eliminado.
+check-validation-csp: esquemas y validaciones reales sin intentar compilación dinámica; entrada inválida sigue rechazada.
+check-quote-sync: acción durante refresh drenada, error conserva cola y cambio de propietario detiene envíos.
+check-request-body: streaming cancelado, bytes UTF-8, media type, profundidad 32/33, escapes y JSON malformado verificados.
+check-quote-provenance: procedencia desconocida no compartible; texto original conservado y SVG escapado.
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+check-csp: nonce aleatorio por respuesta, cabecera del cliente descartada, scripts SSR/RSC coinciden y sin unsafe-inline/eval/comodines. Navegador se comprueba aparte.
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "Worker compilado y D1/R2 desechables; Google simulado; sin producción",
+  "results": [
+    {
+      "name": "Estado público comparte el limitador API, incluso sin sesión",
+      "status": "passed"
+    },
+    {
+      "name": "Mi cuenta rechaza más de 16 KiB antes de interpretar acciones",
+      "status": "passed"
+    },
+    {
+      "name": "Mi cuenta exige JSON y conserva la sesión ante rechazo",
+      "status": "passed"
+    },
+    {
+      "name": "Frases conserva el estado HTTP 413 de su límite de bytes",
+      "status": "passed"
+    },
+    {
+      "name": "Frases rechaza profundidad excesiva, incluso en campos descartados por Zod",
+      "status": "passed"
+    },
+    {
+      "name": "Bitácora rechaza profundidad excesiva antes de validar y no cambia datos",
+      "status": "passed"
+    },
+    {
+      "name": "Cuerpos pequeños válidos, llaves dentro de texto y JSON malformado",
+      "status": "passed"
+    }
+  ]
+}
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{"status":"passed","scenario":"D1 revierte sin pérdida; borrado confirmado limpia catálogo/alias/revisión/sesiones y conserva catálogo ajeno"}
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "D1/R2 desechables, fallos inyectados; no certifica scheduler remoto",
+  "passed": [
+    "Intención de borrado y referencia D1 se confirman juntas, sin afectar otro propietario",
+    "Fallo R2 parcial conserva toda la cola; reintento idempotente completa limpieza",
+    "Fallo al confirmar limpieza D1 mantiene intención para otro reintento",
+    "No borrar objetos todavía referenciados y lote máximo 100"
+  ]
+}
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{"status":"passed","requests":65,"allowed":60,"limited":5}
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "Worker compilado; D1/R2 y usuarios ficticios, no servicio real. Exportaciones son cliente: se verifica acceso a sus fuentes privadas.",
+  "readMatrix": 75,
+  "writeMatrix": 45,
+  "passed": [
+    "Matriz completa de lecturas privadas: anónimo, pendiente, suspendido, vencido, bloqueado",
+    "Matriz de escrituras y borrados: identidad antes de interpretar el cuerpo",
+    "Usuario activo y propietario acceden a sus secciones; cabeceras no escalan privilegios",
+    "Activos privados: propietario no lee ni edita catálogo ajeno y no se acepta userId",
+    "Scripts privados: ni propietario ni cabeceras alteradas acceden a texto ajeno",
+    "IDOR/BOLA: detalle, capturas, cuentas, estrategias y borrados ajenos",
+    "Asignación masiva y texto SQL/HTML no cambian propietario, rol, cuota ni versión interna"
+  ]
+}
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+check-admin-search: búsqueda literal parametrizada, mayúsculas y correo >50 bytes en usuarios/invitaciones/eventos; sin LIKE limitado por D1.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 413 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 415 }
+Tradeify security response { area: 'api', status: 413 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 400 }
+Tradeify request unavailable
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 429 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 409 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 404 }
+Tradeify security response { area: 'api', status: 404 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 404 }
+Tradeify security response { area: 'api', status: 404 }
+Tradeify security response { area: 'api', status: 409 }
+Tradeify security response { area: 'api', status: 409 }
+Tradeify security response { area: 'api', status: 409 }
+Tradeify security response { area: 'api', status: 409 }
+Tradeify security response { area: 'api', status: 403 }

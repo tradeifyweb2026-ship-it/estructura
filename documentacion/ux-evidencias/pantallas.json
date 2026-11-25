@@ -1,0 +1,338 @@
+[
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 305,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 345,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 375,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 397,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 397,
+    "width": 412
+  },
+  {
+    "client": 753,
+    "overflow": true,
+    "route": "Resumen",
+    "scroll": 938,
+    "width": 768
+  },
+  {
+    "client": 753,
+    "overflow": true,
+    "route": "Bitácora",
+    "scroll": 1003,
+    "width": 768
+  },
+  {
+    "client": 753,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 768,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "client": 753,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 753,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "overflow": true,
+    "route": "Resumen",
+    "scroll": 1073,
+    "width": 1024
+  },
+  {
+    "client": 1009,
+    "overflow": true,
+    "route": "Bitácora",
+    "scroll": 1138,
+    "width": 1024
+  },
+  {
+    "client": 1009,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1024,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 1024,
+    "width": 1024
+  },
+  {
+    "client": 1009,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1009,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1351,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 1351,
+    "width": 1366
+  },
+  {
+    "client": 1366,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 1366,
+    "width": 1366
+  },
+  {
+    "client": 1351,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 1351,
+    "width": 1366
+  },
+  {
+    "client": 1366,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 1366,
+    "width": 1366
+  },
+  {
+    "client": 1351,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 1351,
+    "width": 1366
+  },
+  {
+    "client": 1351,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 1351,
+    "width": 1366
+  },
+  {
+    "client": 1905,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "client": 1920,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 1920,
+    "width": 1920
+  },
+  {
+    "client": 1905,
+    "overflow": false,
+    "route": "Estadísticas",
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "client": 1920,
+    "overflow": false,
+    "route": "Psicología",
+    "scroll": 1920,
+    "width": 1920
+  },
+  {
+    "client": 1905,
+    "overflow": false,
+    "route": "Revisión",
+    "scroll": 1905,
+    "width": 1920
+  },
+  {
+    "client": 1905,
+    "overflow": false,
+    "route": "Configuración",
+    "scroll": 1905,
+    "width": 1920
+  }
+]

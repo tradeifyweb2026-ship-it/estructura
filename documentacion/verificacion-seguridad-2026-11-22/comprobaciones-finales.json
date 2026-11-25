@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+  "runtimeCommit": "332119497b918152d68a3a6e834b504163aada65",
+  "scope": "Registro previo sobre 2b8d17e; la suite final completa sobre 339d2eb lo sustituye sin borrar este diagnóstico.",
+  "checks": [
+    {
+      "name": "security-final",
+      "command": "TRADEIFY_SECURITY_EVIDENCE=documentacion/verificacion-seguridad-2026-11-22 npm run test:security",
+      "exitCode": 0,
+      "evidence": "security-final.txt"
+    },
+    {
+      "name": "lint-final",
+      "command": "npm run lint",
+      "exitCode": 0,
+      "errors": 0,
+      "warnings": 1,
+      "evidence": "lint-final.txt"
+    }
+  ],
+  "supersededBy": "final/resultados.json"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "9616c4f0e3a149d774c54452e23ef589f455e36a",
+  "run": 45186255104,
+  "artifact": 14823403892,
+  "artifactSha256": "17cf26e295552bcd31635a183e25cdfbdfbec339862b732db9e5d3e5afe68881",
+  "status": "failed",
+  "scope": "Intento fallido conservado. No sustituye la ejecución aprobada."
+}

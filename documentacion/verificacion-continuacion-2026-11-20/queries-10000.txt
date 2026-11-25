@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 test:queries
+> node tests/check-server-query.mjs
+
+Consultas D1: 10000 operaciones; paginación, 4 órdenes, filtros, métricas completas, cohortes históricas, índices y conflictos concurrentes OK.

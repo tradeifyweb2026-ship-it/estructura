@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import ts from 'typescript';
+const code=ts.transpileModule(await readFile('lib/quote-sync.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const {drainQuoteSync}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+let jobs=['first'],sent=[],reads=0;
+await drainQuoteSync({active:()=>true,pending:()=>jobs.length>0,send:async()=>{sent.push(jobs.shift());},refresh:async()=>{if(++reads===1)jobs.push('during-refresh');}});
+assert.deepEqual(sent,['first','during-refresh']);assert.equal(reads,2);
+jobs=['retry'];await assert.rejects(drainQuoteSync({active:()=>true,pending:()=>jobs.length>0,send:async()=>{throw Error('offline');},refresh:async()=>assert.fail('No refresh after failed send')}),/offline/);assert.deepEqual(jobs,['retry']);
+let active=true;sent=[];jobs=['own','must-not-send-after-switch'];await drainQuoteSync({active:()=>active,pending:()=>jobs.length>0,send:async()=>{sent.push(jobs.shift());active=false;},refresh:async()=>assert.fail('No refresh after owner switch')});assert.deepEqual(sent,['own']);assert.deepEqual(jobs,['must-not-send-after-switch']);
+console.log('check-quote-sync: acción durante refresh drenada, error conserva cola y cambio de propietario detiene envíos.');

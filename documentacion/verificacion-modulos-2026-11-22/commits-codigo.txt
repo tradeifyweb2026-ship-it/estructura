@@ -1,0 +1,27 @@
+d3fd58ebc1ba42b3749a4b7815f9578a2aff3b3b test: añadir aplicación aislada y matriz de navegador real
+3b8eddffb57714627d5d8022bc44ddf4cba79e42 test: conservar cookies reales al conectar Playwright con el Worker aislado
+d5f0c57a306947580789c885e2391245af536cb1 test: verificar el título real de Resumen al iniciar la sesión aislada
+0caf69883b44abf7c8fed60319d9ef697c94b6f4 feat: calcular cinco secciones en servidor con caché por revisión y paridad hasta 20000 operaciones
+fb4677fe747c57ccbb9e7315621e0d5e762c5843 feat: navegar Psicología Revisiones Cuentas Estrategias y Riesgo sin descargar historiales completos
+83f302229ecf45bad3f42ba205c697ac1ffd2d76 fix(v2): paginate review history and retain selected reflections
+c8469e5321ceb8f758ea162f84d695c0bd466437 feat(v2): enforce reversible maintenance and auditable resource alerts
+5663379a86837cac6fecaf1de8f8d9bd379d831a feat(v2): synchronize private quote library with offline recovery
+a7102da852e6249d38aab4edb8fd15a47757c250 feat(v2): add searchable help and contextual guides with calculator formulas
+b5fb8aff2b8cb6762db77b9ed880c1321c3b4008 test(v2): exercise complete app interactions and advanced module invariants
+616d4164064f5e952a5abf228b22231602c5eb23 fix(v2): align additive migrations with schema snapshots
+9698b7d8b034b6fb738b8eee34770d8c7aff3a5f test(v2): verify access boundaries and isolate visual clients
+8f6ebaac1368fcecfa5093027c3513bd3a812dba fix(v2): stabilize account ordering and preserve concurrent caches
+0b69d939179352c358fbc243441e749a74338cd9 feat(v2): surface sampled operational incidents without private payloads
+4b90d51925a7a290d9764cf58e079372cef9ba63 fix(v2): constrain tablet grids and validate complete form workflows
+93a8a6890e46e4ac3d0405f57e5d8145e7ff6d64 fix(v2): page administrative alerts and preserve search focus
+49348fe94bee5c152def52ce857fb13beb01046f test(v2): serve isolated app over HTTPS and target actual UI states
+7640a545443a8ee8610ccac58149398eb4dd06d5 fix(v2): reconcile section aggregates with concurrent metadata changes
+7542d7c8cdf24a04dfa696411f2373ff3e2267f1 test(v2): add accessibility checks and contextual report downloads
+60febfc553c48a1213f19363702cab9e30266df8 fix(v2): migrate quote history atomically without cycle repetitions
+6bcde3ecf043a1447334f66a765ab3b46cd4e883 test(v2): record browser console diagnostics and expected fixture failures
+88b52f67aa3fa798281a85dc0b35a3e91ce058aa test(v2): verify strategy version restoration through the interface
+befe96c81544c8203f7f8384d6ff2ac82ba326b7 fix(v2): refresh shared metadata before concurrent account details
+e942db499eb2985bf32bc60ce045cfd291e13d6d test(v2): classify mocked vendor errors by their actual script URL
+b806ca02151805500034c42a5dfe8327cbf006d4 fix(v2): resume metadata reconciliation after protected operations
+8a368cc15bfa597314d8678a8c705c918ac3aa6d test(v2): preserve complete local verification with and without R2
+43b9b48af4152f941cef5a0c646b2a0f2aea522a test(v2): pin successful Chromium evidence and export samples

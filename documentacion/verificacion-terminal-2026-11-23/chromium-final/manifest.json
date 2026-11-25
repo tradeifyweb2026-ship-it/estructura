@@ -1,0 +1,128 @@
+{
+  "source": "84daa8d9edf3b0b1bbce8f8a48fdc4d0c05a3b35",
+  "run": 45189916983,
+  "job": 137745220864,
+  "artifact": 14826705702,
+  "artifactBytes": 51296143,
+  "artifactSha256": "ed50eceedbb56da9b7c7ab243022ebc3b8037dffd6c572e3c43e76a2676d3b96",
+  "artifactExpires": "2026-12-07T14:08:42Z",
+  "cases": 219,
+  "failed": 0,
+  "jsErrors": 0,
+  "unexpectedConsoleErrors": 0,
+  "axe": {
+    "accesibilidad.json": 48,
+    "activos-accesibilidad.json": 4,
+    "scripts-accesibilidad.json": 4,
+    "terminal-accesibilidad.json": 8,
+    "ux-accesibilidad.json": 4
+  },
+  "axeTotal": 68,
+  "axeViolations": 0,
+  "widths": [
+    320,
+    360,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "scope": "Chromium real, Playwright 1.62.1, GitHub Actions. OAuth y proveedores de esta suite simulados; D1/R2 desechables. No producción ni Google real ni cámaras físicas. PNG/JPEG 720px/calidad65 decodificados independientemente con jsQR. Se conservan archivos representativos del ZIP completo, con hashes.",
+  "files": [
+    {
+      "file": "resultados.json",
+      "bytes": 17892,
+      "sha256": "de8ceb2dd87fa2c0f99f35e638819f712f2177ac3e0224fef67dd39383a2d4c5"
+    },
+    {
+      "file": "consola.json",
+      "bytes": 10646,
+      "sha256": "ebd1cb9c6f274569d0f88adaf007c903fe3dad76a0e88dbd002cd93bba55e47b"
+    },
+    {
+      "file": "limites.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "accesibilidad.json",
+      "bytes": 8302,
+      "sha256": "0643e9b34534f6ed16938a94ac08353f8eb399f6ab9ee82137232c270d0fb5b5"
+    },
+    {
+      "file": "activos-accesibilidad.json",
+      "bytes": 282,
+      "sha256": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773"
+    },
+    {
+      "file": "scripts-accesibilidad.json",
+      "bytes": 282,
+      "sha256": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773"
+    },
+    {
+      "file": "terminal-accesibilidad.json",
+      "bytes": 690,
+      "sha256": "0d054bce7d08077564e98919b7ae6e40a174f046e03c25cd0a912520250b6475"
+    },
+    {
+      "file": "ux-accesibilidad.json",
+      "bytes": 282,
+      "sha256": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773"
+    },
+    {
+      "file": "qr-exportado-1x1.png",
+      "bytes": 97467,
+      "sha256": "cc219e1266ff75c8695c95ad9bded41b2d5d1d2a0b8f9b6d56f05646a3a505ad"
+    },
+    {
+      "file": "qr-exportado-4x5.png",
+      "bytes": 105698,
+      "sha256": "e2468e1d479903c40c85621cb4e2b84793907aab4a88e85e47af1afc9745d1e7"
+    },
+    {
+      "file": "qr-exportado-9x16.png",
+      "bytes": 121550,
+      "sha256": "c646ac48ce71e1064f072a2166679b67f03b4bbda8f80ef5a9389034f32f726f"
+    },
+    {
+      "file": "snapshot-publico-320-dark.png",
+      "bytes": 45186,
+      "sha256": "9110a3ed7a4b7fb08fc757d0a3d780c3199502c1fd173c290abf2e0850be8a85"
+    },
+    {
+      "file": "snapshot-publico-320-light.png",
+      "bytes": 45883,
+      "sha256": "716126633f56919324b9d42fdc263cc77681fa6e93078cbad5c1b04a36667197"
+    },
+    {
+      "file": "navegacion-grupos-320-dark.png",
+      "bytes": 127579,
+      "sha256": "97aba2788ed1e94aa1f0cab705baaf7d00b268677d407d6445e311080f2866c9"
+    },
+    {
+      "file": "navegacion-grupos-1440-light.png",
+      "bytes": 197585,
+      "sha256": "35a63be620d0820b288f9dad558de0e855103d33fbe19974d2b6df9f7676368b"
+    },
+    {
+      "file": "respaldo-confirmacion-390.png",
+      "bytes": 17822,
+      "sha256": "42bc8342cca8bb841afdfadb0ead1f1a44d8986f92c6d0ca2a9a8bdb397d451b"
+    },
+    {
+      "file": "terminal-320-dark-4x5.png",
+      "bytes": 54013,
+      "sha256": "2e135c9a3264f4382c6b230304b42999b978c629ddd2b956d0fb9ebf628b6dab"
+    },
+    {
+      "file": "snapshot-publico-captura-autorizada.png",
+      "bytes": 105152,
+      "sha256": "38967a2675cdbb19984ef1fd774479bfb4aa2e75887d73925d71b8a8ac12fdbf"
+    }
+  ]
+}

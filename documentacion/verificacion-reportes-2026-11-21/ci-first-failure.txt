@@ -1,0 +1,24 @@
+##[group]Run node tests/check-report-browser.mjs
+2026-11-22T00:49:09.6389911Z node tests/check-report-browser.mjs
+2026-11-22T00:49:09.6417676Z shell: /usr/bin/bash -e {0}
+2026-11-22T00:49:09.6417833Z ##[endgroup]
+2026-11-22T00:49:10.4758664Z node:internal/modules/run_main:107
+2026-11-22T00:49:10.4759309Z     triggerUncaughtException(
+2026-11-22T00:49:10.4759820Z     ^
+2026-11-22T00:49:10.4760027Z
+2026-11-22T00:49:10.4760337Z AssertionError [ERR_ASSERTION]: resumen: overflow 320
+2026-11-22T00:49:10.4760643Z
+2026-11-22T00:49:10.4760836Z true !== false
+2026-11-22T00:49:10.4761860Z
+2026-11-22T00:49:10.4762423Z     at file:///home/runner/work/Tradeify.web/Tradeify.web/tests/check-report-browser.mjs:24:11 {
+2026-11-22T00:49:10.4763246Z   generatedMessage: false,
+2026-11-22T00:49:10.4763768Z   code: 'ERR_ASSERTION',
+2026-11-22T00:49:10.4764222Z   actual: true,
+2026-11-22T00:49:10.4764502Z   expected: false,
+2026-11-22T00:49:10.4764791Z   operator: 'strictEqual',
+2026-11-22T00:49:10.4765303Z   diff: 'simple'
+2026-11-22T00:49:10.4765576Z }
+2026-11-22T00:49:10.4765904Z
+2026-11-22T00:49:10.4766079Z Node.js v24.22.3
+2026-11-22T00:49:10.4988673Z ##[error]Process completed with exit code 1.
+2026-11-22T00:49:10.5051779Z

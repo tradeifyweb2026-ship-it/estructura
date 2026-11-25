@@ -1,0 +1,140 @@
+{
+  "source": "84daa8d9edf3b0b1bbce8f8a48fdc4d0c05a3b35",
+  "scope": "Recursos locales desechables y proveedores simulados; no producción. Chromium se registra por ejecución externa independiente.",
+  "results": [
+    {
+      "name": "typecheck",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3719,
+      "log": "typecheck.txt"
+    },
+    {
+      "name": "lint",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 13331,
+      "log": "lint.txt"
+    },
+    {
+      "name": "logic",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 7783,
+      "log": "logic.txt"
+    },
+    {
+      "name": "advanced",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 30647,
+      "log": "advanced.txt"
+    },
+    {
+      "name": "queries",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 92137,
+      "log": "queries.txt"
+    },
+    {
+      "name": "restore",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3459,
+      "log": "restore.txt"
+    },
+    {
+      "name": "exports",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 829,
+      "log": "exports.txt"
+    },
+    {
+      "name": "build-site",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 9812,
+      "log": "build-site.txt"
+    },
+    {
+      "name": "api",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3805,
+      "log": "api.txt"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 8998,
+      "log": "build-cloudflare-r2.txt"
+    },
+    {
+      "name": "cloudflare-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3089,
+      "log": "cloudflare-r2.txt"
+    },
+    {
+      "name": "app-security",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 2667,
+      "log": "app-security.txt"
+    },
+    {
+      "name": "security",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 31100,
+      "log": "security.txt"
+    },
+    {
+      "name": "operational-recovery",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 6363,
+      "log": "operational-recovery.txt"
+    },
+    {
+      "name": "public-share-api",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3390,
+      "log": "public-share-api.txt"
+    },
+    {
+      "name": "build-cloudflare-without-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 9279,
+      "log": "build-cloudflare-without-r2.txt"
+    },
+    {
+      "name": "cloudflare-without-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3424,
+      "log": "cloudflare-without-r2.txt"
+    },
+    {
+      "name": "audit-production",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 4667,
+      "log": "audit-production.txt"
+    },
+    {
+      "name": "audit-development",
+      "status": "known-advisories",
+      "exitCode": 1,
+      "durationMs": 4014,
+      "log": "audit-development.txt",
+      "note": "Cuatro moderados dev conocidos; no se fuerza degradación incompatible de Drizzle Kit."
+    }
+  ]
+}

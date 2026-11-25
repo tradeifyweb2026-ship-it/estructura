@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import {cashCoverage} from "../lib/summary-math.mjs";
+const trade=(pnlCents)=>({pnlCents});
+let r=cashCoverage([trade(100),trade(-50)],["USD","USD"],"EUR");assert.equal(r.currency,"USD");assert.equal(r.complete,true);assert.equal(r.cashCount,2);assert.deepEqual(r.cash,[100,-50]);
+r=cashCoverage([trade(100),trade(null)],["USD","USD"],"USD");assert.equal(r.currency,"USD");assert.equal(r.complete,false);assert.equal(r.cashCount,1);assert.deepEqual(r.cash,[]);
+r=cashCoverage([trade(100),trade(null)],["USD","EUR"],"USD");assert.equal(r.currency,null);assert.equal(r.complete,false);
+r=cashCoverage([trade(null),trade(null)],["USD","USD"],"USD");assert.equal(r.complete,false);assert.equal(r.cashCount,0);
+r=cashCoverage([],[],"USD");assert.equal(r.currency,"USD");assert.equal(r.complete,false);assert.equal(r.cashCount,0);
+r=cashCoverage([trade(0)],["EUR"],"USD");assert.equal(r.complete,true);assert.deepEqual(r.cash,[0]);
+r=cashCoverage([trade(10),trade(20)],["USD","USD"],"USD");assert.equal(r.complete,true);assert.equal(r.cash.reduce((a,b)=>a+b,0),30);
+console.log("Cobertura monetaria: 7 casos OK.");

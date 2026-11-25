@@ -1,0 +1,2617 @@
+{
+  "branch": "mejoras-v2-2026-11-18",
+  "requestedInitialCommit": "404542cbbfa52bbaebfe67cd3644998b554b30ed",
+  "auditInitialCommit": "84dc36a8a78e662ea04bdf70cc4e1bb3f74cea10",
+  "recordedThroughCommit": "06ca093787f74ea883ce332707222293c443d1e8",
+  "deliveryCommit": "El commit que contiene este manifiesto; se omite autorreferencia imposible al hash propio. Los commits posteriores al runtime son evidencia/documentación.",
+  "runtimeCommit": "339d2eb8bc550c3766161540b77c27781d8f3437",
+  "requestedInitialIsAncestor": true,
+  "commitsSinceRequestedStart": [
+    {
+      "sha": "0403b63cf8bb89847d97994ba66171410cbf59bf",
+      "message": "feat: paginación real y estadísticas SQL completas con revisión consistente"
+    },
+    {
+      "sha": "1691a37cc33849cc12dc37643be84236e1e8c23f",
+      "message": "feat: drawdown configurable y seguimiento nominal de límites de fondeo"
+    },
+    {
+      "sha": "a9804bf245bdc75e3ad66035ffaf83673de2bfc0",
+      "message": "chore: actualizar drizzle-kit 0.31.11 y registrar suite de consultas"
+    },
+    {
+      "sha": "6158482e91b5744dda4cf46b89639d3d706374ab",
+      "message": "fix: reintentar exportaciones limitadas y permitir cancelar su preparación"
+    },
+    {
+      "sha": "2828c1dbda14b7e83ec88c9c246fd9aa935cffc9",
+      "message": "docs: registrar continuación V2, 25 fases y evidencia de pruebas"
+    },
+    {
+      "sha": "08718d53baf3fe1f9ee64577cad061c83beb88d0",
+      "message": "feat: añadir perfiles contextuales de reportes y privacidad compartida"
+    },
+    {
+      "sha": "bfbb0fa4a7d944d9ce89286beaab253dab33652a",
+      "message": "test: preparar Chromium real y artefactos de reportes en CI"
+    },
+    {
+      "sha": "68e86f1c3ffbb2d93093d2eff6802894561d2e5d",
+      "message": "fix: adaptar reportes a móvil y aislar reflexiones por periodo"
+    },
+    {
+      "sha": "bcd0f319020765f1c1ce587b5723f7876e800c97",
+      "message": "feat: incluir contenido de cada perfil en tarjetas compartibles"
+    },
+    {
+      "sha": "a47e186a04665f99e08d357178671d7fe3f18c10",
+      "message": "fix: incluir operaciones sin cuenta sin asumir su moneda"
+    },
+    {
+      "sha": "88030b9fc81b0c07642147424a8255d68410f68d",
+      "message": "docs: registrar perfiles, validación Chromium y pendientes de V2"
+    },
+    {
+      "sha": "c1c52b96ac73de8cbb43bb0f34eb8aee3fcd168b",
+      "message": "fix: excluir divisas no confirmadas de reportes monetarios"
+    },
+    {
+      "sha": "e1f0283f3c9f0ba2d5f5fad265f1f80b29d9ad8c",
+      "message": "docs: cerrar evidencia de divisas y Chromium sobre código final"
+    },
+    {
+      "sha": "d3fd58ebc1ba42b3749a4b7815f9578a2aff3b3b",
+      "message": "test: añadir aplicación aislada y matriz de navegador real"
+    },
+    {
+      "sha": "3b8eddffb57714627d5d8022bc44ddf4cba79e42",
+      "message": "test: conservar cookies reales al conectar Playwright con el Worker aislado"
+    },
+    {
+      "sha": "d5f0c57a306947580789c885e2391245af536cb1",
+      "message": "test: verificar el título real de Resumen al iniciar la sesión aislada"
+    },
+    {
+      "sha": "0caf69883b44abf7c8fed60319d9ef697c94b6f4",
+      "message": "feat: calcular cinco secciones en servidor con caché por revisión y paridad hasta 20000 operaciones"
+    },
+    {
+      "sha": "fb4677fe747c57ccbb9e7315621e0d5e762c5843",
+      "message": "feat: navegar Psicología Revisiones Cuentas Estrategias y Riesgo sin descargar historiales completos"
+    },
+    {
+      "sha": "83f302229ecf45bad3f42ba205c697ac1ffd2d76",
+      "message": "fix(v2): paginate review history and retain selected reflections"
+    },
+    {
+      "sha": "c8469e5321ceb8f758ea162f84d695c0bd466437",
+      "message": "feat(v2): enforce reversible maintenance and auditable resource alerts"
+    },
+    {
+      "sha": "5663379a86837cac6fecaf1de8f8d9bd379d831a",
+      "message": "feat(v2): synchronize private quote library with offline recovery"
+    },
+    {
+      "sha": "a7102da852e6249d38aab4edb8fd15a47757c250",
+      "message": "feat(v2): add searchable help and contextual guides with calculator formulas"
+    },
+    {
+      "sha": "b5fb8aff2b8cb6762db77b9ed880c1321c3b4008",
+      "message": "test(v2): exercise complete app interactions and advanced module invariants"
+    },
+    {
+      "sha": "616d4164064f5e952a5abf228b22231602c5eb23",
+      "message": "fix(v2): align additive migrations with schema snapshots"
+    },
+    {
+      "sha": "9698b7d8b034b6fb738b8eee34770d8c7aff3a5f",
+      "message": "test(v2): verify access boundaries and isolate visual clients"
+    },
+    {
+      "sha": "8f6ebaac1368fcecfa5093027c3513bd3a812dba",
+      "message": "fix(v2): stabilize account ordering and preserve concurrent caches"
+    },
+    {
+      "sha": "0b69d939179352c358fbc243441e749a74338cd9",
+      "message": "feat(v2): surface sampled operational incidents without private payloads"
+    },
+    {
+      "sha": "4b90d51925a7a290d9764cf58e079372cef9ba63",
+      "message": "fix(v2): constrain tablet grids and validate complete form workflows"
+    },
+    {
+      "sha": "93a8a6890e46e4ac3d0405f57e5d8145e7ff6d64",
+      "message": "fix(v2): page administrative alerts and preserve search focus"
+    },
+    {
+      "sha": "49348fe94bee5c152def52ce857fb13beb01046f",
+      "message": "test(v2): serve isolated app over HTTPS and target actual UI states"
+    },
+    {
+      "sha": "7640a545443a8ee8610ccac58149398eb4dd06d5",
+      "message": "fix(v2): reconcile section aggregates with concurrent metadata changes"
+    },
+    {
+      "sha": "7542d7c8cdf24a04dfa696411f2373ff3e2267f1",
+      "message": "test(v2): add accessibility checks and contextual report downloads"
+    },
+    {
+      "sha": "60febfc553c48a1213f19363702cab9e30266df8",
+      "message": "fix(v2): migrate quote history atomically without cycle repetitions"
+    },
+    {
+      "sha": "6bcde3ecf043a1447334f66a765ab3b46cd4e883",
+      "message": "test(v2): record browser console diagnostics and expected fixture failures"
+    },
+    {
+      "sha": "88b52f67aa3fa798281a85dc0b35a3e91ce058aa",
+      "message": "test(v2): verify strategy version restoration through the interface"
+    },
+    {
+      "sha": "befe96c81544c8203f7f8384d6ff2ac82ba326b7",
+      "message": "fix(v2): refresh shared metadata before concurrent account details"
+    },
+    {
+      "sha": "e942db499eb2985bf32bc60ce045cfd291e13d6d",
+      "message": "test(v2): classify mocked vendor errors by their actual script URL"
+    },
+    {
+      "sha": "b806ca02151805500034c42a5dfe8327cbf006d4",
+      "message": "fix(v2): resume metadata reconciliation after protected operations"
+    },
+    {
+      "sha": "8a368cc15bfa597314d8678a8c705c918ac3aa6d",
+      "message": "test(v2): preserve complete local verification with and without R2"
+    },
+    {
+      "sha": "43b9b48af4152f941cef5a0c646b2a0f2aea522a",
+      "message": "test(v2): pin successful Chromium evidence and export samples"
+    },
+    {
+      "sha": "84dc36a8a78e662ea04bdf70cc4e1bb3f74cea10",
+      "message": "docs(v2): close five modules with verified evidence and publication gates"
+    },
+    {
+      "sha": "49ebed4e99315e259d5b940ead5e4df5d3636859",
+      "message": "fix(security): enforce public rate gate and bounded JSON inputs"
+    },
+    {
+      "sha": "8112ca2936a20406fef408bb1e966bfb00ae202c",
+      "message": "fix(storage): retain capture deletion intent atomically with D1"
+    },
+    {
+      "sha": "a87baf402ad4eb3adc743ec39a02ec8ad3627395",
+      "message": "fix(api): limit weighted requests by verified user across IPs"
+    },
+    {
+      "sha": "542fd96938eefbb46d83809359655ef7bec40c2d",
+      "message": "fix(quotes): keep unverified legacy phrases out of sharing tools"
+    },
+    {
+      "sha": "e26d64488fa8fe2429d7fd2904bd03f8a86fc841",
+      "message": "security(csp): nonce streamed scripts and verify recovery in isolated CI"
+    },
+    {
+      "sha": "85e0a6a9411137ed65532dc46a03bb5c62969e2d",
+      "message": "fix(admin): search long inputs safely and isolate visual test clients"
+    },
+    {
+      "sha": "e8eb6f6d7741532ea38011922f011a9d705c6bd8",
+      "message": "test(security): verify native provider frames and previous Worker recovery"
+    },
+    {
+      "sha": "b19f207091a46ca7ab0448111d12c338c7d2ec32",
+      "message": "test(browser): isolate modal viewports without bypassing rate limits"
+    },
+    {
+      "sha": "f602ca795fe5cdf43ea464052d220087c08c9fb0",
+      "message": "test(csp): capture violation origin before loading external widgets"
+    },
+    {
+      "sha": "ac78c959717cd4f3e7faa77a9752709f0b98d7f3",
+      "message": "security(privacy): document actual data flows and verify redacted history scans"
+    },
+    {
+      "sha": "332119497b918152d68a3a6e834b504163aada65",
+      "message": "fix(csp): disable Zod dynamic compilation before schema initialization"
+    },
+    {
+      "sha": "483d53656f52e0160cf18f0ba48688181cb16c3a",
+      "message": "test(csp): require clean application policy before real provider verification"
+    },
+    {
+      "sha": "c84797ec36c5f4523ac484cea6a02b2bfcea78f4",
+      "message": "test(recovery): populate every table and require provider content readiness"
+    },
+    {
+      "sha": "5c17428c3bde1990a2aa6b7dc2e3811f41ceab66",
+      "message": "test(markets): verify canvas data and explicit provider symbol restrictions"
+    },
+    {
+      "sha": "bcc2e7883b6f794610fb9369f1cb791f745cae1e",
+      "message": "test(markets): locate the explicit symbol input by its visible placeholder"
+    },
+    {
+      "sha": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+      "message": "test(security): align quota bursts and verify the native analysis gauge"
+    },
+    {
+      "sha": "bbe59c3aa109dd9e5ea3cfd8811b7682469b5382",
+      "message": "test(security): preserve complete local suites and diagnostic failure logs"
+    },
+    {
+      "sha": "58f8e20d0bc412dde1038b6b5f60946c5bd6e301",
+      "message": "test(security): retain reproducible checks, audits and browser evidence"
+    },
+    {
+      "sha": "033cafa18c0d932a1b29507a60c3b90e2955da5a",
+      "message": "docs(security): inventory dependency licenses and install scripts"
+    },
+    {
+      "sha": "4cff70b1ffad1bb14c904752703b71df5647d755",
+      "message": "test(browser): preserve native mobile and administrative screenshots"
+    },
+    {
+      "sha": "9ee44bbd3b61ce3aeaebc8b14ac104f0036e7e9b",
+      "message": "test(csp): retain verified real-provider content and native captures"
+    },
+    {
+      "sha": "339d2eb8bc550c3766161540b77c27781d8f3437",
+      "message": "fix(quotes): drain actions queued during the final synchronization refresh"
+    },
+    {
+      "sha": "20b4e3950d82946c4852dae06f43858329042ca2",
+      "message": "test(quotes): retain the observed pending-action synchronization failure"
+    },
+    {
+      "sha": "24d009380171b2f1a0be71c2d79c2ad091687e59",
+      "message": "test(release): repeat all local suites after the quote synchronization fix"
+    },
+    {
+      "sha": "12d56f7f8f2158bc51c701ca6dc523d3f83eceda",
+      "message": "test(browser): pin successful final Chromium and provider artifacts"
+    },
+    {
+      "sha": "06ca093787f74ea883ce332707222293c443d1e8",
+      "message": "docs(v2): close verified security work and record the remaining publication gates"
+    }
+  ],
+  "commitsSinceAuditStart": [
+    {
+      "sha": "49ebed4e99315e259d5b940ead5e4df5d3636859",
+      "message": "fix(security): enforce public rate gate and bounded JSON inputs"
+    },
+    {
+      "sha": "8112ca2936a20406fef408bb1e966bfb00ae202c",
+      "message": "fix(storage): retain capture deletion intent atomically with D1"
+    },
+    {
+      "sha": "a87baf402ad4eb3adc743ec39a02ec8ad3627395",
+      "message": "fix(api): limit weighted requests by verified user across IPs"
+    },
+    {
+      "sha": "542fd96938eefbb46d83809359655ef7bec40c2d",
+      "message": "fix(quotes): keep unverified legacy phrases out of sharing tools"
+    },
+    {
+      "sha": "e26d64488fa8fe2429d7fd2904bd03f8a86fc841",
+      "message": "security(csp): nonce streamed scripts and verify recovery in isolated CI"
+    },
+    {
+      "sha": "85e0a6a9411137ed65532dc46a03bb5c62969e2d",
+      "message": "fix(admin): search long inputs safely and isolate visual test clients"
+    },
+    {
+      "sha": "e8eb6f6d7741532ea38011922f011a9d705c6bd8",
+      "message": "test(security): verify native provider frames and previous Worker recovery"
+    },
+    {
+      "sha": "b19f207091a46ca7ab0448111d12c338c7d2ec32",
+      "message": "test(browser): isolate modal viewports without bypassing rate limits"
+    },
+    {
+      "sha": "f602ca795fe5cdf43ea464052d220087c08c9fb0",
+      "message": "test(csp): capture violation origin before loading external widgets"
+    },
+    {
+      "sha": "ac78c959717cd4f3e7faa77a9752709f0b98d7f3",
+      "message": "security(privacy): document actual data flows and verify redacted history scans"
+    },
+    {
+      "sha": "332119497b918152d68a3a6e834b504163aada65",
+      "message": "fix(csp): disable Zod dynamic compilation before schema initialization"
+    },
+    {
+      "sha": "483d53656f52e0160cf18f0ba48688181cb16c3a",
+      "message": "test(csp): require clean application policy before real provider verification"
+    },
+    {
+      "sha": "c84797ec36c5f4523ac484cea6a02b2bfcea78f4",
+      "message": "test(recovery): populate every table and require provider content readiness"
+    },
+    {
+      "sha": "5c17428c3bde1990a2aa6b7dc2e3811f41ceab66",
+      "message": "test(markets): verify canvas data and explicit provider symbol restrictions"
+    },
+    {
+      "sha": "bcc2e7883b6f794610fb9369f1cb791f745cae1e",
+      "message": "test(markets): locate the explicit symbol input by its visible placeholder"
+    },
+    {
+      "sha": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+      "message": "test(security): align quota bursts and verify the native analysis gauge"
+    },
+    {
+      "sha": "bbe59c3aa109dd9e5ea3cfd8811b7682469b5382",
+      "message": "test(security): preserve complete local suites and diagnostic failure logs"
+    },
+    {
+      "sha": "58f8e20d0bc412dde1038b6b5f60946c5bd6e301",
+      "message": "test(security): retain reproducible checks, audits and browser evidence"
+    },
+    {
+      "sha": "033cafa18c0d932a1b29507a60c3b90e2955da5a",
+      "message": "docs(security): inventory dependency licenses and install scripts"
+    },
+    {
+      "sha": "4cff70b1ffad1bb14c904752703b71df5647d755",
+      "message": "test(browser): preserve native mobile and administrative screenshots"
+    },
+    {
+      "sha": "9ee44bbd3b61ce3aeaebc8b14ac104f0036e7e9b",
+      "message": "test(csp): retain verified real-provider content and native captures"
+    },
+    {
+      "sha": "339d2eb8bc550c3766161540b77c27781d8f3437",
+      "message": "fix(quotes): drain actions queued during the final synchronization refresh"
+    },
+    {
+      "sha": "20b4e3950d82946c4852dae06f43858329042ca2",
+      "message": "test(quotes): retain the observed pending-action synchronization failure"
+    },
+    {
+      "sha": "24d009380171b2f1a0be71c2d79c2ad091687e59",
+      "message": "test(release): repeat all local suites after the quote synchronization fix"
+    },
+    {
+      "sha": "12d56f7f8f2158bc51c701ca6dc523d3f83eceda",
+      "message": "test(browser): pin successful final Chromium and provider artifacts"
+    },
+    {
+      "sha": "06ca093787f74ea883ce332707222293c443d1e8",
+      "message": "docs(v2): close verified security work and record the remaining publication gates"
+    }
+  ],
+  "changedFilesSinceRequestedStart": [
+    {
+      "path": ".github/workflows/app-browser.yml",
+      "status": "A"
+    },
+    {
+      "path": ".github/workflows/market-browser.yml",
+      "status": "A"
+    },
+    {
+      "path": ".github/workflows/report-visual.yml",
+      "status": "A"
+    },
+    {
+      "path": "PLAN_MAESTRO_MEJORAS.md",
+      "status": "M"
+    },
+    {
+      "path": "README.md",
+      "status": "M"
+    },
+    {
+      "path": "SEGURIDAD_INFORME.md",
+      "status": "M"
+    },
+    {
+      "path": "app/api/bitacora/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/api/capturas/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/api/estado/route.ts",
+      "status": "A"
+    },
+    {
+      "path": "app/api/frase-diaria/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/api/frases/route.ts",
+      "status": "A"
+    },
+    {
+      "path": "app/globals.css",
+      "status": "M"
+    },
+    {
+      "path": "app/privacidad/page.tsx",
+      "status": "M"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/admin-resources.tsx",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/administration.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/analytics.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/app.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/daily-quote.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/dashboard.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/export-dialog.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/help-center.tsx",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/maintenance.tsx",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/restore-dialog.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/server-dashboard.tsx",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/server-sections.tsx",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/settings.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/tools.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/trade-editor.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/trade-list.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/ui.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/use-section-context.ts",
+      "status": "A"
+    },
+    {
+      "path": "components/journal/use-server-query.ts",
+      "status": "A"
+    },
+    {
+      "path": "db/journal-query.ts",
+      "status": "A"
+    },
+    {
+      "path": "db/quote-library.ts",
+      "status": "A"
+    },
+    {
+      "path": "db/schema.ts",
+      "status": "M"
+    },
+    {
+      "path": "db/section-query.ts",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/03-datos.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/04-api-seguridad.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/05-calculos-csv.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/08-pruebas-alcance.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/12-administracion.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/14-versiones-y-reversion.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/16-cierre-v2-2026-11-20.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/17-continuacion-v2-2026-11-20.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/18-reportes-v2-2026-11-21.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/19-modulos-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/20-auditoria-seguridad-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/21-operacion-recuperacion-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/22-entrega-verificada-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/README.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/archivos-modificados.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/audit-all.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/browser-attempt.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/build-cloudflare-no-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/build-sites.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/check-capture-failures.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/check-capture-links.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/check-markets.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/cloudflare-no-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/dependency-update.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/logic-node22.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/npm-ci.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/queries-10000.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/registry-drizzle.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/restore-migrations.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/schema-check.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-continuacion-2026-11-20/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/advanced-followup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/advanced.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/app-security-followup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/app-security.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/archivos-modificados.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/artefactos-completos-sha256.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/audit-development.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/browser-accesibilidad.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/browser-consola.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/browser-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/build-cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/build-followup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/build-site.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/ci-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/ci.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/cloudflare-followup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/commits-codigo.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/https-smoke.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/lint-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/lint-followup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/administracion-390-dark.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/bitacora-768-light.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/configuracion-390-dark.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/frase-4x5.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/reporte-desde-aplicacion.pdf",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/muestras/resumen-320-light.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/schema-consistency.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/sections-context.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-modulos-2026-11-22/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/archivos-modificados.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/browser-attempt.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/build-cloudflare-no-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/build-sites.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci-final-success.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci-first-failure.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci-latest-success.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci-second-capturas.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci-success.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/ci.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/cloudflare-no-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/install.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-reportes-2026-11-21/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix-first.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/advanced.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/admin-search.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/quote-sync-browser.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/app-security.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-all.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-development.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-accesibilidad.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-consola.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-accesibilidad.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-consola.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-limites.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-limites.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-site.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/chromium-local.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/comprobaciones-finales.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/dependencies.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/admin-search.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/drizzle-current.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/entrega.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/advanced.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/app-security.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-development.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-site.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/operational-recovery.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/security-regressions.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/administracion-390-dark.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/frases-cola-antes.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/resumen-320-light.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-analisis-aapl.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-heatmap.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery-expanded.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/procedencia-evidencia.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-first.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-second.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/remote-history-scan.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/rollback-local.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/secret-scan.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-regressions.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/storage-cleanup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-csp-baseline.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-final.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0008_query_indexes_revisions.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0009_section_cache.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0010_quote_library.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0011_admin_operations.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0012_operational_incidents.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0013_storage_deletions.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0008_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0009_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0010_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0011_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0012_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0013_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "status": "M"
+    },
+    {
+      "path": "lib/drawdown.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/editor-draft.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/help-content.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/journal-query.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/journal-read.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/journal.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/quote-catalog.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/quote-share.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/quote-sync.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/quote-types.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/report-csv.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/report-html.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/report-profiles.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/report-xlsx.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/report.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/request-body.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/section-context.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/section-models.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/server-http.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/share.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/validation.ts",
+      "status": "A"
+    },
+    {
+      "path": "package-lock.json",
+      "status": "M"
+    },
+    {
+      "path": "package.json",
+      "status": "M"
+    },
+    {
+      "path": "scripts/check-release-local.mjs",
+      "status": "A"
+    },
+    {
+      "path": "scripts/check-secret-exposure.mjs",
+      "status": "A"
+    },
+    {
+      "path": "scripts/check-v2.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/app-browser-fixture.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/app-interactions.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-access-matrix.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-account-erasure.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-admin-search.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-advanced-modules.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-api.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-app-browser.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-app-security.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-cloudflare.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-csp.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-drawdown.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-market-browser.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-migration-upgrade.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-operational-recovery.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-quote-provenance.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-quote-sync.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-report-browser.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-report-profiles.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-request-body.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-secret-scanner.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-sections.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-security-boundaries.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-server-query.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-storage-cleanup.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-user-abuse.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-validation-csp.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/rate-window.mjs",
+      "status": "A"
+    },
+    {
+      "path": "worker/access.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/admin-resources.ts",
+      "status": "A"
+    },
+    {
+      "path": "worker/cloudflare.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/google-auth.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/incidents.ts",
+      "status": "A"
+    },
+    {
+      "path": "worker/security-headers.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/storage-cleanup.ts",
+      "status": "A"
+    },
+    {
+      "path": "wrangler.cloudflare.jsonc",
+      "status": "M"
+    }
+  ],
+  "changedFilesSinceAuditStart": [
+    {
+      "path": ".github/workflows/app-browser.yml",
+      "status": "M"
+    },
+    {
+      "path": ".github/workflows/market-browser.yml",
+      "status": "A"
+    },
+    {
+      "path": ".github/workflows/report-visual.yml",
+      "status": "M"
+    },
+    {
+      "path": "PLAN_MAESTRO_MEJORAS.md",
+      "status": "M"
+    },
+    {
+      "path": "SEGURIDAD_INFORME.md",
+      "status": "M"
+    },
+    {
+      "path": "app/api/bitacora/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/api/capturas/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/api/frases/route.ts",
+      "status": "M"
+    },
+    {
+      "path": "app/privacidad/page.tsx",
+      "status": "M"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/admin-resources.tsx",
+      "status": "M"
+    },
+    {
+      "path": "components/journal/daily-quote.tsx",
+      "status": "M"
+    },
+    {
+      "path": "db/journal-query.ts",
+      "status": "M"
+    },
+    {
+      "path": "db/quote-library.ts",
+      "status": "M"
+    },
+    {
+      "path": "db/schema.ts",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/19-modulos-v2-2026-11-22.md",
+      "status": "M"
+    },
+    {
+      "path": "documentacion/20-auditoria-seguridad-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/21-operacion-recuperacion-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/22-entrega-verificada-v2-2026-11-22.md",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix-first.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/advanced.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/admin-search.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/quote-sync-browser.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/app-security.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-all.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-development.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-accesibilidad.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-consola.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-accesibilidad.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-consola.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-limites.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-limites.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-site.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/chromium-local.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/comprobaciones-finales.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/dependencies.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/account-erasure.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/admin-search.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/boundaries.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/drizzle-current.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/entrega.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/advanced.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/api.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/app-security.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-development.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-production.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-site.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-without-r2.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/exports.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/operational-recovery.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/security-regressions.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/logic.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/administracion-390-dark.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/frases-cola-antes.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/resumen-320-light.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-analisis-aapl.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-heatmap.png",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery-expanded.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/procedencia-evidencia.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/queries.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-first.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-second.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/remote-history-scan.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/restore.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/rollback-local.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/secret-scan.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-final.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-regressions.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/storage-cleanup.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-csp-baseline.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-final.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-resultados.json",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/typecheck.txt",
+      "status": "A"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/user-abuse.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/0013_storage_deletions.sql",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/0013_snapshot.json",
+      "status": "A"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "status": "M"
+    },
+    {
+      "path": "lib/editor-draft.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/journal-query.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/journal.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/quote-share.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/quote-sync.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/request-body.ts",
+      "status": "A"
+    },
+    {
+      "path": "lib/server-http.ts",
+      "status": "M"
+    },
+    {
+      "path": "lib/validation.ts",
+      "status": "A"
+    },
+    {
+      "path": "package.json",
+      "status": "M"
+    },
+    {
+      "path": "scripts/check-release-local.mjs",
+      "status": "M"
+    },
+    {
+      "path": "scripts/check-secret-exposure.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/app-browser-fixture.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/app-interactions.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-access-matrix.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-account-erasure.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-admin-search.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-app-browser.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-cloudflare.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-csp.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-market-browser.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-migration-upgrade.mjs",
+      "status": "M"
+    },
+    {
+      "path": "tests/check-operational-recovery.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-quote-provenance.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-quote-sync.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-request-body.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-secret-scanner.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-security-boundaries.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-storage-cleanup.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-user-abuse.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/check-validation-csp.mjs",
+      "status": "A"
+    },
+    {
+      "path": "tests/rate-window.mjs",
+      "status": "A"
+    },
+    {
+      "path": "worker/access.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/admin-resources.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/cloudflare.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/google-auth.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/security-headers.ts",
+      "status": "M"
+    },
+    {
+      "path": "worker/storage-cleanup.ts",
+      "status": "A"
+    },
+    {
+      "path": "wrangler.cloudflare.jsonc",
+      "status": "M"
+    }
+  ],
+  "localVerification": "final/resultados.json",
+  "browserAndArtifactProvenance": "procedencia-evidencia.json",
+  "phaseStatus": "../../PLAN_MAESTRO_MEJORAS.md, checkpoint 18: las 25 fases con alcance y límites explícitos",
+  "report": "../22-entrega-verificada-v2-2026-11-22.md",
+  "evidenceFiles": [
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix-first.txt",
+      "bytes": 5952,
+      "sha256": "342bad7aab74eb5daa35c5f8594a02194f308ad98d3492cddbb555cd6e13cbef"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/access-matrix.json",
+      "bytes": 656,
+      "sha256": "0a46b3a253087768e6472323565c6e9783b4f929cc5173665119684abe6588af"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/account-erasure.json",
+      "bytes": 113,
+      "sha256": "3e9c63fc1d76594a13c8bddb9c05a51cc8d0fb7e4f0df95d64968f5f0c61c54c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/advanced.txt",
+      "bytes": 1179,
+      "sha256": "8e29d9bfaf6a6dde3af393c8a54c54eb1943bf01d8c9424c8d2d836f747dc94f"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/account-erasure.json",
+      "bytes": 78,
+      "sha256": "02f90507a56b33a8745ead4c78adb1eb682ba16f87a3ec2f61a21f360da63808"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/admin-search.txt",
+      "bytes": 766,
+      "sha256": "f57892e09d487fb383fd5b15caec97487ab389b769d81636c6a0754933cedef8"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/boundaries.json",
+      "bytes": 1312,
+      "sha256": "24e3b1c88c06d5f0a3aa12d2682f609cf241a33875e3772e77bb5dd246503406"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/quote-sync-browser.json",
+      "bytes": 827,
+      "sha256": "fcfa70f7d937696a2ac7fbe701ff6e316030e3365282b88c0a7afda7da7adc9c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/antes/user-abuse.json",
+      "bytes": 115,
+      "sha256": "32e5f61c645bdd41792a8fbb8085e18943cf589f6957e6c0c2cca29bd9af4bb0"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/api.txt",
+      "bytes": 433,
+      "sha256": "6c21983623449cde0ebae5338151f8cb092543ee417fddfdda6ac6710edfc13e"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/app-security.txt",
+      "bytes": 2028,
+      "sha256": "4648c87225087847b5ae24d46ab37ab80406179f0234a6d848cc0e1e6cfb5544"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-all.json",
+      "bytes": 2691,
+      "sha256": "be228a72934713eabbed79d29677b3721f98a9b6b68b8dc557cb0908911a7b7d"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-development.txt",
+      "bytes": 2841,
+      "sha256": "5b546cc824fc54f5cccd9ddb4937d5fd73287584456c811a774c5080183e2567"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.json",
+      "bytes": 367,
+      "sha256": "fa37e18b3a628db86ba8048cf07b2505b2ae63f6905b0cf58c81a92c14067456"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/audit-production.txt",
+      "bytes": 517,
+      "sha256": "89ca70b8b6166732c99e84df710ef0be770e1cc3cd6e7f7342b922fc026e1109"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/boundaries.json",
+      "bytes": 950,
+      "sha256": "fdc418b00c76412eb48981d8418eb246894674f33d36826daa1200ff298451f7"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-accesibilidad.json",
+      "bytes": 8302,
+      "sha256": "0643e9b34534f6ed16938a94ac08353f8eb399f6ab9ee82137232c270d0fb5b5"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-consola.json",
+      "bytes": 8697,
+      "sha256": "fbe819754f5072df5ac8bcb5552fe3ec8878b29700247f5ffa3e8b5d8018e744"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-accesibilidad.json",
+      "bytes": 8302,
+      "sha256": "0643e9b34534f6ed16938a94ac08353f8eb399f6ab9ee82137232c270d0fb5b5"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-consola.json",
+      "bytes": 8697,
+      "sha256": "88accc0655537849e2d910c93073e9181c8da751c413ae78ec829333e995845e"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-limites.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-final-resultados.json",
+      "bytes": 16450,
+      "sha256": "42ed41ee7f15f29292a8604295b399a9d95d855351d96789a5b5b58902196faf"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-limites.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/browser-resultados.json",
+      "bytes": 16450,
+      "sha256": "42ed41ee7f15f29292a8604295b399a9d95d855351d96789a5b5b58902196faf"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-r2.txt",
+      "bytes": 27604,
+      "sha256": "734c33f4ce6e757ddc5ca1299d091cd1bc2191669cd44f89df3622f8235ee460"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-cloudflare-without-r2.txt",
+      "bytes": 27604,
+      "sha256": "cac2e2c4a148d91c49e25cee0cd70a96c258da90bb9b15200c707bfddf00e78b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/build-site.txt",
+      "bytes": 27029,
+      "sha256": "060871acc2241fc1c664c239a0c6ab3e3c672b683018588dd96f260b1e8dee65"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/chromium-local.txt",
+      "bytes": 328,
+      "sha256": "f36da0c5e2d3b6e7a1cf9bd753e8755b4a2de3d34633a32bfc453afc4b46fc2b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-r2.txt",
+      "bytes": 9246,
+      "sha256": "b02400ada828c420bf281c11ad85db91e1a9ef27b95db1c9729a11e7eb70a86b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/cloudflare-without-r2.txt",
+      "bytes": 9302,
+      "sha256": "181b286b3ad52bd4c7f4b7932d64352db1f1e14c0c26192ab18e83c7f722f45a"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/comprobaciones-finales.json",
+      "bytes": 707,
+      "sha256": "d3825e74e0f4f08710424e2c3eb077fb389d687f58ef820cb7858ecd0c5bd539"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/dependencies.json",
+      "bytes": 172550,
+      "sha256": "afbbe6463ef9dd18b7a7cad201a19c42d4631f13a1ade9033c3f6db8bcb75d38"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/account-erasure.json",
+      "bytes": 113,
+      "sha256": "3e9c63fc1d76594a13c8bddb9c05a51cc8d0fb7e4f0df95d64968f5f0c61c54c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/admin-search.txt",
+      "bytes": 294,
+      "sha256": "b6074325f32955da5032646e158579a27bb9da210d4608dd3dae88643c88dedf"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/boundaries.json",
+      "bytes": 950,
+      "sha256": "fdc418b00c76412eb48981d8418eb246894674f33d36826daa1200ff298451f7"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/despues/user-abuse.json",
+      "bytes": 76,
+      "sha256": "4c127d6648a67eeba9b008f5315249b21aef1d67dcd7c61915efe8a29a1b3107"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/drizzle-current.json",
+      "bytes": 179,
+      "sha256": "df024bacbde4a2ea78846589e7df45a5dbfb8f01064e020cdb07afb8f3cada34"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/exports.txt",
+      "bytes": 466,
+      "sha256": "06e56495dd0010b94445a70a1098804963a8402770534f6ad78e8b07c4e3e079"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/advanced.txt",
+      "bytes": 1179,
+      "sha256": "8e29d9bfaf6a6dde3af393c8a54c54eb1943bf01d8c9424c8d2d836f747dc94f"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/api.txt",
+      "bytes": 433,
+      "sha256": "6c21983623449cde0ebae5338151f8cb092543ee417fddfdda6ac6710edfc13e"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/app-security.txt",
+      "bytes": 2028,
+      "sha256": "4648c87225087847b5ae24d46ab37ab80406179f0234a6d848cc0e1e6cfb5544"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-development.txt",
+      "bytes": 2841,
+      "sha256": "5b546cc824fc54f5cccd9ddb4937d5fd73287584456c811a774c5080183e2567"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/audit-production.txt",
+      "bytes": 517,
+      "sha256": "89ca70b8b6166732c99e84df710ef0be770e1cc3cd6e7f7342b922fc026e1109"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-r2.txt",
+      "bytes": 27604,
+      "sha256": "5922dd490de577727a38a649c71f946308dac5b1113e6e53588c50ad3957062a"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-cloudflare-without-r2.txt",
+      "bytes": 27604,
+      "sha256": "c946327a64b72f00973d1a299742cd3e7689277b83b4c6ca55a042c9ac76f66c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/build-site.txt",
+      "bytes": 27029,
+      "sha256": "5ca59ecf239dffed2d22aa584bb2e8e24b0501ce354ad26ba7c0989af52c335f"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-r2.txt",
+      "bytes": 9246,
+      "sha256": "b02400ada828c420bf281c11ad85db91e1a9ef27b95db1c9729a11e7eb70a86b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/cloudflare-without-r2.txt",
+      "bytes": 9302,
+      "sha256": "181b286b3ad52bd4c7f4b7932d64352db1f1e14c0c26192ab18e83c7f722f45a"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/exports.txt",
+      "bytes": 466,
+      "sha256": "06e56495dd0010b94445a70a1098804963a8402770534f6ad78e8b07c4e3e079"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/lint.txt",
+      "bytes": 695,
+      "sha256": "4909a3408e27c98ec4c95377a70fe915c813135e2b1c5e551a2c0e5c5afec67b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/logic.txt",
+      "bytes": 1253,
+      "sha256": "45a8e0a23b7454c6c3d93b1648f2ab2bcb5d26453b34ba71e504231c5678d179"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/operational-recovery.txt",
+      "bytes": 3255,
+      "sha256": "a576a15dcf129f59f0f71305cfd547e9aeba261898a220d5c93d7c4dd1744543"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/queries.txt",
+      "bytes": 1677,
+      "sha256": "e36ec039095b6293eddabb41a28ea647cecfd529b7d677689002312df92d650a"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/restore.txt",
+      "bytes": 477,
+      "sha256": "d93aca3d6d3501dc32cba9e9274c008acfe2a341c6d7d3d7e6a50ad613a3fbaf"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/resultados.json",
+      "bytes": 4465,
+      "sha256": "a2272de1cd8fc990d909a70c882787dc9a1f0ba5af4c8a89a07ec6919a1128fd"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/security-regressions.txt",
+      "bytes": 11868,
+      "sha256": "1ea9c39629f4c1d810511ef56bcae311676fea9f26207e7c4dab22c2ec5043c8"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/final/typecheck.txt",
+      "bytes": 213,
+      "sha256": "15d23667c6c018902306a12a1b9fb3a6e0e4bc1655b4e9da8fdb2679514569aa"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint-final.txt",
+      "bytes": 695,
+      "sha256": "1f1d1440633c982ce2e57c871332479e624672ad6feb46af07c6745b59da2a62"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/lint.txt",
+      "bytes": 695,
+      "sha256": "4909a3408e27c98ec4c95377a70fe915c813135e2b1c5e551a2c0e5c5afec67b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/logic.txt",
+      "bytes": 1253,
+      "sha256": "0bfbf29f76409bdc13b48f0cd5ee849ca52e16225aa18ae37586708bdc55e45c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/administracion-390-dark.png",
+      "bytes": 122190,
+      "sha256": "b0d7968a24834c09e6d902fcc7545249ad49addf84a0994868efc95837328054"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/frases-cola-antes.png",
+      "bytes": 162710,
+      "sha256": "e73b3fc19f4340f21b62f5b4f9045630babc69483fefc722409de8e635986d63"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/resumen-320-light.png",
+      "bytes": 132780,
+      "sha256": "cfbd3157cf3d65d65f324b75eb7c9d3cf44f500526b9478f49d261763426f72e"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-analisis-aapl.png",
+      "bytes": 201857,
+      "sha256": "4c1c5f021483455fd088caecf6adaae9dfeceb2c62360cbc31df70954f0d1dd4"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/muestras/tradingview-heatmap.png",
+      "bytes": 323257,
+      "sha256": "5504fbc2c0474403437d90c8bee71be3c22c46c09568abf09273a7c47fb7ecb6"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery-expanded.txt",
+      "bytes": 3255,
+      "sha256": "228b3aaf8ebd26b38dc62d06e52577b4be9a94e97dfaa09e75749c2245eb2085"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/operational-recovery.txt",
+      "bytes": 3255,
+      "sha256": "c7bfe88ba25963673a2f405cc852f9066e1acd001f23ce12f12ef7c2128e6d0c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/procedencia-evidencia.json",
+      "bytes": 3077,
+      "sha256": "f08804a0a8515b3a0b812fb7ae71d1b5c5e0b69b7bcc56826cb0eb7a2161abc7"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/queries.txt",
+      "bytes": 1691,
+      "sha256": "07af51ae90931b7b449785c661e8f582ca878ef5dae51bb2165599da394c750f"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-first.txt",
+      "bytes": 1060,
+      "sha256": "3d2a9654058a6fda68952ba978fcf923faa069061a5e209366ae3e44bcfece4b"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery-second.txt",
+      "bytes": 1069,
+      "sha256": "a0620e71a6a213f5340ba93b604e72a0bcce517725a8064dd1ba2ae3edad0a27"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/recovery.json",
+      "bytes": 2572,
+      "sha256": "3952527bd671d1a6147bd5e971ff034a8bb1499d2d48164a7bf80d0013f13a34"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/remote-history-scan.json",
+      "bytes": 3392,
+      "sha256": "889c361a86e40b681482d978da9ceaeab8f7783dba22594be78e6995fe92cceb"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/restore.txt",
+      "bytes": 477,
+      "sha256": "d93aca3d6d3501dc32cba9e9274c008acfe2a341c6d7d3d7e6a50ad613a3fbaf"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/resultados.json",
+      "bytes": 4466,
+      "sha256": "5c40933b83f6692a67ebb9d1c5d12b6ca22adbf5d5a75d131f7f6ac6123fdf8c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/rollback-local.json",
+      "bytes": 2610,
+      "sha256": "5d37b40215d263d30999ed72885b3fa93245129d1f5291126a3580a4661d096a"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/secret-scan.json",
+      "bytes": 3899,
+      "sha256": "311a9538804956a99771144784c78ee736f2f1408bf860e107bda80b397f0738"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-final.txt",
+      "bytes": 11721,
+      "sha256": "50e6e43118664fa7b2af9126371ac3da22e69b50390907cdaa486e075947a3bd"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/security-regressions.txt",
+      "bytes": 11721,
+      "sha256": "2bf7521ea0dee9737848f927c55b8ed8091c1592ef263c14350cd22480a8779c"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/storage-cleanup.txt",
+      "bytes": 580,
+      "sha256": "e9f6c47e8e94d60c74413468b78fc52bc673b1d2ceb855ccd486b75f3caf3f62"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-csp-baseline.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-final.json",
+      "bytes": 110389,
+      "sha256": "590f5a1eaf1fa2680ebb7a87b9654b3d86247359784d384e921dec473d5b4b03"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/tradingview-resultados.json",
+      "bytes": 110776,
+      "sha256": "079527a05344f8121f9825f7a46f96ce9c5d86b88245fa12183464a9dba3c0c6"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/typecheck.txt",
+      "bytes": 213,
+      "sha256": "15d23667c6c018902306a12a1b9fb3a6e0e4bc1655b4e9da8fdb2679514569aa"
+    },
+    {
+      "path": "documentacion/verificacion-seguridad-2026-11-22/user-abuse.json",
+      "bytes": 76,
+      "sha256": "4c127d6648a67eeba9b008f5315249b21aef1d67dcd7c61915efe8a29a1b3107"
+    }
+  ],
+  "productionChanges": false,
+  "publicationStatus": "NO APTO PARA PUBLICACIÓN",
+  "externalBlockers": [
+    "Cuenta/configuración y presupuesto real Cloudflare/D1/R2, namespaces y cron",
+    "Google OAuth y dominio real",
+    "Respaldo operacional real recuperable y ensayo sobre copia autorizada",
+    "version_id seguro y reversión remota comprobada",
+    "Identidad/contacto, bases, terceros, derechos y política de conservación auténticos",
+    "Confirmación de derechos de marca/catálogo y obligaciones de distribución"
+  ],
+  "remainingImplementationOrPolicy": [
+    "Controles de conservación/expurgo derivados de política auténtica",
+    "Cobertura completa de auditoría de exportaciones generadas en cliente",
+    "Observabilidad y alertas basadas en métricas reales",
+    "Recuperación offline tras borrar y recrear identidad: cobertura no exhaustiva"
+  ],
+  "dependencyResidual": "Cuatro moderados de desarrollo en una cadena de herramientas; producción cero avisos. Sin downgrade incompatible."
+}

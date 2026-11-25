@@ -1,0 +1,7 @@
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+check-admin-search: búsqueda literal parametrizada, mayúsculas y correo >50 bytes en usuarios/invitaciones/eventos; sin LIKE limitado por D1.

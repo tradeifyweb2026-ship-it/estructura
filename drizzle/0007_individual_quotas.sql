@@ -1,0 +1,1 @@
+ALTER TABLE `user_limits` ADD `custom_trades` integer;

@@ -1,0 +1,15 @@
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "D1/R2 desechables, fallos inyectados; no certifica scheduler remoto",
+  "passed": [
+    "Intención de borrado y referencia D1 se confirman juntas, sin afectar otro propietario",
+    "Fallo R2 parcial conserva toda la cola; reintento idempotente completa limpieza",
+    "Fallo al confirmar limpieza D1 mantiene intención para otro reintento",
+    "No borrar objetos todavía referenciados y lote máximo 100"
+  ]
+}

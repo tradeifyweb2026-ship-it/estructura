@@ -1,0 +1,38 @@
+{
+  "scope": "Worker compilado y D1/R2 desechables; Google simulado; sin producción",
+  "results": [
+    {
+      "name": "Estado público comparte el limitador API, incluso sin sesión",
+      "status": "failed",
+      "error": "125 solicitudes públicas no recibieron ningún 429"
+    },
+    {
+      "name": "Mi cuenta rechaza más de 16 KiB antes de interpretar acciones",
+      "status": "failed",
+      "error": "Expected values to be strictly equal:\n\n422 !== 413\n"
+    },
+    {
+      "name": "Mi cuenta exige JSON y conserva la sesión ante rechazo",
+      "status": "failed",
+      "error": "Expected values to be strictly equal:\n\n422 !== 415\n"
+    },
+    {
+      "name": "Frases conserva el estado HTTP 413 de su límite de bytes",
+      "status": "failed",
+      "error": "Expected values to be strictly equal:\n\n422 !== 413\n"
+    },
+    {
+      "name": "Frases rechaza profundidad excesiva, incluso en campos descartados por Zod",
+      "status": "failed",
+      "error": "Expected values to be strictly equal:\n\n200 !== 422\n"
+    },
+    {
+      "name": "Bitácora rechaza profundidad excesiva antes de validar y no cambia datos",
+      "status": "passed"
+    },
+    {
+      "name": "Cuerpos pequeños válidos, llaves dentro de texto y JSON malformado",
+      "status": "passed"
+    }
+  ]
+}

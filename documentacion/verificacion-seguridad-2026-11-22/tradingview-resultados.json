@@ -1,0 +1,3817 @@
+{
+  "scope": "Chromium con proveedor TradingView real, app y Google ficticios. DOM/screenshot/HTTP prueban carga; no exactitud de precios ni OAuth de producción.",
+  "cases": [
+    {
+      "name": "resumen-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 304,
+        "decimalTextNodes": 20,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 15,
+        "frames": [],
+        "frameTextCharacters": 0
+      }
+    },
+    {
+      "name": "tv-advanced-chart-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 263,
+        "decimalTextNodes": 7,
+        "integerNodes": 9,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 106,
+        "frames": [
+          "https://www.tradingview-widget.com/embed-widget/advanced-chart/"
+        ],
+        "frameTextCharacters": 136
+      }
+    },
+    {
+      "name": "tv-economic-calendar-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 3269,
+        "decimalTextNodes": 53,
+        "integerNodes": 8,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 159,
+        "frames": [
+          "https://www.tradingview-widget.com/embed-widget/events/"
+        ],
+        "frameTextCharacters": 1826
+      }
+    },
+    {
+      "name": "tv-news-feed-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 82,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 2,
+        "svgPaths": 7,
+        "frames": [],
+        "frameTextCharacters": 0
+      }
+    },
+    {
+      "name": "tv-heatmap-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 107,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 6,
+        "frames": [
+          "https://www.tradingview-widget.com/embed-widget/stock-heatmap/"
+        ],
+        "frameTextCharacters": 25,
+        "coloredDataPixels": 337941
+      }
+    },
+    {
+      "name": "tv-forex-table-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 1193,
+        "decimalTextNodes": 42,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 6,
+        "frames": [],
+        "frameTextCharacters": 0
+      }
+    },
+    {
+      "name": "tv-technical-analysis-real",
+      "status": "passed",
+      "evidence": {
+        "requestedSymbol": {
+          "textCharacters": 317,
+          "decimalTextNodes": 0,
+          "integerNodes": 0,
+          "analysisLabels": 0,
+          "restricted": true,
+          "newsLinks": 0,
+          "svgPaths": 19,
+          "frames": [],
+          "frameTextCharacters": 0,
+          "availability": "provider-restricted"
+        },
+        "explicitApple": {
+          "textCharacters": 246,
+          "decimalTextNodes": 0,
+          "integerNodes": 0,
+          "analysisLabels": 1,
+          "restricted": false,
+          "newsLinks": 0,
+          "svgPaths": 18,
+          "frames": [],
+          "frameTextCharacters": 0,
+          "coloredDataPixels": 2313
+        }
+      }
+    },
+    {
+      "name": "tv-market-data-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 236,
+        "decimalTextNodes": 3,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 6,
+        "frames": [],
+        "frameTextCharacters": 0
+      }
+    },
+    {
+      "name": "tv-world-market-summary-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 119,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 210,
+        "frames": [],
+        "frameTextCharacters": 0,
+        "coloredDataPixels": 3940
+      }
+    },
+    {
+      "name": "tv-economic-map-real",
+      "status": "passed",
+      "evidence": {
+        "textCharacters": 224,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 208,
+        "frames": [],
+        "frameTextCharacters": 0
+      }
+    },
+    {
+      "name": "fundamentales-real",
+      "status": "passed"
+    },
+    {
+      "name": "csp-bloquea-script-y-handler-inline",
+      "status": "passed"
+    }
+  ],
+  "requests": [
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-advanced-chart.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/PGp0_KE_JK.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/ZVFgMwnqF2.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/al4F_m27lM.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/5MZc6yIRxG.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/_L0uPVsfGD.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/TbGtF8uCFz.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/Fc5dJnVx4o.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-market-overview.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/SW_6Bci4v1.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/oezH743Id9.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/PfM6War42Z.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-market-summary.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/F2fkOpfnLn.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/5Q4FHnyXi5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/DBhmYqLQy0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/YDrkJDmo-G.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/37B_IRa3bU.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/_Lz5PlM68e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/7AdojPOoId.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/rAeTivbriV.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/aGOjYJm47W.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/iuVRQCino2.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/fd8ip_IUfw.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/Bn2vmBYwDc.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/0KyfHUR2aJ.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/8RK9sXaZXy.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/A4fid6hXvY.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/p23QZdUXUd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/CtJQD7Ly8f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/fwcPhstYIS.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/MhlmgIxnFa.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/T89_K5-VTB.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/UEbs2Gh9MF.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/rtcMUfjx_i.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/PBrCi7aX4Y.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/2cFHFuDhtv.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/8EPoEEK2uy.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/QJWyfVTVM5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/BcY_83SZUx.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/1Yh6IEbmNp.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/datafeed/tv.html",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner.tradingview.com",
+      "path": "/presets/US_volume_gainers",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/dow-30.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/s-and-p-500.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/nasdaq-100.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nio.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nokia.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/grab.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/intel.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/spacex.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/apple.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/anthropic.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/sandisk.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/iris-energy.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nvidia.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/embed-widget/advanced-chart/",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64724.a717110e6749f307ed6d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/1801.1e797fde0d11f982d430.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12021.e38878876299c1d33d5c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/60708.fca4aeb3e10a7443dc8f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62870.2f8bdce9e742efb89a96.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4195.ccfa51cf50a504d2d308.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/57925.d3fda906b58e71a081fa.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/runtime-embed_advanced_chart.cdad53867d3901aff800.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63682.22bca6b45bacf2801f87.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79726.eeeee34d57d4c56454bb.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69169.88d88db384aa9a1dfabe.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21845.196f97597f701b951242.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.53522.69bd4e467a36f4c334eb.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/70833.dafa133c31563a4b7688.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/7477.3025a2eec94dc296e405.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/92696.ea89f5b54403fe51ac21.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/3751.1cad7feddb7b00437ed6.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69505.17f578c07c00cc1ee72d.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.41520.05f6f1c39caf879b845c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89823.8647cdcf8fff6e9c79e6.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/25586.612bdf22b933ff99ec86.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45732.91a967b31f8fc77d57f0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.58667.38cb9424c77864d4af7e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94169.39869087795cdd992a44.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/51676.7e76e117d2d6405c30e5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21680.18231e01e99a4536db6b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96550.e561fd2265561809b2c7.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/86163.d45c9f1b2aa3bc9fd110.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/15338.e1ed54ef303a9f7c16d0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/52842.a1ea0ec9213a1f49913a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/39391.5a75edb390e796983cbe.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed_advanced_chart.9e5ff3f784ab53a425f4.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23433.b65b992de3d26d8b8e14.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/71755.05c1da5a5041bce64c4a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/20127.e46cdf19d11c201f0402.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91335.495444a7fac173fb28cd.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/88785.31d6cfe0d16ae931b73c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/95325.4ea9b4e32a1e8a402a04.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/97941.1311d6f18cbee20769c2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69839.94b7b464e1d7359e505f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/90647.1393635e9e8e8d96b204.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/56259.ab6731b698a8c2854a90.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/44765.4305e109815882b8e815.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96927.582c8a56849b2613466e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/24111.e345ed752d3a20d19467.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/27121.a5959bf1dd5d87031035.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/24663.7a453cec8e04a017a22a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79229.1e4d012c5fd67948e8e8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/97911.85503721ca18d5333bc1.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64849.19809a942e8aa9a63c29.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/31599.429748f4bb7f0e400883.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/72721.a5a40ca69ac73d9fbeba.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/50983.95f89f591a0ac8d41de2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89626.abdebbdbd6ea38b91609.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/73849.2c34569dd808cf747c3d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/97765.44029606c73a683e7b0c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner-backend.tradingview.com",
+      "path": "/enum/ordered",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/16122.474f2935825e474029bd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed-chart-wrapper.486613f7b979d3bd86bc.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.5111.6d96d6731b7a1ccaa9c4.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/55125.e34cabb771509bc89d6d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/71421.df1cfd66b70e6d0f4b04.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4871.3e07055221727b26bbd5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/33207.e9be9a733e114730a4ea.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/15136.66bd1e2005c451fd2684.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/16703.bb9f7dd81ce0e7787887.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/11939.fa0570f8b6a23083d41f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/99815.736f471a8d64a8122fd8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85125.c1641629d36ea5a66e1b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23799.ba2563c50eb0d75e0415.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/26775.0fc88fa63c054a8d7684.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/61068.129c98f18afcce6fe79e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/30055.d529c09ed70d14e20a47.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/30065.f49da2a7279774aa5fe8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/77271.90818d73e0e3a9a9fe2a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91317.30ba05d6a5393e331827.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/37426.8c49c2e9dcce85738353.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/61346.f2cce2dd1623d460950d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/38453.78c45abeb07ff262efbe.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4980.93402c009a27b4660c7b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/58712.466e1dd67f08e6d4a8c5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/95733.d088dce1800b8d986dba.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/98615.76a1c7923a2c986be9ac.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45981.32495fb5968e12f510b8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/25903.2fef969374a107639792.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/74693.9ff500f40c3ec2496a9d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/78325.6193102e3152806b8b0f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21008.79783aa72b6e29252d0c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45629.4b4e097a303d21bc9781.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94079.e8983562fa9641b333ed.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/10442.5abb7a15deffd72e1374.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/31533.ce4fb4dfd959eefc84c7.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67836.8361642ed331cd769f49.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/26055.669e2428d80c29dce52e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/2998.5c84c27a9470fee48379.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62031.75baf42eea8655abe0b6.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/36539.31d6cfe0d16ae931b73c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85753.5f597a1510bd25d51313.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96125.b8cacd3f561240b92cf0.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67708.fc79c0856e66638a876f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29541.09743ffb7e213166e512.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/5293.a9e86dc4e512a80b1888.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/99543.de1574b3389800c93ebc.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/54629.34884beb8e6dc4c6c0b1.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29044.c8899b0545d661def652.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/53754.9c545f9868204c7700f2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79443.32e1a44b8577babca6ba.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67961.7c6c08c8eed01d841052.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/65842.f7791e27adf3e332090b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/65063.ea48ad7f58e777978a08.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/32207.8ea91cee73682f646b90.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/40215.8c1a1e9b4d2e6930d8c1.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/70927.303c9b99f59e052b33d3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62746.776b91aa4c068db95100.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/83083.2d2845243b7ab7d24da0.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/73537.ebcdb8353d0f6e29f187.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/28131.6c51c09cb1c7bd12bb47.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69684.eb7c183d331b85e8af60.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85057.cd67b911dd3de876bbdb.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/28390.6c14976b27990db10e5b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/41191.a3c73cb8c3e974641752.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/74922.95b4334a9f289c1693a5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94316.e37d3e79af9372795c63.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23687.0ad0ee1170369fc1568e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64010.eacae6cfe41503f8bae5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/50767.7439ff2194d9ec845a87.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79591.17b6ebdaa2ecdadf8611.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/98628.f49a8a6a751ca91afc7e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/13075.8da44553c51a359c2d73.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/56249.ad41670b1348a08881da.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/55031.1817101bad6cf70fcb6e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21109.174496dbf62bc90db59a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62534.a938d79f094934e76b2e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/72817.cd5c20a1b89ac82090bd.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/51391.b3bc5d1152f7877820a7.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/98648.482c20c00a5fe740cf75.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63894.c4093741cf519199acb9.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/3785.190df751e0632e43dfe3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/48839.f3e54e0b2a6edfbaa9e6.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63082.643887a895adff16c2e2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/18570.a604b3c1f8fe20f77f5f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96066.cbf37bb2b65bd7dd5c45.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/37769.b7eecd23708573e5d4f0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/928.4899cdd0043848d01711.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/hip3-disclaimer.6b5fb28a912bc47443f7.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/error-renderer.45f3d9005f458472864f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.17132.824a03be56890bda27ef.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91951.e53796999f83c412edaf.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.96987.7a7d73c538a7e078666d.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/chart-bottom-toolbar.c2664399661f2b2abc10.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/54920.a43004c6fcf194819ab2.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/46039.51b586e6422483abe63f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/53864.1a5456f3efdce1c95aa2.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4409.e9d32ed337af0b83d16f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/83156.093c7e24a3cbb7352650.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/branding-source.320f26a747909f8afa93.js",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner-backend.tradingview.com",
+      "path": "/enum/ordered",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/71126.7fffe916e551bfa8ab7c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.58409.46b5720dfc173e99fc45.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/18512.944ab6aa52e85458913b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.89618.fe292496e4f33bc5290b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/54774.bb729442dac347fdb517.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/60257.49a4982dab65f5217a7f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/line-tools-icons.9c2aaae4155d31eec949.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/1617.d7214ffc028324307300.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/chart-widget-gui.7ad990c93efa83d33823.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/49171.459386beb9e62ceb2db3.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/907.a46a011417dde6bcc113.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/88318.0b03a165e8391d4c297b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.57564.d9cc56df9892fd6b1d2c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.14622.e092a3fe139ca2adec1b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79981.80fe20330b858ebd7090.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/chart-toolbar-hosts.4c4a0a9b730ed174b2f5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/49213.36bf93aee3360263bc01.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview.com",
+      "path": "/support/support-portal-problems/",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29915.ff0dc78e9c4f402d7910.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45098.2058e5e1bf577cc12046.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.5228.df3e8759b61607533c6c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21796.ef96d69b17fd559c6def.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/19630.018ee017fb7dbf4b67df.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.55636.6c7137a88bbdf9b35015.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/65264.8499fd4b5a6e6c35b723.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/widget-sidetoolbar.d4c4d486017d999740b9.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/widget-toptoolbar.001fc8953984b95d3499.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/widgetbar.f36ed94fa9be6d914b92.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/24798.fa351af8f2fbc9636c5a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94052.4cdf92e3cc0a84016ceb.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79549.727b5c58225bbd5ac460.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.86214.8d0c91292010c7c677f1.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/73139.3aba7e946a47085d8708.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/11551.3ad7a7e9a5348030b79b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/76203.5a369ba5a9930b379a08.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12832.a305554cfe9198e9298f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85785.d319c80248f58046a90a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/93658.f1a746809cf8de1337b0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/971.193a0b200822ce388ce8.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/tpo-study.f2ecb25ef6d0aabb4769.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/17704.3624acc672611181fc9a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23192.066b4be68c6a1f51026f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/75230.01b9c19dd5b8ce8c4dcc.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.22510.c6272459a17c5398fd7b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/price-scale-mode-buttons-renderer.2928679df98000f196a7.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/2589.c54f19534b9fa69c6b1e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/studies.bbf8569e6cab8095ccfa.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.66922.894331e295264ece89bc.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/overnight-primary-exchange-snackbar-controller.f70943c241e80382a983.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.40528.16d63b6bd8f0e37c13a4.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/change-interval-dialog.cb13586fb1c15b8dd5ea.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/38937.22253967643387ea4e75.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/83695.90132c16e6cdf162dd99.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/22375.33d2a3745af497e3da5d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63457.7c57c98933b8cfd3f8e7.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/61013.ce10d1fa8566fbfe2832.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/52127.b7068e8cee0998ee046b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62197.1f46e516d62570c3760f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/54562.21ef66deff7556c1202b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/75213.3d2cba3f093e28ed7aab.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/55677.25f5abcdde2897d39ebc.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12058.bdd3bc2c3b39e7a8dba7.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/83957.2ddd18ac40632ccb1b86.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79085.a775375213943b5007a3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/40343.e8e73bcd66b58643f132.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45131.c57238934a2f7a36a0c0.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63664.a083ee8e417a462e16de.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91953.76948764014ae1d4ccfb.css",
+      "status": 200
+    },
+    {
+      "origin": "https://widget-sheriff.tradingview-widget.com",
+      "path": "/sheriff/api/v1/rules/search",
+      "status": 204
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23049.da4a1d0d488c2926788a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/49781.88d0bdac1ebbd0a66750.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/symbol-search-dialog.f266f864afb91829d040.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/60072.75b72dfdbe66bc9a81c1.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.84972.44ed194a21a81d19134a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.57722.37d2ad3b4db73be61016.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/87002.a69b10c19ddfb6204289.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/options-symbol-search.e7340553fc37c14eaf82.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/widget-branding-services.1264f39f7aec7ed83e31.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94842.203846285ad97b7b7927.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/47361.f5d1de52b9a6315ebbf6.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96381.046d3c330b465e68d8fa.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/19775.ca82dc9cabb834462f80.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/92543.d605999bdb080f50f4f5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79307.a3a35fec1a49ba26b78d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64973.991053be49e20f705a44.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/19432.1044e65ce6c9a0b62912.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/33793.902348661d8dec89cef3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/14394.84cd517214039342c8b3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64916.037eec6066a7388c7558.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/33019.ec78c05f96bcd0e33030.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/93539.071407c59ab05867eb4c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/68056.8fb9de7e3f4ce36f26b9.css",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/nasdaq-100.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.79322.46f1717479a1f03cbb57.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/73649.87e4fbf3ade27ef77c53.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/43261.ca3c7436f7cd8158d464.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4393.2e08c14a94f94ad0e7de.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/symbol-list-service.da9db2cb3adbfb710431.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.14268.06604c5cc0751648ebf4.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/28642.007f4d6f208ebfc43bbd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/30693.84cb9db8d84f54f0831c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/92203.646ed57e32a8c8d42d7e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/2670.3ae8d6363b63f1e112cd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/602.a791e522091073ac9992.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/80795.34318f0523227d55a6d9.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12066.1fca72daa7010c1a8a58.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/watchlist-widget.a8a6e342f59d7a930c4b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/13921.2c309dd321d1e6b1ac7c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/30299.bce2a1a23d696cbcb894.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.76470.c5168820fd957c6bcb65.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/study-pane-views.ffbb1cc6734e0b126909.js",
+      "status": 200
+    },
+    {
+      "origin": "https://s3.tradingview.com",
+      "path": "/conversions_es.json",
+      "status": 200
+    },
+    {
+      "origin": "https://s3.tradingview.com",
+      "path": "/conversions_es.json",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-economic-calendar.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/embed-widget/events/",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63682.22bca6b45bacf2801f87.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/7477.3025a2eec94dc296e405.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45732.91a967b31f8fc77d57f0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/51676.7e76e117d2d6405c30e5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/1801.1e797fde0d11f982d430.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/71755.05c1da5a5041bce64c4a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/97941.1311d6f18cbee20769c2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69839.94b7b464e1d7359e505f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/26775.0fc88fa63c054a8d7684.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/90647.1393635e9e8e8d96b204.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29541.09743ffb7e213166e512.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/10543.55cbc7a1da963b3829b3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/5293.a9e86dc4e512a80b1888.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/62870.2f8bdce9e742efb89a96.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/32207.8ea91cee73682f646b90.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91953.76948764014ae1d4ccfb.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/44765.4305e109815882b8e815.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79229.1e4d012c5fd67948e8e8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12021.e38878876299c1d33d5c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/23687.0ad0ee1170369fc1568e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/75213.3d2cba3f093e28ed7aab.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/19911.77a71b0df633a1981f63.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/74345.ebd970a5bab771652693.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/80767.f624d8d6d5a593f04462.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/43881.e6e0d3195ab2bde51959.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91951.e53796999f83c412edaf.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/runtime-embed_events_widget.994cc7237797b14a8486.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/4986.9d12c97ab21ca5c19d67.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.32679.845d071283213c4ffc35.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/60112.0bce46d361048a006a23.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/78493.5395b20b80a2af021072.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed_events_widget.0afb5a8338ed16560326.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/9589.2a70d397c34f2e9de94f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/16122.474f2935825e474029bd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed-calendar-wrapper.6bcdce0b4540e216a61e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widget-sheriff.tradingview-widget.com",
+      "path": "/sheriff/api/v1/rules/search",
+      "status": 204
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89166.ee41920526450899c2d5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/tradingview-copyright-data-impl.9a4920c0a54b2cbedf35.js",
+      "status": 200
+    },
+    {
+      "origin": "https://chartevents-reuters.tradingview.com",
+      "path": "/events",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/economic-item-skeleton-dark.ea4df73d7ec7813430d7.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/DE.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/FR.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/IN.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/KR.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/TR.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/MX.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/EU.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/GB.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/JP.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/ID.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/US.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/AU.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/economic-item-skeleton-small-dark.a0b6d6bff6e829f2aa11.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://chartevents-reuters.tradingview.com",
+      "path": "/events",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/CN.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-news-feed.js",
+      "status": 200
+    },
+    {
+      "origin": "https://news-mediator.tradingview.com",
+      "path": "/public/news-flow/v2/news",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/s-and-p-500.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/anthropic.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/nasdaq-100.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nvidia.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/EU.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/US.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/metal/gold.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/nasdaq-composite.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/crypto/XTVCBTC.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-heatmap.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/ju377fHPA0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/embed-widget/stock-heatmap/",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/1801.1e797fde0d11f982d430.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/10543.55cbc7a1da963b3829b3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/71755.05c1da5a5041bce64c4a.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69839.94b7b464e1d7359e505f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/26775.0fc88fa63c054a8d7684.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/43881.e6e0d3195ab2bde51959.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29541.09743ffb7e213166e512.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/5293.a9e86dc4e512a80b1888.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/9589.2a70d397c34f2e9de94f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/32207.8ea91cee73682f646b90.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69169.88d88db384aa9a1dfabe.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/78493.5395b20b80a2af021072.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/3785.190df751e0632e43dfe3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/48839.f3e54e0b2a6edfbaa9e6.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/16703.bb9f7dd81ce0e7787887.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/33207.e9be9a733e114730a4ea.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/56259.ab6731b698a8c2854a90.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96927.582c8a56849b2613466e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67708.fc79c0856e66638a876f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/15136.66bd1e2005c451fd2684.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63082.643887a895adff16c2e2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96125.b8cacd3f561240b92cf0.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/11939.fa0570f8b6a23083d41f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/58712.466e1dd67f08e6d4a8c5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96066.cbf37bb2b65bd7dd5c45.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/98615.76a1c7923a2c986be9ac.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/21008.79783aa72b6e29252d0c.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45629.4b4e097a303d21bc9781.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/29044.c8899b0545d661def652.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/99543.de1574b3389800c93ebc.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/54629.34884beb8e6dc4c6c0b1.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/30065.f49da2a7279774aa5fe8.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/53754.9c545f9868204c7700f2.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67961.7c6c08c8eed01d841052.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67336.b78d1065b94ba749e3b3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85729.4d7c0ba952223ab3b709.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/7775.7050749669ff95dc215b.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67471.fefd7156c7a9d318757f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/14663.ce1f935a62146bcdc7f9.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/88318.0b03a165e8391d4c297b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/46039.51b586e6422483abe63f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/47142.f216084058f0fc2b8b33.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.79381.1b9f5b6938c8aae1249a.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/runtime-embed_stock_heatmap_widget.b8d9aaeaafdaf9c8d6a0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/75096.630cd4e86265279a94e5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/91362.db60c095e1e20e7b450e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed_stock_heatmap_widget.22ad4e32aa4f9fa63ea9.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/75862.4cb332895b03dbe858b0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/85088.ce5f7d9149e3b578b9ed.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/87863.063ed4be086aaa938eda.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/16122.474f2935825e474029bd.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed-heatmap-wrapper.8301e1c5438a47bd109b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widget-sheriff.tradingview-widget.com",
+      "path": "/sheriff/api/v1/rules/search",
+      "status": 204
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89166.ee41920526450899c2d5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/tradingview-copyright-data-impl.9a4920c0a54b2cbedf35.js",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner.tradingview.com",
+      "path": "/america/scan",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nvidia--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/broadcom--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/apple--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/advanced-micro-devices--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/micron-technology--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/ge-aerospace--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cisco--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/raytheon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/intel--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/texas-instruments--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/arista-networks--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/amphenol--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/dell--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/analog-devices--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/kla-tencor--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/qualcomm--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/lockheed-martin--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/boeing--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/marvell-tech--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/seagate--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/webster-financial--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/sandisk--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/general-dynamics--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/motorola-solutions--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/howmet-aerospace--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/emerson--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/corning--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/vertiv-holdings--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/northrop-grumman--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/monolithic-power-system--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/transdigm-group--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/hewlett-packard-enterprise--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/garmin-ltd--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/te-connectivity--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nxp-semiconductors--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/l3-harris--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/keysight-technologies--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/microsoft--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/alphabet--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/bloom-energy--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/meta-platforms--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/oracle--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/crowdstrike--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/netflix--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/international-bus-mach--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/palantir--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/palo-alto-networks--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/salesforce--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/accenture--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/applovin-cdr-cad-hedged--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/fortinet--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cadence-design-systems--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/adobe--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/automatic-data-processing--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/synopsys--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/datadog--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/visa--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/jpmorgan-chase--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/autodesk--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/mastercard--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/bank-of-america--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/wells-fargo--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/morgan-stanley--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/berkshire-hathaway--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/golden-sachs-etf-trust-goldman--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/servicenow--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/american-express--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/blackrock--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/intuit--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/chubb--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/blackstone--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/progressive-ohio--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/interactive-brokers-group--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/schwab--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/prologis--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cme--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/capital-one--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/marsh-and-mclennan--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/bank-of-new-york-mellon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/equinix--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/intercontinental-exchange--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/pnc-financial--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/citigroup--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/kkr--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/welltower-indrn--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/gallagher--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/us-bancorp--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/allstate--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/aflac--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/apollo--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/public-storage--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/travelers--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/united-rentals--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/digital-realty-trust-5850-series-k-cumulative-redeemable-preferred-stock-par-value-001-per-share--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/metlife--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nasdaq--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/realty-income--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/amazon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/simon-property--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/robinhood--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/costco-wholesale--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/lowe-s--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cvs-health--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/tjx-cos--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/target--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/abbvie--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/home-depot--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/amgen--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/thermo-fisher-scientific--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/danaher--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/merck-and-co--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/pfizer--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/johnson-and-johnson--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/intuitive-surgical--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/medtronic--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/gilead--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/vertex-pharmaceutical--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/abbott--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/bristol-myers-squibb--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/becton-dickinson--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/regeneron-pharmaceuticals--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/eli-lilly--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/idexx-laboratories--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/stryker--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/aon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/o-reilly-auto--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/moderna--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/truist-financial--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/walmart--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/applied-materials--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/caterpillar--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/lam-research--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/ge-verona--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/deere--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/eaton--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/3m--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/parker-hannifin--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/trane-technologies--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/johnson-controls--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/walt-disney--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/illinois-tool-works--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/booking--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/marriott--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/airbnb--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/comcast--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/nextera-energy--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/hilton-worldwide--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/duke-energy--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/southern--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/american-electric-power--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/constellation-energy-cad-hedged-cibc-cdr--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/oneok--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/royal-caribbean-cruises--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/mcdonalds--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/starbucks--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/american-tower--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/union-pacific--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/uber--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/csx--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/united-parcel--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/doordash--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/sherwin-williams--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/unitedhealth--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/air-products-and-chemicals--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/anthem--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/linde--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cigna--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/hca-healthcare--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/waste-management--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/kinder-morgan--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/williams--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/verizon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/at-and-t--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/grainger--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cardinal-health--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/honeywell--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/t-mobile--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/mckesson--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cintas--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/cummins--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/paccar--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/procter-and-gamble--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/ametek--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/coca-cola--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/eog--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/tesla--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/valero-energy--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/pepsico--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/altria--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/monster-beverage--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/mondelez--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/chevron--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/general-motors--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/exxon--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/philip-morris--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/marathon-petroleum--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/conocophillips--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/phillips-66--big.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-forex-table.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/QXd5rxw6wT.js",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/EU.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/US.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/JP.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/GB.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/AU.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/CA.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/country/CH.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-technical-analysis.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/Qg0ycK-0-b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/lyI426EL98.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/9YYBbSlliZ.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/eIb1V825Bb.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/xKtFhBa75u.js",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner.tradingview.com",
+      "path": "/symbol",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/r04mk0lKT7.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/2Ll2v1zc2w.js",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/nasdaq-100.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://scanner.tradingview.com",
+      "path": "/symbol",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/apple.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-market-data.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/kPkJEGMcd5.js",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/crypto/XTVCBTC.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/dow-30.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/indices/s-and-p-500.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://s3-symbol-logo.tradingview.com",
+      "path": "/crypto/XTVCETH.svg",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-world-market-summary.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/C_SUKhpux_.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/_h9uUM4JJl.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/c1yAf1cNW0.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/WLM1zoqljy.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/zs02BlEEo1.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/chunks/1S_qd1Hvhy.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/w/es/tv-economic-map.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widgets.tradingview-widget.com",
+      "path": "/data/economic/global/gdp.json",
+      "status": 200
+    },
+    {
+      "origin": "https://s3.tradingview.com",
+      "path": "/external-embedding/embed-widget-financials.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/embed-widget/financials/",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/1801.1e797fde0d11f982d430.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/10543.55cbc7a1da963b3829b3.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/43881.e6e0d3195ab2bde51959.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/9589.2a70d397c34f2e9de94f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/69169.88d88db384aa9a1dfabe.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/63682.22bca6b45bacf2801f87.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/7477.3025a2eec94dc296e405.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/79726.eeeee34d57d4c56454bb.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/96286.d16c11adba9b0ea5c64e.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89823.8647cdcf8fff6e9c79e6.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/94169.39869087795cdd992a44.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/3751.1cad7feddb7b00437ed6.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/60982.697a10cf3ad22938fd1f.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/83156.093c7e24a3cbb7352650.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/12797.923379a06f5ead07a98d.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/77129.6e9230a9d70e624b583c.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/45855.8abccba1f31d9de7956d.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/runtime-embed_financials_widget.5dbd02ef21759c7d8e0b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/es.51531.47f9b39df59f516462cf.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/64518.f88050fee0434dac2867.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/80515.30c69e435041666a942b.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/embed_financials_widget.15cc09052ae8423b8fc3.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89324.6f3a8c40b823dc4b0a4d.js",
+      "status": 200
+    },
+    {
+      "origin": "https://widget-sheriff.tradingview-widget.com",
+      "path": "/sheriff/api/v1/rules/search",
+      "status": 204
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89166.ee41920526450899c2d5.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/tradingview-copyright-data-impl.9a4920c0a54b2cbedf35.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/99923.0a3d9f29d629f5db07c7.css",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/80896.fb2ade456c85c6dcc41e.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/89802.733e8e829f06e8c613a8.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/65278.078aecc4315d3b09265f.js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.tradingview-widget.com",
+      "path": "/static/bundles/embed/67320.97bc24901dce9d60bca8.js",
+      "status": 200
+    }
+  ],
+  "console": [
+    {
+      "type": "error",
+      "message": "Executing inline script violates the following Content Security Policy directive 'script-src 'self' 'nonce-rYLE8V2hauIoqZs1L7jmjA' https://widgets.tradingview-widget.com https://s3.tradingview.com'. Either the 'unsafe-inline' keyword, a hash ('sha256-Fo303l6hriB9FdIJZ5llJlCeZ7zJuwiLfwuAVqR6Pqs='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.",
+      "location": {
+        "url": "",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "error",
+      "message": "Executing inline event handler violates the following Content Security Policy directive 'script-src-attr 'none''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.",
+      "location": {
+        "url": "",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ]
+}

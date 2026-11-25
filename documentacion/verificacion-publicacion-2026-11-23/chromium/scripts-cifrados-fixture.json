@@ -1,0 +1,37 @@
+{
+  "app": "tradeify-private-scripts",
+  "format": 1,
+  "envelope": {
+    "format": 1,
+    "id": "dc01b956-297f-4e9e-b499-784917651055",
+    "salt": "QTu6VmokIDYP4J_NS5ou7Q",
+    "iterations": 600000,
+    "password": {
+      "iv": "IKOt67qC_LF9wGW2",
+      "data": "Tu5S_ATqOGKSD7mKK__-SykAivPXedn3KIjgbYVfnDPKGl68Cx9NTuzLr0mCw9SA"
+    },
+    "recovery": {
+      "iv": "3BnVlB7jqzZoiaAQ",
+      "data": "1jJiPT19gyjw4vPd2OiFkilE0f6oLEV4b-twm87pHWyoffFT-W0Tgv8YIQ85i6yt"
+    }
+  },
+  "scripts": [
+    {
+      "id": "0aa43f40-8f97-423a-8d31-759bb11a4295",
+      "version": 1,
+      "vaultId": "dc01b956-297f-4e9e-b499-784917651055",
+      "payload": {
+        "metadata": {
+          "iv": "NrnuWy6xYNDLWI7P",
+          "data": "gAFytLNri8GreU_iVEDwnOLkyZMqErtGHtd_f4QRzhGKfGq0j2jeWEvkovrhRjqO9iErzQpzOEysLecJnm9JcTkz0hxOK8TgcFN_9uDvw1CckF4bG7LGWXaFufSlRrB-CbySqM8"
+        },
+        "code": {
+          "iv": "bROkXJbPr1FRuD15",
+          "data": "1INpLz86gDCnNWMtOndT19GbRCmR1HCNdJTYkUE_6iAqtBlj8_4iFvm5jryYLql8wuvx9yxNoOX1F9avqHI9tA"
+        }
+      },
+      "createdAt": 1795446931758,
+      "updatedAt": 1795446931758
+    }
+  ]
+}

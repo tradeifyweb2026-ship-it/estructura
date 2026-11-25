@@ -1,0 +1,87 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 release:inspect
+> node scripts/release-tools.mjs inspect --local --persist-to work/disposable-d1 --output work/inspection.json
+
+{
+  "environment": "staging",
+  "worker": "tradeify-staging-fixture",
+  "readOnly": true,
+  "ready": true,
+  "foreignKeyViolations": 0,
+  "baselineRequired": false,
+  "missing": [],
+  "different": [],
+  "migrations": [
+    {
+      "name": "0000_wild_thundra.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0001_magical_spot.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0002_auth_sessions.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0003_user_limits.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0004_login_codes.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0005_administration.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0006_restore_receipts.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0007_individual_quotas.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0008_query_indexes_revisions.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0009_section_cache.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0010_quote_library.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0011_admin_operations.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0012_operational_incidents.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0013_storage_deletions.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0014_asset_catalog.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0015_private_scripts.sql",
+      "status": "recorded"
+    },
+    {
+      "name": "0016_public_trade_shares.sql",
+      "status": "recorded"
+    }
+  ],
+  "planId": "ca5166a298ffcc226dc59c3a1635c10d3f5a91acc1a6291b6634f632c2722002",
+  "output": "work/inspection.json"
+}

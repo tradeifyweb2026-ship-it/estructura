@@ -1,0 +1,23 @@
+{
+  "sourceCommit": "ac044966838861dbd9288f16a0a02056c63ad48f",
+  "runId": 45107587077,
+  "artifactId": 14788740787,
+  "artifactSha256": "19965078e2a1ae1e692fbf54cdf05e9caca55b4b465813a7d48cb874dee07678",
+  "scope": "Chromium real, Worker compilado, D1/R2 desechables y OAuth simulado; no producción.",
+  "checks": 215,
+  "automatedAccessibilityAnalyses": 56,
+  "automaticViolations": 0,
+  "files": {
+    "consola.json": "db74e4bf7747d31f1d3786aff7908ca47ea8e6f7aed9676e45a3612d14c5e9ba",
+    "script-editor-1440-dark.png": "8f7f0b47b4e695433d331e24b0d51964ebcd788504924563a090f2fa026229d3",
+    "capturas-fallback-320-dark.png": "00f669328ab2623ed6d3e5ff38cc15ee85d10f923e60dd7eb2f8e6f85e821eb3",
+    "activos-accesibilidad.json": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773",
+    "accesibilidad.json": "0643e9b34534f6ed16938a94ac08353f8eb399f6ab9ee82137232c270d0fb5b5",
+    "resultados.json": "9ac560b0f33f6a3cebfba43146d1962e597eaa7a1f98eb5792fd05b9ba952400",
+    "script-editor-320-dark.png": "31445b01562cb0b3df2b56eb6563f496dedff584f601abdf24ac1668849f4bc7",
+    "limites.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "script-editor-320-light.png": "6ecc4346af9b0963f85051bb4f0ba79b0d018b92e4bb662c03ccbe9820872bac",
+    "scripts-accesibilidad.json": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773",
+    "capturas-fallback-320-light.png": "97df51efcb57716419e516c79b24d2e01674a72addf65ceaf011fec5fad95bae"
+  }
+}

@@ -1,0 +1,15 @@
+$ npm exec --yes --package=node@22.22.0 -- node --check work/original-journal-pages.mjs
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+(node:22) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/workspace/scratch/04fd2a9fe152/Tradeify.web/work/original-journal-pages.mjs:9
+ const merged=new Map(current.map(trade=>[trade.id,trade] as const));
+                                                        ^
+
+SyntaxError: missing ) after argument list
+    at checkSyntax (node:internal/main/check_syntax:74:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+Node.js v22.22.0
+
+Exit: 1

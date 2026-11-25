@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-11-23T04:10:16.885Z",
+  "branch": "mejoras-v2-2026-11-18",
+  "initialCommit": "69521bea76ce97e5881f81a6b721619cabfcca4d",
+  "historicalRequiredAncestor": "404542cbbfa52bbaebfe67cd3644998b554b30ed",
+  "verifiedCodeCommit": "ac044966838861dbd9288f16a0a02056c63ad48f",
+  "evidenceCommit": "6936c042d7a61b3ce285d222e9a653460712c83a",
+  "native": {
+    "sourceCommit": "ac044966838861dbd9288f16a0a02056c63ad48f",
+    "runId": 45107587077,
+    "conclusion": "success",
+    "applicationChecks": 215,
+    "artifact": {
+      "id": 14788740787,
+      "name": "app-browser-ac044966838861dbd9288f16a0a02056c63ad48f",
+      "size_in_bytes": 42988079,
+      "url": "https://api.github.com/repos/tradeifyweb2026-ship-it/Tradeify.web/actions/artifacts/14788740787",
+      "archive_download_url": "https://api.github.com/repos/tradeifyweb2026-ship-it/Tradeify.web/actions/artifacts/14788740787/zip",
+      "expired": false,
+      "created_at": "2026-11-23T03:49:26Z",
+      "expires_at": "2026-12-07T03:49:24Z",
+      "updated_at": "2026-11-23T03:49:26Z",
+      "digest": "sha256:19965078e2a1ae1e692fbf54cdf05e9caca55b4b465813a7d48cb874dee07678",
+      "workflow_run": {
+        "id": 45107587077,
+        "repository_id": 1460508067,
+        "head_repository_id": 1460508067,
+        "head_branch": "mejoras-v2-2026-11-18",
+        "head_sha": "ac044966838861dbd9288f16a0a02056c63ad48f"
+      }
+    },
+    "scope": "Real Chromium, compiled Worker, disposable D1/R2 and simulated OAuth. No production certification.",
+    "sitesApi": true
+  },
+  "nativeAccessibility": {
+    "analyses": 56,
+    "violations": 0,
+    "exceptions": 0,
+    "savedPngs": 5
+  },
+  "local": {
+    "sourceCommit": "bfef507157bd2ba8dce6a63aa2b1f9ebb4933438",
+    "passedCommands": 17,
+    "failedCommands": 0,
+    "knownDevelopmentModerateAdvisories": 4,
+    "productionAdvisories": 0,
+    "result": "final/resultados.json"
+  },
+  "operationalRecovery": {
+    "populatedTables": 29,
+    "schemaObjects": 80,
+    "r2Objects": 3,
+    "scope": "disposable resources, not production"
+  },
+  "security": {
+    "deniedReadCombinations": 70,
+    "deniedWriteCombinations": 40,
+    "scriptContentEncryptedInBrowser": true,
+    "serverVerifiesPlaintextLines": false,
+    "normalEditorLineLimit": 1000,
+    "normalCodeBytes": 131072,
+    "ownerCodeBytes": 524288,
+    "normalBudgetBytes": 5242880,
+    "ownerBudgetBytes": 26214400
+  },
+  "completed": [
+    "personal asset catalog and confirmed grouping",
+    "private encrypted script library",
+    "private capture fallback"
+  ],
+  "notDelivered": [
+    "Terminal shared-card prototypes and R/% integration without commit",
+    "public snapshot and real integrated QR",
+    "remaining UX and overall release gates"
+  ],
+  "environment": {
+    "status": "unavailable",
+    "error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+    "localChanges": "must inspect and preserve on recovery; not certified lost or saved"
+  },
+  "protectedRefs": {
+    "main": "913425d042c681d1682bd7df11facda70d26c4d2",
+    "version-anterior-2026-11-18": "913425d042c681d1682bd7df11facda70d26c4d2"
+  },
+  "publication": {
+    "published": false,
+    "productionMigrations": false,
+    "secretsChanged": false,
+    "realUserDataChanged": false,
+    "readyForDefinitiveRelease": false
+  }
+}

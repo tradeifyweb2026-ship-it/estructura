@@ -1,0 +1,59 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 test:queries
+> node tests/check-server-query.mjs && node tests/check-sections.mjs
+
+Consultas D1: 10000 operaciones; paginación, 4 órdenes, filtros, métricas completas, cohortes históricas, índices y conflictos concurrentes OK.
+{
+  "scope": "local; series evaluadas en Worker; no latencia ni factura de producción",
+  "metrics": [
+    {
+      "count": 100,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 0.40287086,
+      "responseBytes": 2386,
+      "rawBytes": 181862,
+      "heapDelta": 17146128
+    },
+    {
+      "count": 1000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 0.6547285740000006,
+      "responseBytes": 2463,
+      "rawBytes": 1818662,
+      "heapDelta": 45105704
+    },
+    {
+      "count": 10000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 4.369966055999997,
+      "responseBytes": 2516,
+      "rawBytes": 18186558,
+      "heapDelta": 23537968
+    },
+    {
+      "count": 20000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 9.186006517000001,
+      "responseBytes": 2536,
+      "rawBytes": 36373126,
+      "heapDelta": 101081912
+    }
+  ]
+}

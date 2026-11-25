@@ -1,0 +1,138 @@
+
+> site-creator-vinext-starter@0.1.0 test:recovery
+> node tests/check-operational-recovery.mjs
+
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "Dos D1/R2 locales independientes, cuentas ficticias, Google simulado; copia lógica en memoria de todas las tablas y todos los blobs. No es backup real ni prueba de Time Travel, KMS o plan remoto.",
+  "rollbackSourceCommit": null,
+  "d1PhysicalIntegrity": "No verificable mediante PRAGMA integrity_check: API D1 devuelve SQLITE_AUTH",
+  "sqliteLogicalBackupIntegrity": "ok; esquema/datos/índices/triggers del respaldo reconstruidos en SQLite independiente",
+  "tables": [
+    {
+      "name": "access_invitations",
+      "rows": 1
+    },
+    {
+      "name": "access_settings",
+      "rows": 1
+    },
+    {
+      "name": "accounts",
+      "rows": 5
+    },
+    {
+      "name": "admin_alert_state",
+      "rows": 1
+    },
+    {
+      "name": "admin_events",
+      "rows": 5
+    },
+    {
+      "name": "attachments",
+      "rows": 2
+    },
+    {
+      "name": "auth_sessions",
+      "rows": 6
+    },
+    {
+      "name": "d1_migrations",
+      "rows": 1
+    },
+    {
+      "name": "daily_quote_progress",
+      "rows": 1
+    },
+    {
+      "name": "journal_revisions",
+      "rows": 2
+    },
+    {
+      "name": "journal_section_cache",
+      "rows": 1
+    },
+    {
+      "name": "login_codes",
+      "rows": 1
+    },
+    {
+      "name": "maintenance_state",
+      "rows": 1
+    },
+    {
+      "name": "operational_incidents",
+      "rows": 1
+    },
+    {
+      "name": "plans",
+      "rows": 1
+    },
+    {
+      "name": "quote_deliveries",
+      "rows": 1
+    },
+    {
+      "name": "quote_favorites",
+      "rows": 1
+    },
+    {
+      "name": "quote_state",
+      "rows": 1
+    },
+    {
+      "name": "restore_receipts",
+      "rows": 1
+    },
+    {
+      "name": "reviews",
+      "rows": 4
+    },
+    {
+      "name": "setups",
+      "rows": 6
+    },
+    {
+      "name": "storage_deletions",
+      "rows": 1
+    },
+    {
+      "name": "trades",
+      "rows": 66
+    },
+    {
+      "name": "user_limits",
+      "rows": 1
+    },
+    {
+      "name": "users",
+      "rows": 6
+    }
+  ],
+  "schemaObjects": 62,
+  "r2Objects": 3,
+  "passed": [
+    "Preparar datos de todas las familias, versiones, cuotas, auditoría y capturas",
+    "Manifiesto rechaza corrupción antes de escribir en destino",
+    "Restaurar R2 privado y después D1 atómicamente en otro recurso desechable",
+    "Esquema, cada tabla, versiones, relaciones, índices y bytes recuperados coinciden",
+    "Autenticación restaurada, consultas completas, aislamiento y capturas privadas",
+    "Cola recuperada se reanuda sin borrar capturas vinculadas; sesiones se revocan antes de reabrir"
+  ]
+}
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 401 }

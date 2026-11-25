@@ -1,0 +1,28 @@
+No config path provided, using default 'drizzle.config.ts'
+Reading config file '/workspace/scratch/04fd2a9fe152/Tradeify.web/drizzle.config.ts'
+23 tables
+access_settings 3 columns 0 indexes 0 fks
+accounts 4 columns 0 indexes 0 fks
+admin_alert_state 5 columns 0 indexes 0 fks
+admin_events 6 columns 0 indexes 0 fks
+attachments 5 columns 0 indexes 1 fks
+auth_sessions 6 columns 1 indexes 0 fks
+daily_quote_progress 3 columns 0 indexes 0 fks
+access_invitations 2 columns 0 indexes 0 fks
+journal_revisions 2 columns 0 indexes 0 fks
+login_codes 5 columns 1 indexes 0 fks
+maintenance_state 8 columns 0 indexes 0 fks
+operational_incidents 4 columns 0 indexes 0 fks
+plans 3 columns 0 indexes 0 fks
+quote_deliveries 8 columns 2 indexes 0 fks
+quote_favorites 4 columns 0 indexes 0 fks
+quote_state 5 columns 0 indexes 0 fks
+restore_receipts 4 columns 0 indexes 0 fks
+reviews 5 columns 0 indexes 0 fks
+journal_section_cache 5 columns 1 indexes 0 fks
+setups 4 columns 0 indexes 0 fks
+trades 8 columns 6 indexes 2 fks
+user_limits 3 columns 0 indexes 0 fks
+users 7 columns 0 indexes 0 fks
+
+No schema changes, nothing to migrate 😴

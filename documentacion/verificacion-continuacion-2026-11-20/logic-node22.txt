@@ -1,0 +1,52 @@
+$ npm exec --yes --package=node@22.22.0 -- node scripts/check-v2.mjs
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+(node:1159) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1166) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Sintaxis JavaScript: 48 archivos OK.
+(node:1509) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estadísticas financieras: resultados, cobertura, factores, expectativa, curva, drawdown, recuperación, rachas, BE y costes OK.
+(node:1516) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Drawdown: máximos históricos/diarios/totales, parciales, fases, límites nominales y cobertura incompleta OK.
+(node:1523) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Reconciliación local: guardado, metadatos, revisiones, eliminación y referencias OK.
+(node:1530) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Riesgo: cobertura, parciales fechados, long/short, BE, cuentas y límites OK.
+(node:1537) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Restauración: versiones históricas, duplicados, referencias, conflictos y lotes OK.
+(node:1544) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Pantallas de acceso: estados, escapado, JSON privado y borradores incompletos verificados.
+(node:1551) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Calculadoras: 15 casos OK.
+Calculadoras adicionales: 17 casos OK.
+(node:1558) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Gestión de parciales: 7 casos OK.
+Regresión de parciales: ceros, long/short, cierre completo, stops inválidos y precisión OK.
+(node:1565) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Cuentas: 8 casos OK.
+(node:1572) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Restore compare: 6 casos OK
+(node:1579) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estados de acceso: 10 casos OK
+(node:1586) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estadísticas y meses: 16 casos OK
+(node:1593) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Cobertura monetaria: 7 casos OK.
+(node:1600) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Paginación y capturas: 8 casos OK.
+Módulos: 15/15 aprobados

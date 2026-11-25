@@ -1,0 +1,482 @@
+[
+  {
+    "section": "resumen",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "bitacora",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estadisticas",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "psicologia",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "cuentas",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estrategias",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "riesgo",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "revision",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "mercados",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "calculadoras",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "configuracion",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "ayuda",
+    "width": 390,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "resumen",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "bitacora",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estadisticas",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "psicologia",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "cuentas",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estrategias",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "riesgo",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "revision",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "mercados",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "calculadoras",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "configuracion",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "ayuda",
+    "width": 390,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "resumen",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "bitacora",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estadisticas",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "psicologia",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "cuentas",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estrategias",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "riesgo",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "revision",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "mercados",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "calculadoras",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "configuracion",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "ayuda",
+    "width": 1440,
+    "theme": "light",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "resumen",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "bitacora",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estadisticas",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "psicologia",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "cuentas",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "estrategias",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "riesgo",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "revision",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "mercados",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "calculadoras",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "configuracion",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  },
+  {
+    "section": "ayuda",
+    "width": 1440,
+    "theme": "dark",
+    "engine": {
+      "name": "axe-core",
+      "version": "4.11.4"
+    },
+    "violations": []
+  }
+]

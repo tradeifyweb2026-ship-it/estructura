@@ -1,0 +1,53 @@
+{
+  "scope": "local; series evaluadas en Worker; no latencia ni factura de producción",
+  "metrics": [
+    {
+      "count": 100,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 0.4686808180000003,
+      "responseBytes": 2386,
+      "rawBytes": 181862,
+      "heapDelta": 17234392
+    },
+    {
+      "count": 1000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 0.5820022309999995,
+      "responseBytes": 2463,
+      "rawBytes": 1818662,
+      "heapDelta": 47253904
+    },
+    {
+      "count": 10000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 3.907246135000001,
+      "responseBytes": 2516,
+      "rawBytes": 18186558,
+      "heapDelta": 16098624
+    },
+    {
+      "count": 20000,
+      "preparedStatements": {
+        "coldPerSection": 11,
+        "warmPerSection": 2
+      },
+      "rawTradesInSectionResponses": 0,
+      "seconds": 9.225502850000005,
+      "responseBytes": 2536,
+      "rawBytes": 36373126,
+      "heapDelta": 81823384
+    }
+  ]
+}

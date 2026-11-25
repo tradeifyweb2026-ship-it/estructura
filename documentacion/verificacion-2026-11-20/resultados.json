@@ -1,0 +1,215 @@
+{
+  "dateLocal": "2026-11-20",
+  "initialCommit": "c95398c66414aef8ea843d95b6b464d16e47d871",
+  "checks": [
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "log": "typecheck.txt",
+      "scope": "local"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "log": "lint.txt",
+      "scope": "local"
+    },
+    {
+      "name": "logic",
+      "command": [
+        "npm",
+        "run",
+        "test:logic"
+      ],
+      "exitCode": 0,
+      "log": "logic.txt",
+      "scope": "local"
+    },
+    {
+      "name": "restore-and-migrations",
+      "command": [
+        "npm",
+        "run",
+        "test:restore"
+      ],
+      "exitCode": 0,
+      "log": "restore-and-migrations.txt",
+      "scope": "local"
+    },
+    {
+      "name": "exports",
+      "command": [
+        "npm",
+        "run",
+        "test:exports"
+      ],
+      "exitCode": 0,
+      "log": "exports.txt",
+      "scope": "local"
+    },
+    {
+      "name": "check-markets",
+      "command": [
+        "node",
+        "tests/check-markets.mjs"
+      ],
+      "exitCode": 0,
+      "log": "check-markets.txt",
+      "scope": "local"
+    },
+    {
+      "name": "check-capture-links",
+      "command": [
+        "node",
+        "tests/check-capture-links.mjs"
+      ],
+      "exitCode": 0,
+      "log": "check-capture-links.txt",
+      "scope": "local"
+    },
+    {
+      "name": "check-capture-failures",
+      "command": [
+        "node",
+        "tests/check-capture-failures.mjs"
+      ],
+      "exitCode": 0,
+      "log": "check-capture-failures.txt",
+      "scope": "local"
+    },
+    {
+      "name": "build-sites",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "log": "build-sites.txt",
+      "scope": "local"
+    },
+    {
+      "name": "api",
+      "command": [
+        "npm",
+        "run",
+        "test:api"
+      ],
+      "exitCode": 0,
+      "log": "api.txt",
+      "scope": "compiled Worker, disposable D1/R2, simulated Sites identity"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "log": "build-cloudflare-r2.txt",
+      "scope": "compile only, fixture D1 ID and R2 bucket; no deploy"
+    },
+    {
+      "name": "cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "log": "cloudflare-r2.txt",
+      "scope": "compiled Worker, disposable D1/R2, simulated Google"
+    },
+    {
+      "name": "build-cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "log": "build-cloudflare-no-r2.txt",
+      "scope": "compile only, fixture D1 ID, no R2; no deploy"
+    },
+    {
+      "name": "cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "log": "cloudflare-no-r2.txt",
+      "scope": "compiled Worker, disposable D1, simulated Google, no R2"
+    },
+    {
+      "name": "dry-run-cloudflare",
+      "command": [
+        "node",
+        "node_modules/wrangler/bin/wrangler.js",
+        "deploy",
+        "--dry-run",
+        "--config",
+        "dist/server/wrangler.json",
+        "--outdir",
+        "work/cloudflare-package"
+      ],
+      "exitCode": 0,
+      "log": "dry-run-cloudflare.txt",
+      "scope": "packaging only; fixture bindings; no remote publication"
+    },
+    {
+      "name": "audit-production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--json"
+      ],
+      "exitCode": 0,
+      "log": "audit-production.txt",
+      "scope": "local"
+    },
+    {
+      "name": "audit-all",
+      "command": [
+        "npm",
+        "audit",
+        "--json"
+      ],
+      "exitCode": 1,
+      "log": "audit-all.txt",
+      "scope": "local"
+    },
+    {
+      "name": "logic-node22",
+      "command": [
+        "npm",
+        "exec",
+        "--yes",
+        "--package=node@22.22.0",
+        "--",
+        "node",
+        "scripts/check-v2.mjs"
+      ],
+      "exitCode": 0,
+      "log": "logic-node22.txt",
+      "scope": "Node 22.22.0"
+    }
+  ],
+  "testedCodeCommit": "f4933f4a930453f1d3cc08126f1566f7b18ba5eb",
+  "productionDeployment": "not attempted; mandatory requirements incomplete",
+  "ui": "blocked: local Chromium socket restriction and remote localhost connection refused",
+  "logNormalization": "ANSI control sequences and trailing whitespace removed; diagnostic content and exit codes preserved"
+}

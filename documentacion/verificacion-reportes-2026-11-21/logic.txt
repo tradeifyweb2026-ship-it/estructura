@@ -1,0 +1,23 @@
+
+> site-creator-vinext-starter@0.1.0 test:logic
+> node scripts/check-v2.mjs
+
+Sintaxis JavaScript: 50 archivos OK.
+Estadísticas financieras: resultados, cobertura, factores, expectativa, curva, drawdown, recuperación, rachas, BE y costes OK.
+Drawdown: máximos históricos/diarios/totales, parciales, fases, límites nominales y cobertura incompleta OK.
+Reconciliación local: guardado, metadatos, revisiones, eliminación y referencias OK.
+Riesgo: cobertura, parciales fechados, long/short, BE, cuentas y límites OK.
+Restauración: versiones históricas, duplicados, referencias, conflictos y lotes OK.
+Pantallas de acceso: estados, escapado, JSON privado y borradores incompletos verificados.
+Calculadoras: 15 casos OK.
+Calculadoras adicionales: 17 casos OK.
+Gestión de parciales: 7 casos OK.
+Regresión de parciales: ceros, long/short, cierre completo, stops inválidos y precisión OK.
+Cuentas: 8 casos OK.
+Restore compare: 6 casos OK
+Estados de acceso: 10 casos OK
+Estadísticas y meses: 16 casos OK
+Cobertura monetaria: 7 casos OK.
+Paginación y capturas: 8 casos OK.
+Módulos: 15/15 aprobados
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.

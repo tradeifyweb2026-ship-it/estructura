@@ -1,0 +1,881 @@
+{
+  "results": [
+    {
+      "name": "Bienvenida",
+      "status": "passed"
+    },
+    {
+      "name": "Sesión autenticada",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "resumen-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "bitacora-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estadisticas-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "psicologia-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "cuentas-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "estrategias-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "riesgo-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "revision-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "mercados-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "calculadoras-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "configuracion-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "ayuda-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "Diez calculadoras: valores válidos, vacíos y decimales",
+      "status": "passed"
+    },
+    {
+      "name": "Ayuda: búsqueda, categorías, guía y foco de teclado",
+      "status": "passed"
+    },
+    {
+      "name": "Bitácora: búsqueda, estado, orden, páginas y vacíos",
+      "status": "passed"
+    },
+    {
+      "name": "Curva interactiva, cuenta y periodo",
+      "status": "passed"
+    },
+    {
+      "name": "Alta, parcial, stop actual, persistencia, edición, cierre y eliminación",
+      "status": "passed"
+    },
+    {
+      "name": "Capturas: página y error 404 sin imágenes rotas ni huecos",
+      "status": "passed"
+    },
+    {
+      "name": "Activos: catálogo vacío, creación con + y borrador financiero intacto",
+      "status": "passed"
+    },
+    {
+      "name": "Activos: favoritos, historial confirmado, estadísticas y respaldo privado",
+      "status": "passed"
+    },
+    {
+      "name": "Scripts: cifrado, editor local, 1.000 líneas, móvil y datos privados",
+      "status": "passed"
+    },
+    {
+      "name": "Scripts: bloqueo, recuperación, exportación privada y restauración idempotente",
+      "status": "passed"
+    },
+    {
+      "name": "Scripts: conflicto y desconexión conservan cambios y borrador cifrado",
+      "status": "passed"
+    },
+    {
+      "name": "Scripts: propietario guarda más de 1.000 líneas y elimina solo su biblioteca",
+      "status": "passed"
+    },
+    {
+      "name": "Terminal: privacidad independiente, R/porcentaje aprobado y variantes móviles",
+      "status": "passed"
+    },
+    {
+      "name": "QR: snapshot público confirmado, PNG decodificable, ocultación y revocación",
+      "status": "passed"
+    },
+    {
+      "name": "UX: navegación agrupada y respaldo privado completo con confirmación accesible",
+      "status": "passed"
+    },
+    {
+      "name": "UX: quitar movimientos y restaurar estrategias requiere confirmar y conserva snapshots",
+      "status": "passed"
+    },
+    {
+      "name": "Revisión semanal y mensual: guardado y persistencia",
+      "status": "passed"
+    },
+    {
+      "name": "Frases: favoritas, filtros, preferencias y cola sin conexión",
+      "status": "passed"
+    },
+    {
+      "name": "Restauración JSON: diagnóstico de archivo inválido y foco",
+      "status": "passed"
+    },
+    {
+      "name": "Restauración JSON válida: vista previa, confirmación y persistencia",
+      "status": "passed"
+    },
+    {
+      "name": "Importación CSV: apertura y plantilla",
+      "status": "passed"
+    },
+    {
+      "name": "Reportes contextuales: todas las secciones",
+      "status": "passed"
+    },
+    {
+      "name": "Reportes individual y mensual desde sus contextos",
+      "status": "passed"
+    },
+    {
+      "name": "Descargas reales XLSX, CSV y PNG con privacidad",
+      "status": "passed"
+    },
+    {
+      "name": "Metadatos concurrentes: cuenta creada desde otro dispositivo",
+      "status": "passed"
+    },
+    {
+      "name": "Cuentas, movimientos, límites y estrategias: formularios guardados",
+      "status": "passed"
+    },
+    {
+      "name": "Foco atrapado y formularios en siete anchos y dos temas",
+      "status": "passed"
+    },
+    {
+      "name": "Administración: búsqueda, recursos, mantenimiento reversible y auditoría",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-320-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-320-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-360-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-360-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-390-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-390-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-768-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-768-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1024-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1024-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1440-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1440-dark",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1920-light",
+      "status": "passed"
+    },
+    {
+      "name": "administracion-1920-dark",
+      "status": "passed"
+    },
+    {
+      "name": "Calculadora interactiva",
+      "status": "passed"
+    },
+    {
+      "name": "Reporte contextual y privacidad",
+      "status": "passed"
+    },
+    {
+      "name": "Cierre de sesión conserva registros",
+      "status": "passed"
+    },
+    {
+      "name": "Acceso denegado · pending",
+      "status": "passed"
+    },
+    {
+      "name": "Acceso denegado · suspended",
+      "status": "passed"
+    },
+    {
+      "name": "Acceso denegado · expired",
+      "status": "passed"
+    },
+    {
+      "name": "Acceso denegado · blocked",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

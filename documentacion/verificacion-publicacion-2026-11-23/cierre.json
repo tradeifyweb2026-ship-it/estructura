@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-23",
+  "timezone": "America/Guayaquil",
+  "initialCommit": "7758c55007b07339fa74de2c66ba0a32ba209b89",
+  "verifiedSource": "2272e9580a795411dca035a2ec064869c2a57752",
+  "branch": "mejoras-v2-2026-11-18",
+  "productionPublished": false,
+  "stagingPublished": false,
+  "productionMigrationsApplied": false,
+  "local": {
+    "passed": 19,
+    "knownAdvisories": 1,
+    "failed": 0
+  },
+  "browser": {
+    "runId": 45202177791,
+    "jobId": 137788261739,
+    "conclusion": "success",
+    "passed": 219,
+    "failed": 0,
+    "pageErrors": 0,
+    "axeAnalyses": 68,
+    "axeViolations": 0,
+    "consoleEntries": 24,
+    "unexpectedConsoleEntries": 0,
+    "artifactId": 14832468830,
+    "archiveBytes": 51269394,
+    "archiveSha256": "ae0532747963b66319cdb692420e95fdc8897cfabfe1571876ea1d9976f31ffc",
+    "scope": "Real Chromium, disposable D1/R2 and simulated app OAuth; no deployed V2 certification"
+  },
+  "tradingview": {
+    "runId": 45202177758,
+    "jobId": 137788257836,
+    "conclusion": "success",
+    "passed": 12,
+    "artifactId": 14831698439,
+    "archiveBytes": 2940409,
+    "archiveSha256": "4cac9520136ad6ec036273a8db457e30a183a70baf890477b0fd2eae628e32b8",
+    "scope": "Chromium con proveedor TradingView real, app y Google ficticios. DOM/screenshot/HTTP prueban carga; no exactitud de precios ni OAuth de producción."
+  },
+  "stagingFixture": {
+    "localOnly": true,
+    "sourceClean": true,
+    "source": "2272e9580a795411dca035a2ec064869c2a57752",
+    "ready": true,
+    "foreignKeyViolations": 0,
+    "migrations": 17,
+    "artifactFingerprint": "4e9801884fd6d51e72eb8557aa7d28aa5318be44f4e272043e0429c979433005",
+    "accountAndResourceIds": "FICTIONAL; never used for remote operations"
+  },
+  "hosting": {
+    "observedUrl": "https://tradeify.tradeify-web-2026.workers.dev/",
+    "observedWorker": "tradeify",
+    "observedAccountIdFromGitHubCheck": "737181f887017ea0f0cdbd6acd6a45d0",
+    "servedVersion": "unverified",
+    "productionD1": "uninspected",
+    "productionR2": "uninspected",
+    "realTradeifyGoogleOAuth": "unverified",
+    "cloudflareAuthentication": "not completed: secure Google sign-in reported wrong password; no further automatic attempts",
+    "sitesProjectLookup": "NOT_FOUND with current connector access"
+  },
+  "externalGates": [
+    "Complete secure account access and inspect real resources",
+    "Separate closed staging deployment and real Google/R2/browser smoke",
+    "Recoverable real D1+R2 backup and compatible rollback rehearsal",
+    "Legal/contact/retention/content/trademark/budget decisions",
+    "Specific production migration approval if applicable",
+    "Final approval of exact production deployment SHA; main integration approval separate"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "ref": "refs/heads/main",
+    "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+  },
+  {
+    "ref": "refs/heads/version-anterior-2026-11-18",
+    "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+  },
+  {
+    "ref": "refs/heads/mejoras-v2-2026-11-18",
+    "sha": "2272e9580a795411dca035a2ec064869c2a57752"
+  }
+]

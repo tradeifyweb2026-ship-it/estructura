@@ -1,0 +1,66 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 test:advanced
+> node tests/check-advanced-modules.mjs && node tests/check-asset-catalog.mjs && node tests/check-script-crypto.mjs && node tests/check-private-scripts.mjs && node tests/check-script-editor.mjs && node tests/check-share-return.mjs && node tests/check-terminal-card.mjs && node tests/check-public-shares.mjs && node tests/check-terminal-qr.mjs
+
+{
+  "scope": "D1 y datos desechables; sin servicios reales",
+  "passed": [
+    "Preferencias con validación y control de versión",
+    "Entrega diaria idempotente y catálogo de procedencia original",
+    "Solicitudes manuales concurrentes y recuperación tras respuesta perdida",
+    "Sin repeticiones antes de agotar cada ciclo",
+    "Favoritas persistentes, búsqueda, filtros, orden y páginas",
+    "Migración conserva registros de procedencia desconocida sin atribuir autores",
+    "Importar historial marca frases como vistas y evita repetirlas antes de agotar el ciclo",
+    "Horario, desconexión y preferencias desactivadas",
+    "Mantenimiento reversible, conflictos y auditoría atómica",
+    "Incidencias agrupadas sin secretos ni peticiones completas",
+    "Alertas paginadas y búsqueda sin omitir usuarios fuera de la primera página",
+    "Ayuda completa, diez fórmulas, FAQ, glosario, búsqueda sin acentos"
+  ]
+}
+{
+  "scope": "D1 desechable; catálogo real sin OAuth ni infraestructura productiva",
+  "passed": [
+    "Catálogo vacío: no crea activos ni asigna alias automáticamente",
+    "Normalización, duplicados internos y asignación masiva rechazados",
+    "CRUD privado, búsqueda por nombre/alias y favorito",
+    "Aislamiento: otro usuario puede usar el mismo alias, sin leer ni editar registros ajenos",
+    "Colisión de alias revierte nombre, versión y todos los símbolos del lote",
+    "Versiones concurrentes, nombres normalizados y paginación consistente",
+    "Asociación explícita, concurrencia y conservación financiera exacta",
+    "Mil operaciones asociadas: páginas sin pérdidas/duplicados, filtros y totales completos",
+    "Respaldo privado: repetición idempotente sin sobrescribir ni duplicar símbolos",
+    "Borrado de activo y eliminación de usuario limpian alias con FK"
+  ]
+}
+PASS scripts crypto: AES-GCM roundtrip y clave no extraíble
+PASS scripts crypto: Desbloqueo y rechazo de clave errónea sin revelar datos
+PASS scripts crypto: Identidad, versión y campo están autenticados
+PASS scripts crypto: Alteraciones, formato no canónico y algoritmos manipulados se rechazan
+PASS scripts crypto: IV aleatorio distinto por cifrado y por campo
+PASS scripts crypto: Recuperación cambia envoltura, conserva datos y requiere el código
+PASS scripts crypto: Política de líneas del editor y límite real de bytes son independientes
+PASS scripts crypto: Borradores incompletos o con más líneas se cifran sin convertirse en guardados válidos
+PASS scripts crypto: Nombres, descripciones y claves personales inválidas se rechazan
+check-script-crypto: 9 grupos aprobados. Solo primitivas; no acredita editor, API ni recuperación operacional.
+PASS private scripts: Bóveda vacía, registro idempotente y sobres estrictos sin texto/rol/usuario
+PASS private scripts: CRUD cifrado, lectura de código bajo demanda y aislamiento también del propietario
+PASS private scripts: Actualización CAS solo última versión; conflicto preserva contenido previo
+PASS private scripts: Cien scripts: páginas estables sin código, sin duplicados y revisión invalidada por mutación
+PASS private scripts: Límite de bytes del rol y cuotas atómicas, sin confiar en líneas del cliente
+PASS private scripts: Exportación cifrada completa y restauración idempotente sin sobrescribir
+PASS private scripts: Recuperación por versión, borrado individual y cascada propia conservan biblioteca ajena
+check-private-scripts: 7 grupos D1 aprobados, recursos desechables; no producción.
+check-script-editor: Enter real de CodeMirror conserva sangría y respeta su salto simulado en cinco casos. No es prueba visual ni compilador Pine.
+check-share-return: denominador registrado, neto explícito, parciales/costes sin duplicar y datos insuficientes comprobados. No equity ni rendimiento ajustado por flujos.
+check-terminal-card: 108 variantes SVG, privacidad, escape, dimensiones y seis PNG rasterizados. Prototipos, no reemplazan Chromium.
+PASS public shares: Confirmación explícita, campos mínimos, token aleatorio/hash y caducidad exacta
+PASS public shares: Opt-in por campo; porcentaje neto/capital y captura allowlist sin cuenta ni IDs
+PASS public shares: Ediciones no mutan snapshot; fuente obsoleta rechazada y revocación aislada
+PASS public shares: Límite real y atómico de 100 enlaces activos; lectura indexada y limpieza acotada
+PASS public shares: Edición concurrente entre lectura y transacción impide publicar una vista obsoleta
+PASS public shares: Borrar operación o cuenta elimina enlaces; usuarios ajenos se conservan
+check-public-shares: 6 grupos D1; snapshots mínimos, opt-in, CAS, aislamiento, expiración, cuotas y borrado. No producción ni certificación del QR.
+check-terminal-qr: 12 imágenes completas decodificadas independientemente; tres formatos/dos temas, PNG y JPEG 720px/calidad65. No certifica cámaras físicas ni plataformas de mensajería.

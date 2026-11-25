@@ -1,0 +1,3 @@
+Wrangler sin sesión autenticada.
+No se dispone de TRADEIFY_D1_ID real ni variables OAuth/bindings de producción verificadas.
+Sin migraciones remotas ni despliegue.

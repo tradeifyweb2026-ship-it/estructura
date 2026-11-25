@@ -1,0 +1,159 @@
+{
+  "scope": "D1 local desechable; datos ficticios, no respaldo ni migración de producción",
+  "from": "0005",
+  "to": "0016",
+  "legacyTables": [
+    {
+      "name": "access_invitations",
+      "rows": 1
+    },
+    {
+      "name": "access_settings",
+      "rows": 1
+    },
+    {
+      "name": "accounts",
+      "rows": 2
+    },
+    {
+      "name": "admin_events",
+      "rows": 1
+    },
+    {
+      "name": "attachments",
+      "rows": 1
+    },
+    {
+      "name": "auth_sessions",
+      "rows": 1
+    },
+    {
+      "name": "daily_quote_progress",
+      "rows": 1
+    },
+    {
+      "name": "login_codes",
+      "rows": 1
+    },
+    {
+      "name": "plans",
+      "rows": 1
+    },
+    {
+      "name": "reviews",
+      "rows": 1
+    },
+    {
+      "name": "setups",
+      "rows": 1
+    },
+    {
+      "name": "trades",
+      "rows": 1001
+    },
+    {
+      "name": "user_limits",
+      "rows": 1
+    },
+    {
+      "name": "users",
+      "rows": 2
+    }
+  ],
+  "steps": [
+    {
+      "name": "0006_restore_receipts.sql",
+      "sha256": "eb8a9decdb5e2c2575bcf60aa7fefc04070534df9f2e31c162899b4abdf996ee",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0007_individual_quotas.sql",
+      "sha256": "54fa9eef3d2c6e217911f90051d719f6cd84542de83b6d8b99d939a1c329872f",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0008_query_indexes_revisions.sql",
+      "sha256": "7afc0328e3da6afe2bb966510f4a5754829386b5f56f2e5481f1a0c21b195800",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0009_section_cache.sql",
+      "sha256": "503889515bf17aa98e26d6c24e6473c1e360ab20f24d9afb1190940b26e4f5e6",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0010_quote_library.sql",
+      "sha256": "9873ba0b6dfde23fdead944b9bd6ab72b9b39f8bed50d23910b74836b2f136fb",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0011_admin_operations.sql",
+      "sha256": "ee2e631d4bafb72ab365d2bdd516f6a4265410a826e21c495fc93fe3b372ffad",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0012_operational_incidents.sql",
+      "sha256": "90b88cf4f156302430d0a4ebc319e6efc78b9f8f09300143650d0a93471dba9f",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0013_storage_deletions.sql",
+      "sha256": "b269dc7f0e42ac7ac0fdf2e7dc2ede83d03d669d117b79092b3341516cf79729",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0014_asset_catalog.sql",
+      "sha256": "f2b3517aced39a26fa174f3cd3809ac260ecf868fe876e775421fe4acfe820af",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0015_private_scripts.sql",
+      "sha256": "915eba873e108c0aa29474aa00ec0ac912ec52e4fbe790d950a4c8558cb8f647",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    },
+    {
+      "name": "0016_public_trade_shares.sql",
+      "sha256": "d45b396b88196dbf2c110ec7bb92d67df9269715c71e8f6f2e8d1f6214ab4e1e",
+      "legacyTablesUnchanged": 14,
+      "foreignKeyViolations": 0
+    }
+  ],
+  "closedAccessPreserved": true,
+  "migrationRegistryPreserved": true,
+  "malformedJsonRejectsIndexMigrationAtomically": true,
+  "baseCommit": "1b8ecc0d19723807ced0848c5797f3abc189ffea",
+  "testFile": "tests/check-migration-upgrade.mjs",
+  "testSha256": "d717aca85c5a339f6b520899d76a7702aef291382d73d7b997b8e2ffa94c5963",
+  "checks": [
+    {
+      "command": "npm run test:restore",
+      "exitCode": 0,
+      "passed": true,
+      "log": "test-restore.txt"
+    },
+    {
+      "command": "npm run test:release",
+      "exitCode": 0,
+      "passed": true,
+      "log": "test-release.txt"
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "passed": true,
+      "log": "lint.txt"
+    }
+  ],
+  "remoteResourcesUsed": false,
+  "productionModified": false
+}

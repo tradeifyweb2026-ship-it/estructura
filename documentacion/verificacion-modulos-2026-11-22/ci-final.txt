@@ -1,0 +1,982 @@
+﻿2026-11-22T16:40:35.2255434Z Current runner version: '2.338.2'
+2026-11-22T16:40:35.2305314Z ##[group]Runner Image Provisioner
+2026-11-22T16:40:35.2306254Z Hosted Compute Agent
+2026-11-22T16:40:35.2306814Z Version: 20261111.635
+2026-11-22T16:40:35.2307396Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+2026-11-22T16:40:35.2328690Z Build Date: 2026-11-11T01:49:01Z
+2026-11-22T16:40:35.2329592Z Worker ID: {b85ae2e0-c507-4ca2-be77-6deacc59eb80}
+2026-11-22T16:40:35.2330365Z Region: us-east-1
+2026-11-22T16:40:35.2330925Z Cloud: AWS
+2026-11-22T16:40:35.2331454Z ##[endgroup]
+2026-11-22T16:40:35.2333118Z ##[group]Operating System
+2026-11-22T16:40:35.2333726Z Ubuntu
+2026-11-22T16:40:35.2334266Z 26.04.1
+2026-11-22T16:40:35.2334787Z LTS
+2026-11-22T16:40:35.2335267Z ##[endgroup]
+2026-11-22T16:40:35.2335829Z ##[group]Runner Image
+2026-11-22T16:40:35.2336399Z Image: ubuntu-26.04
+2026-11-22T16:40:35.2336962Z Version: 20261116.88.1
+2026-11-22T16:40:35.2338611Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.88/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-22T16:40:35.2340149Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.88
+2026-11-22T16:40:35.2341075Z ##[endgroup]
+2026-11-22T16:40:35.2342203Z ##[group]GITHUB_TOKEN Permissions
+2026-11-22T16:40:35.2344306Z Contents: read
+2026-11-22T16:40:35.2344933Z Metadata: read
+2026-11-22T16:40:35.2345447Z ##[endgroup]
+2026-11-22T16:40:35.2347658Z Secret source: Actions
+2026-11-22T16:40:35.2369236Z Cache mode: write
+2026-11-22T16:40:35.2370074Z Prepare workflow directory
+2026-11-22T16:40:35.2941236Z Prepare all required actions
+2026-11-22T16:40:35.2995509Z Getting action download info
+2026-11-22T16:40:35.4679749Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-22T16:40:37.2363245Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-22T16:40:37.4916898Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-22T16:40:37.8625338Z Complete job name: application
+2026-11-22T16:40:37.9394690Z ##[group]Run actions/checkout@v4
+2026-11-22T16:40:37.9395745Z with:
+2026-11-22T16:40:37.9396530Z   repository: tradeifyweb2026-ship-it/Tradeify.web
+2026-11-22T16:40:37.9403158Z   token: ***
+2026-11-22T16:40:37.9403880Z   ssh-strict: true
+2026-11-22T16:40:37.9404633Z   ssh-user: git
+2026-11-22T16:40:37.9405366Z   persist-credentials: true
+2026-11-22T16:40:37.9406147Z   clean: true
+2026-11-22T16:40:37.9406915Z   sparse-checkout-cone-mode: true
+2026-11-22T16:40:37.9407756Z   fetch-depth: 1
+2026-11-22T16:40:37.9408624Z   fetch-tags: false
+2026-11-22T16:40:37.9409409Z   show-progress: true
+2026-11-22T16:40:37.9410162Z   lfs: false
+2026-11-22T16:40:37.9410893Z   submodules: false
+2026-11-22T16:40:37.9411635Z   set-safe-directory: true
+2026-11-22T16:40:37.9412480Z   allow-unsafe-pr-checkout: false
+2026-11-22T16:40:37.9413519Z ##[endgroup]
+2026-11-22T16:40:41.0771849Z Syncing repository: tradeifyweb2026-ship-it/Tradeify.web
+2026-11-22T16:40:41.0773539Z ##[group]Getting Git version info
+2026-11-22T16:40:41.0774413Z Working directory is '/home/runner/work/Tradeify.web/Tradeify.web'
+2026-11-22T16:40:41.0780322Z [command]/usr/bin/git version
+2026-11-22T16:40:41.0891710Z git version 2.56.1
+2026-11-22T16:40:41.0911020Z ##[endgroup]
+2026-11-22T16:40:41.0922796Z Temporarily overriding HOME='/home/runner/work/_temp/e08278ad-42bf-4451-895f-84a302ad220d' before making global git config changes
+2026-11-22T16:40:41.0925250Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-22T16:40:41.0926829Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Tradeify.web/Tradeify.web
+2026-11-22T16:40:41.1406503Z Deleting the contents of '/home/runner/work/Tradeify.web/Tradeify.web'
+2026-11-22T16:40:41.1429382Z ##[group]Initializing the repository
+2026-11-22T16:40:41.1440640Z [command]/usr/bin/git init /home/runner/work/Tradeify.web/Tradeify.web
+2026-11-22T16:40:41.2194179Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-22T16:40:41.2195264Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-22T16:40:41.2195750Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-22T16:40:41.2196118Z hint: call:
+2026-11-22T16:40:41.2196328Z hint:
+2026-11-22T16:40:41.2196669Z hint: 	git config --global init.defaultBranch <name>
+2026-11-22T16:40:41.2196962Z hint:
+2026-11-22T16:40:41.2197252Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-22T16:40:41.2197825Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-22T16:40:41.2198541Z hint:
+2026-11-22T16:40:41.2198770Z hint: 	git branch -m <name>
+2026-11-22T16:40:41.2199016Z hint:
+2026-11-22T16:40:41.2199323Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-22T16:40:41.2220915Z Initialized empty Git repository in /home/runner/work/Tradeify.web/Tradeify.web/.git/
+2026-11-22T16:40:41.2231196Z [command]/usr/bin/git remote add origin https://github.com/tradeifyweb2026-ship-it/Tradeify.web
+2026-11-22T16:40:41.2301131Z ##[endgroup]
+2026-11-22T16:40:41.2301955Z ##[group]Disabling automatic garbage collection
+2026-11-22T16:40:41.2303624Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-22T16:40:41.2328581Z ##[endgroup]
+2026-11-22T16:40:41.2329359Z ##[group]Setting up auth
+2026-11-22T16:40:41.2334106Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-22T16:40:41.2357190Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-22T16:40:41.7108836Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-22T16:40:41.7117707Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-22T16:40:41.7305319Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-22T16:40:41.7337245Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-22T16:40:41.7506817Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-22T16:40:41.7534759Z ##[endgroup]
+2026-11-22T16:40:41.7535439Z ##[group]Fetching the repository
+2026-11-22T16:40:41.7541896Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b806ca02151805500034c42a5dfe8327cbf006d4:refs/remotes/origin/mejoras-v2-2026-11-18
+2026-11-22T16:40:42.2066109Z From https://github.com/tradeifyweb2026-ship-it/Tradeify.web
+2026-11-22T16:40:42.2067119Z  * [new ref]         b806ca02151805500034c42a5dfe8327cbf006d4 -> origin/mejoras-v2-2026-11-18
+2026-11-22T16:40:42.2069208Z ##[endgroup]
+2026-11-22T16:40:42.2076596Z ##[group]Determining the checkout info
+2026-11-22T16:40:42.2077438Z ##[endgroup]
+2026-11-22T16:40:42.2077869Z [command]/usr/bin/git sparse-checkout disable
+2026-11-22T16:40:42.2127012Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-22T16:40:42.2192328Z ##[group]Checking out the ref
+2026-11-22T16:40:42.2200246Z [command]/usr/bin/git checkout --progress --force -B mejoras-v2-2026-11-18 refs/remotes/origin/mejoras-v2-2026-11-18
+2026-11-22T16:40:42.2440465Z Switched to a new branch 'mejoras-v2-2026-11-18'
+2026-11-22T16:40:42.2451711Z branch 'mejoras-v2-2026-11-18' set up to track 'origin/mejoras-v2-2026-11-18'.
+2026-11-22T16:40:42.2456494Z ##[endgroup]
+2026-11-22T16:40:42.2505212Z [command]/usr/bin/git log -1 --format=%H
+2026-11-22T16:40:42.2523371Z b806ca02151805500034c42a5dfe8327cbf006d4
+2026-11-22T16:40:42.2731434Z ##[group]Run actions/setup-node@v4
+2026-11-22T16:40:42.2731818Z with:
+2026-11-22T16:40:42.2732039Z   node-version: 24
+2026-11-22T16:40:42.2732251Z   cache: npm
+2026-11-22T16:40:42.2732464Z   always-auth: false
+2026-11-22T16:40:42.2732701Z   check-latest: false
+2026-11-22T16:40:42.2734462Z   token: ***
+2026-11-22T16:40:42.2734696Z ##[endgroup]
+2026-11-22T16:40:42.5785744Z (node:2280) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-22T16:40:42.5788583Z Found in cache @ /opt/hostedtoolcache/node/24.22.3/x64
+2026-11-22T16:40:42.5789683Z ##[group]Environment details
+2026-11-22T16:40:42.5806093Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-22T16:40:46.4453038Z node: v24.22.3
+2026-11-22T16:40:46.4453982Z npm: 11.19.1
+2026-11-22T16:40:46.4454495Z yarn: 1.22.22
+2026-11-22T16:40:46.4455356Z ##[endgroup]
+2026-11-22T16:40:46.4518803Z [command]/opt/hostedtoolcache/node/24.22.3/x64/bin/npm config get cache
+2026-11-22T16:40:46.7614037Z /home/runner/.npm
+2026-11-22T16:40:46.8974594Z Cache hit for: node-cache-Linux-x64-npm-75ebf9c98c9e8c54697c3fffa44e2c8e912ab3827a1cf1992cd19a3f96cb1485
+2026-11-22T16:40:46.9103638Z (node:2280) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-22T16:40:47.9537999Z Received 247463936 of 351649431 (70.4%), 236.0 MBs/sec
+2026-11-22T16:40:48.3553314Z Received 351649431 of 351649431 (100.0%), 239.2 MBs/sec
+2026-11-22T16:40:48.3560940Z Cache Size: ~335 MB (351649431 B)
+2026-11-22T16:40:48.3582990Z [command]/usr/bin/tar -xf /home/runner/work/_temp/3e64b612-a9a9-4cb8-b74d-394c6074dc26/cache.tzst -P -C /home/runner/work/Tradeify.web/Tradeify.web --use-compress-program unzstd
+2026-11-22T16:40:48.7002397Z Cache restored successfully
+2026-11-22T16:40:48.7117994Z Cache restored from key: node-cache-Linux-x64-npm-75ebf9c98c9e8c54697c3fffa44e2c8e912ab3827a1cf1992cd19a3f96cb1485
+2026-11-22T16:40:48.7322383Z ##[group]Run npm ci
+2026-11-22T16:40:48.7322722Z [36;1mnpm ci[0m
+2026-11-22T16:40:48.7735090Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:40:48.7735554Z ##[endgroup]
+2026-11-22T16:40:55.4190894Z npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+2026-11-22T16:40:55.5089044Z npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+2026-11-22T16:41:05.5256725Z 
+2026-11-22T16:41:05.5258429Z added 699 packages in 17s
+2026-11-22T16:41:05.5270609Z npm warn install-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-11-22T16:41:05.5271813Z npm warn install-scripts   esbuild@0.18.20 (postinstall: node install.js)
+2026-11-22T16:41:05.5272794Z npm warn install-scripts   esbuild@0.25.12 (postinstall: node install.js)
+2026-11-22T16:41:05.5273700Z npm warn install-scripts   esbuild@0.28.2 (postinstall: node install.js)
+2026-11-22T16:41:05.5275159Z npm warn install-scripts   unrs-resolver@1.11.1 (postinstall: napi-postinstall unrs-resolver 1.11.1 check)
+2026-11-22T16:41:05.5276112Z npm warn install-scripts   workerd@1.20261116.1 (postinstall: node install.js)
+2026-11-22T16:41:05.5276958Z npm warn install-scripts   workerd@1.20261117.1 (postinstall: node install.js)
+2026-11-22T16:41:05.5277612Z npm warn install-scripts
+2026-11-22T16:41:05.5278660Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+2026-11-22T16:41:05.5982827Z ##[group]Run npm install --prefix "$RUNNER_TEMP/tradeify-browser" --ignore-scripts playwright@1.62.1
+2026-11-22T16:41:05.5983490Z [36;1mnpm install --prefix "$RUNNER_TEMP/tradeify-browser" --ignore-scripts playwright@1.62.1[0m
+2026-11-22T16:41:05.6003004Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:41:05.6003396Z ##[endgroup]
+2026-11-22T16:41:06.7839407Z 
+2026-11-22T16:41:06.7840202Z added 2 packages in 1s
+2026-11-22T16:41:06.7950304Z ##[group]Run "$RUNNER_TEMP/tradeify-browser/node_modules/.bin/playwright" install --with-deps chromium
+2026-11-22T16:41:06.7951170Z [36;1m"$RUNNER_TEMP/tradeify-browser/node_modules/.bin/playwright" install --with-deps chromium[0m
+2026-11-22T16:41:06.7971405Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:41:06.7971693Z ##[endgroup]
+2026-11-22T16:41:07.1825199Z Installing dependencies...
+2026-11-22T16:41:07.2006803Z Switching to root user to install dependencies...
+2026-11-22T16:41:07.3268491Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]
+2026-11-22T16:41:07.3594777Z Get:6 https://packages.microsoft.com/ubuntu/26.04/prod resolute InRelease [3964 B]
+2026-11-22T16:41:07.4353116Z Get:7 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main amd64 Packages [178 kB]
+2026-11-22T16:41:07.4650208Z Hit:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute InRelease
+2026-11-22T16:41:07.4733191Z Get:8 https://packages.microsoft.com/ubuntu/26.04/prod resolute/main arm64 Packages [163 kB]
+2026-11-22T16:41:07.4800210Z Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+2026-11-22T16:41:07.5264980Z Get:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+2026-11-22T16:41:07.5689973Z Get:5 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+2026-11-22T16:41:07.5843177Z Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 Packages [902 kB]
+2026-11-22T16:41:07.6203806Z Get:10 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [200 kB]
+2026-11-22T16:41:07.6350894Z Get:11 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/universe amd64v3 Packages [393 kB]
+2026-11-22T16:41:07.6522553Z Get:12 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [124 kB]
+2026-11-22T16:41:07.6686581Z Get:13 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/restricted amd64v3 Packages [629 kB]
+2026-11-22T16:41:07.6882875Z Get:14 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-updates/restricted Translation-en [130 kB]
+2026-11-22T16:41:07.7024418Z Get:15 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-security/main amd64v3 Packages [722 kB]
+2026-11-22T16:41:07.7293852Z Get:16 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-security/main Translation-en [158 kB]
+2026-11-22T16:41:07.7449004Z Get:17 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-security/universe amd64v3 Packages [222 kB]
+2026-11-22T16:41:07.7610093Z Get:18 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute-security/universe Translation-en [72.7 kB]
+2026-11-22T16:41:16.8349159Z Fetched 4308 kB in 1s (8093 kB/s)
+2026-11-22T16:41:17.4560028Z Reading package lists...
+2026-11-22T16:41:17.4762259Z Reading package lists...
+2026-11-22T16:41:17.6171695Z Building dependency tree...
+2026-11-22T16:41:17.6177927Z Reading state information...
+2026-11-22T16:41:17.6496178Z libasound2t64 is already the newest version (1.2.15.3-1ubuntu1.1).
+2026-11-22T16:41:17.6497075Z libasound2t64 set to manually installed.
+2026-11-22T16:41:17.6497984Z libatk-bridge2.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+2026-11-22T16:41:17.6498917Z libatk-bridge2.0-0t64 set to manually installed.
+2026-11-22T16:41:17.6499567Z libatk1.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+2026-11-22T16:41:17.6500221Z libatk1.0-0t64 set to manually installed.
+2026-11-22T16:41:17.6500835Z libatspi2.0-0t64 is already the newest version (2.60.4-0ubuntu0.1).
+2026-11-22T16:41:17.6501446Z libatspi2.0-0t64 set to manually installed.
+2026-11-22T16:41:17.6502039Z libcairo2 is already the newest version (1.18.4-3).
+2026-11-22T16:41:17.6502571Z libcairo2 set to manually installed.
+2026-11-22T16:41:17.6503143Z libcups2t64 is already the newest version (2.4.16-1ubuntu1.3).
+2026-11-22T16:41:17.6503712Z libcups2t64 set to manually installed.
+2026-11-22T16:41:17.6504265Z libdbus-1-3 is already the newest version (1.16.2-2ubuntu4).
+2026-11-22T16:41:17.6505430Z libdbus-1-3 set to manually installed.
+2026-11-22T16:41:17.6506036Z libdrm2 is already the newest version (2.4.131-1).
+2026-11-22T16:41:17.6506706Z libdrm2 set to manually installed.
+2026-11-22T16:41:17.6507333Z libgbm1 is already the newest version (26.0.8-1ubuntu0.3).
+2026-11-22T16:41:17.6507870Z libgbm1 set to manually installed.
+2026-11-22T16:41:17.6508921Z libglib2.0-0t64 is already the newest version (2.88.0-1ubuntu0.1).
+2026-11-22T16:41:17.6509570Z libglib2.0-0t64 set to manually installed.
+2026-11-22T16:41:17.6529603Z libnspr4 is already the newest version (2:4.38.2-1ubuntu1).
+2026-11-22T16:41:17.6531437Z libnspr4 set to manually installed.
+2026-11-22T16:41:17.6532225Z libnss3 is already the newest version (2:3.120-1ubuntu2.2).
+2026-11-22T16:41:17.6532994Z libnss3 set to manually installed.
+2026-11-22T16:41:17.6533649Z libpango-1.0-0 is already the newest version (1.57.0-1).
+2026-11-22T16:41:17.6549199Z libpango-1.0-0 set to manually installed.
+2026-11-22T16:41:17.6551603Z libx11-6 is already the newest version (2:1.8.13-1ubuntu0.1).
+2026-11-22T16:41:17.6552260Z libx11-6 set to manually installed.
+2026-11-22T16:41:17.6552915Z libxcb1 is already the newest version (1.17.0-2ubuntu1).
+2026-11-22T16:41:17.6553822Z libxcb1 set to manually installed.
+2026-11-22T16:41:17.6554496Z libxcomposite1 is already the newest version (1:0.4.6-1build1).
+2026-11-22T16:41:17.6555092Z libxcomposite1 set to manually installed.
+2026-11-22T16:41:17.6555666Z libxdamage1 is already the newest version (1:1.1.7-1).
+2026-11-22T16:41:17.6556236Z libxdamage1 set to manually installed.
+2026-11-22T16:41:17.6556783Z libxext6 is already the newest version (2:1.3.4-1build3).
+2026-11-22T16:41:17.6557378Z libxext6 set to manually installed.
+2026-11-22T16:41:17.6557933Z libxfixes3 is already the newest version (1:6.0.0-2build2).
+2026-11-22T16:41:17.6558718Z libxfixes3 set to manually installed.
+2026-11-22T16:41:17.6559326Z libxkbcommon0 is already the newest version (1.13.1-1).
+2026-11-22T16:41:17.6559898Z libxkbcommon0 set to manually installed.
+2026-11-22T16:41:17.6560492Z libxrandr2 is already the newest version (2:1.5.4-1build1).
+2026-11-22T16:41:17.6561064Z libxrandr2 set to manually installed.
+2026-11-22T16:41:17.6561654Z xvfb is already the newest version (2:21.1.22-1ubuntu1.3).
+2026-11-22T16:41:17.6562364Z fonts-noto-color-emoji is already the newest version (2.051-1build1).
+2026-11-22T16:41:17.6563099Z libfontconfig1 is already the newest version (2.17.1-3ubuntu1).
+2026-11-22T16:41:17.6563725Z libfontconfig1 set to manually installed.
+2026-11-22T16:41:17.6564362Z libfreetype6 is already the newest version (2.14.2+dfsg-1ubuntu0.2).
+2026-11-22T16:41:17.6564988Z libfreetype6 set to manually installed.
+2026-11-22T16:41:17.6565622Z fonts-liberation is already the newest version (1:2.1.5-3build1).
+2026-11-22T16:41:17.6566253Z fonts-liberation set to manually installed.
+2026-11-22T16:41:17.6945532Z Solving dependencies...
+2026-11-22T16:41:17.7810599Z The following additional packages will be installed:
+2026-11-22T16:41:17.7812054Z   xfonts-encodings xfonts-utils
+2026-11-22T16:41:17.7818449Z Recommended packages:
+2026-11-22T16:41:17.7819069Z   fonts-ipafont-mincho fonts-tlwg-loma
+2026-11-22T16:41:17.8800345Z The following NEW packages will be installed:
+2026-11-22T16:41:17.8801679Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
+2026-11-22T16:41:17.8811339Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
+2026-11-22T16:41:17.8811924Z   xfonts-utils
+2026-11-22T16:41:17.8996839Z 0 upgraded, 9 newly installed, 0 to remove and 52 not upgraded.
+2026-11-22T16:41:17.9006323Z Need to get 21.9 MB of archives.
+2026-11-22T16:41:17.9008508Z After this operation, 80.2 MB of additional disk space will be used.
+2026-11-22T16:41:17.9009304Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [152 B]
+2026-11-22T16:41:17.9640002Z Get:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-ipafont-gothic all 00303-23ubuntu1 [3703 kB]
+2026-11-22T16:41:18.1470789Z Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 fonts-freefont-ttf all 20211204+svn4273-4build1 [5656 kB]
+2026-11-22T16:41:18.3975057Z Get:4 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-tlwg-loma-otf all 1:0.7.3-1build1 [106 kB]
+2026-11-22T16:41:18.4413215Z Get:5 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-unifont all 1:16.0.04-1build1 [3169 kB]
+2026-11-22T16:41:18.5363716Z Get:6 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 fonts-wqy-zenhei all 0.9.45-8build1 [7863 kB]
+2026-11-22T16:41:18.7010289Z Get:7 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-encodings all 1:1.0.5-0ubuntu3 [576 kB]
+2026-11-22T16:41:18.7572664Z Get:8 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/main amd64v3 xfonts-utils amd64 1:7.7+7build1 [97.3 kB]
+2026-11-22T16:41:18.7987111Z Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-cyrillic all 1:1.0.5+nmu1build1 [384 kB]
+2026-11-22T16:41:18.8456297Z Get:10 http://us-east-2.ec2.archive.ubuntu.com/ubuntu resolute/universe amd64v3 xfonts-scalable all 1:1.0.3-1.3build1 [304 kB]
+2026-11-22T16:41:19.8687191Z Fetched 21.9 MB in 1s (22.8 MB/s)
+2026-11-22T16:41:19.9812963Z Selecting previously unselected package fonts-ipafont-gothic.
+2026-11-22T16:41:20.1493908Z (Reading database ... 
+2026-11-22T16:41:20.1494950Z (Reading database ... 5%
+2026-11-22T16:41:20.1495472Z (Reading database ... 10%
+2026-11-22T16:41:20.1496069Z (Reading database ... 15%
+2026-11-22T16:41:20.1496390Z (Reading database ... 20%
+2026-11-22T16:41:20.1496718Z (Reading database ... 25%
+2026-11-22T16:41:20.1496982Z (Reading database ... 30%
+2026-11-22T16:41:20.1497242Z (Reading database ... 35%
+2026-11-22T16:41:20.1497516Z (Reading database ... 40%
+2026-11-22T16:41:20.1497764Z (Reading database ... 45%
+2026-11-22T16:41:20.1498227Z (Reading database ... 50%
+2026-11-22T16:41:20.4590350Z (Reading database ... 55%
+2026-11-22T16:41:20.6242773Z (Reading database ... 60%
+2026-11-22T16:41:20.8341291Z (Reading database ... 65%
+2026-11-22T16:41:21.0671862Z (Reading database ... 70%
+2026-11-22T16:41:21.2645181Z (Reading database ... 75%
+2026-11-22T16:41:22.6676928Z (Reading database ... 80%
+2026-11-22T16:41:24.6671319Z (Reading database ... 85%
+2026-11-22T16:41:25.4081067Z (Reading database ... 90%
+2026-11-22T16:41:26.8515286Z (Reading database ... 95%
+2026-11-22T16:41:26.8516265Z (Reading database ... 100%
+2026-11-22T16:41:26.8517839Z (Reading database ... 213995 files and directories currently installed.)
+2026-11-22T16:41:26.8563424Z Preparing to unpack .../0-fonts-ipafont-gothic_00303-23ubuntu1_all.deb ...
+2026-11-22T16:41:26.8630853Z Unpacking fonts-ipafont-gothic (00303-23ubuntu1) ...
+2026-11-22T16:41:26.9559218Z Selecting previously unselected package fonts-freefont-ttf.
+2026-11-22T16:41:26.9663513Z Preparing to unpack .../1-fonts-freefont-ttf_20211204+svn4273-4build1_all.deb ...
+2026-11-22T16:41:26.9668782Z Unpacking fonts-freefont-ttf (20211204+svn4273-4build1) ...
+2026-11-22T16:41:27.0800483Z Selecting previously unselected package fonts-tlwg-loma-otf.
+2026-11-22T16:41:27.0897187Z Preparing to unpack .../2-fonts-tlwg-loma-otf_1%3a0.7.3-1build1_all.deb ...
+2026-11-22T16:41:27.0900425Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1build1) ...
+2026-11-22T16:41:27.1022029Z Selecting previously unselected package fonts-unifont.
+2026-11-22T16:41:27.1122952Z Preparing to unpack .../3-fonts-unifont_1%3a16.0.04-1build1_all.deb ...
+2026-11-22T16:41:27.1126314Z Unpacking fonts-unifont (1:16.0.04-1build1) ...
+2026-11-22T16:41:27.2087076Z Selecting previously unselected package fonts-wqy-zenhei.
+2026-11-22T16:41:27.2188830Z Preparing to unpack .../4-fonts-wqy-zenhei_0.9.45-8build1_all.deb ...
+2026-11-22T16:41:27.2287333Z Unpacking fonts-wqy-zenhei (0.9.45-8build1) ...
+2026-11-22T16:41:27.3015912Z Selecting previously unselected package xfonts-encodings.
+2026-11-22T16:41:27.3118958Z Preparing to unpack .../5-xfonts-encodings_1%3a1.0.5-0ubuntu3_all.deb ...
+2026-11-22T16:41:27.3129629Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu3) ...
+2026-11-22T16:41:27.3283414Z Selecting previously unselected package xfonts-utils.
+2026-11-22T16:41:27.3384330Z Preparing to unpack .../6-xfonts-utils_1%3a7.7+7build1_amd64v3.deb ...
+2026-11-22T16:41:27.3387339Z Unpacking xfonts-utils (1:7.7+7build1) ...
+2026-11-22T16:41:27.4319682Z Selecting previously unselected package xfonts-cyrillic.
+2026-11-22T16:41:27.4420447Z Preparing to unpack .../7-xfonts-cyrillic_1%3a1.0.5+nmu1build1_all.deb ...
+2026-11-22T16:41:27.4423888Z Unpacking xfonts-cyrillic (1:1.0.5+nmu1build1) ...
+2026-11-22T16:41:27.4600292Z Selecting previously unselected package xfonts-scalable.
+2026-11-22T16:41:27.4697836Z Preparing to unpack .../8-xfonts-scalable_1%3a1.0.3-1.3build1_all.deb ...
+2026-11-22T16:41:27.4702188Z Unpacking xfonts-scalable (1:1.0.3-1.3build1) ...
+2026-11-22T16:41:27.4969137Z Setting up fonts-wqy-zenhei (0.9.45-8build1) ...
+2026-11-22T16:41:27.5075018Z Setting up fonts-freefont-ttf (20211204+svn4273-4build1) ...
+2026-11-22T16:41:27.5083026Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1build1) ...
+2026-11-22T16:41:27.5090130Z Setting up xfonts-encodings (1:1.0.5-0ubuntu3) ...
+2026-11-22T16:41:27.5097019Z Setting up fonts-ipafont-gothic (00303-23ubuntu1) ...
+2026-11-22T16:41:27.5132332Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
+2026-11-22T16:41:27.5139878Z Setting up fonts-unifont (1:16.0.04-1build1) ...
+2026-11-22T16:41:27.5147083Z Setting up xfonts-utils (1:7.7+7build1) ...
+2026-11-22T16:41:27.5179028Z Setting up xfonts-cyrillic (1:1.0.5+nmu1build1) ...
+2026-11-22T16:41:27.6650602Z Setting up xfonts-scalable (1:1.0.3-1.3build1) ...
+2026-11-22T16:41:27.6937791Z Processing triggers for man-db (2.13.1-1build1) ...
+2026-11-22T16:41:27.6959401Z Not building database; man-db/auto-update is not 'true'.
+2026-11-22T16:41:27.6970516Z Processing triggers for fontconfig (2.17.1-3ubuntu1) ...
+2026-11-22T16:41:28.6510140Z 
+2026-11-22T16:41:28.6511463Z Running kernel seems to be up-to-date.
+2026-11-22T16:41:28.6512412Z 
+2026-11-22T16:41:28.6512679Z Restarting services...
+2026-11-22T16:41:28.6592656Z 
+2026-11-22T16:41:28.6594725Z Service restarts being deferred:
+2026-11-22T16:41:28.6619910Z  systemctl restart hosted-compute-agent.service
+2026-11-22T16:41:28.6620235Z 
+2026-11-22T16:41:28.6620440Z No containers need to be restarted.
+2026-11-22T16:41:28.6620640Z 
+2026-11-22T16:41:28.6620777Z No user sessions are running outdated binaries.
+2026-11-22T16:41:28.6621003Z 
+2026-11-22T16:41:28.6621259Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2026-11-22T16:41:29.4445857Z Downloading Chrome for Testing 151.0.7922.34 (playwright chromium v1234) from https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-linux64.zip
+2026-11-22T16:41:30.3716584Z |                                                                                |   0% of 184.3 MiB
+2026-11-22T16:41:30.5426934Z |■■■■■■■■                                                                        |  10% of 184.3 MiB
+2026-11-22T16:41:30.6329997Z |■■■■■■■■■■■■■■■■                                                                |  20% of 184.3 MiB
+2026-11-22T16:41:30.6938785Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 184.3 MiB
+2026-11-22T16:41:30.7687724Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 184.3 MiB
+2026-11-22T16:41:30.8119661Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 184.3 MiB
+2026-11-22T16:41:30.8812768Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 184.3 MiB
+2026-11-22T16:41:30.9641282Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 184.3 MiB
+2026-11-22T16:41:31.0037572Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 184.3 MiB
+2026-11-22T16:41:31.0847484Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 184.3 MiB
+2026-11-22T16:41:31.1409082Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 184.3 MiB
+2026-11-22T16:41:33.5341898Z Chrome for Testing 151.0.7922.34 (playwright chromium v1234) downloaded to /home/runner/.cache/ms-playwright/chromium-1234
+2026-11-22T16:41:33.5343601Z Downloading FFmpeg (playwright ffmpeg v1011) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+2026-11-22T16:41:34.4557325Z |                                                                                |   0% of 2.3 MiB
+2026-11-22T16:41:34.4811397Z |■■■■■■■■                                                                        |  10% of 2.3 MiB
+2026-11-22T16:41:34.4922337Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+2026-11-22T16:41:34.5005340Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+2026-11-22T16:41:34.5074060Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+2026-11-22T16:41:34.5084459Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+2026-11-22T16:41:34.5096392Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+2026-11-22T16:41:34.5138502Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+2026-11-22T16:41:34.5152994Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+2026-11-22T16:41:34.5174914Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+2026-11-22T16:41:34.5217649Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+2026-11-22T16:41:34.5612803Z FFmpeg (playwright ffmpeg v1011) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011
+2026-11-22T16:41:34.5614582Z Downloading Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) from https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-headless-shell-linux64.zip
+2026-11-22T16:41:35.4781794Z |                                                                                |   0% of 114.7 MiB
+2026-11-22T16:41:35.5531890Z |■■■■■■■■                                                                        |  10% of 114.7 MiB
+2026-11-22T16:41:35.6147654Z |■■■■■■■■■■■■■■■■                                                                |  20% of 114.7 MiB
+2026-11-22T16:41:35.6807613Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 114.7 MiB
+2026-11-22T16:41:35.7333415Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 114.7 MiB
+2026-11-22T16:41:35.7857991Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 114.7 MiB
+2026-11-22T16:41:35.8434522Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 114.7 MiB
+2026-11-22T16:41:35.9122486Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 114.7 MiB
+2026-11-22T16:41:35.9945840Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 114.7 MiB
+2026-11-22T16:41:36.0210457Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 114.7 MiB
+2026-11-22T16:41:36.0565725Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 114.7 MiB
+2026-11-22T16:41:37.9270413Z Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1234
+2026-11-22T16:41:37.9456444Z ##[group]Run npm run typecheck && npm run lint && npm run test:logic && npm run test:advanced
+2026-11-22T16:41:37.9457163Z [36;1mnpm run typecheck && npm run lint && npm run test:logic && npm run test:advanced[0m
+2026-11-22T16:41:37.9484745Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:41:37.9485286Z ##[endgroup]
+2026-11-22T16:41:38.0327597Z 
+2026-11-22T16:41:38.0329242Z > site-creator-vinext-starter@0.1.0 typecheck
+2026-11-22T16:41:38.0330029Z > tsc --noEmit
+2026-11-22T16:41:38.0330300Z 
+2026-11-22T16:41:46.0637126Z 
+2026-11-22T16:41:46.0638267Z > site-creator-vinext-starter@0.1.0 lint
+2026-11-22T16:41:46.0639420Z > eslint . --ignore-pattern dist --ignore-pattern .next
+2026-11-22T16:41:46.0639878Z 
+2026-11-22T16:41:57.1156711Z 
+2026-11-22T16:41:57.1180092Z /home/runner/work/Tradeify.web/Tradeify.web/components/journal/trade-detail.tsx
+2026-11-22T16:41:57.1229505Z ##[warning]  102:80  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+2026-11-22T16:41:57.1240282Z 
+2026-11-22T16:41:57.1241011Z ✖ 1 problem (0 errors, 1 warning)
+2026-11-22T16:41:57.1241335Z 
+2026-11-22T16:41:57.3274194Z 
+2026-11-22T16:41:57.3275412Z > site-creator-vinext-starter@0.1.0 test:logic
+2026-11-22T16:41:57.3276278Z > node scripts/check-v2.mjs
+2026-11-22T16:41:57.3276620Z 
+2026-11-22T16:41:58.4841812Z Sintaxis JavaScript: 56 archivos OK.
+2026-11-22T16:41:58.6661343Z Estadísticas financieras: resultados, cobertura, factores, expectativa, curva, drawdown, recuperación, rachas, BE y costes OK.
+2026-11-22T16:41:58.8492549Z Drawdown: máximos históricos/diarios/totales, parciales, fases, límites nominales y cobertura incompleta OK.
+2026-11-22T16:41:59.0258920Z Reconciliación local: guardado, metadatos, revisiones, eliminación y referencias OK.
+2026-11-22T16:41:59.2115269Z Riesgo: cobertura, parciales fechados, long/short, BE, cuentas y límites OK.
+2026-11-22T16:41:59.3962673Z Restauración: versiones históricas, duplicados, referencias, conflictos y lotes OK.
+2026-11-22T16:41:59.5833146Z Pantallas de acceso: estados, escapado, JSON privado y borradores incompletos verificados.
+2026-11-22T16:41:59.6116278Z Calculadoras: 15 casos OK.
+2026-11-22T16:41:59.6118711Z Calculadoras adicionales: 17 casos OK.
+2026-11-22T16:41:59.6379746Z Gestión de parciales: 7 casos OK.
+2026-11-22T16:41:59.6400007Z Regresión de parciales: ceros, long/short, cierre completo, stops inválidos y precisión OK.
+2026-11-22T16:41:59.6659608Z Cuentas: 8 casos OK.
+2026-11-22T16:41:59.6917330Z Restore compare: 6 casos OK
+2026-11-22T16:41:59.7143787Z Estados de acceso: 10 casos OK
+2026-11-22T16:41:59.7411212Z Estadísticas y meses: 16 casos OK
+2026-11-22T16:41:59.7669663Z Cobertura monetaria: 7 casos OK.
+2026-11-22T16:41:59.7920124Z Paginación y capturas: 8 casos OK.
+2026-11-22T16:41:59.7960491Z Módulos: 15/15 aprobados
+2026-11-22T16:41:59.8728889Z 
+2026-11-22T16:41:59.8729871Z > site-creator-vinext-starter@0.1.0 test:advanced
+2026-11-22T16:41:59.8730606Z > node tests/check-advanced-modules.mjs
+2026-11-22T16:41:59.8731008Z 
+2026-11-22T16:42:03.8872089Z {
+2026-11-22T16:42:03.8873214Z   "scope": "D1 y datos desechables; sin servicios reales",
+2026-11-22T16:42:03.8873844Z   "passed": [
+2026-11-22T16:42:03.8874708Z     "Preferencias con validación y control de versión",
+2026-11-22T16:42:03.8875448Z     "Entrega diaria idempotente y catálogo de procedencia original",
+2026-11-22T16:42:03.8876171Z     "Solicitudes manuales concurrentes y recuperación tras respuesta perdida",
+2026-11-22T16:42:03.8876846Z     "Sin repeticiones antes de agotar cada ciclo",
+2026-11-22T16:42:03.8877511Z     "Favoritas persistentes, búsqueda, filtros, orden y páginas",
+2026-11-22T16:42:03.8879080Z     "Migración conserva registros de procedencia desconocida sin atribuir autores",
+2026-11-22T16:42:03.8882239Z     "Importar historial marca frases como vistas y evita repetirlas antes de agotar el ciclo",
+2026-11-22T16:42:03.8883405Z     "Horario, desconexión y preferencias desactivadas",
+2026-11-22T16:42:03.8884161Z     "Mantenimiento reversible, conflictos y auditoría atómica",
+2026-11-22T16:42:03.8884793Z     "Incidencias agrupadas sin secretos ni peticiones completas",
+2026-11-22T16:42:03.8885826Z     "Alertas paginadas y búsqueda sin omitir usuarios fuera de la primera página",
+2026-11-22T16:42:03.8886619Z     "Ayuda completa, diez fórmulas, FAQ, glosario, búsqueda sin acentos"
+2026-11-22T16:42:03.8887113Z   ]
+2026-11-22T16:42:03.8887521Z }
+2026-11-22T16:42:03.9361261Z ##[group]Run npm run build:cloudflare
+2026-11-22T16:42:03.9361607Z [36;1mnpm run build:cloudflare[0m
+2026-11-22T16:42:03.9380739Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:42:03.9381015Z env:
+2026-11-22T16:42:03.9381268Z   TRADEIFY_D1_ID: 11111111-1111-4111-8111-111111111111
+2026-11-22T16:42:03.9381632Z   TRADEIFY_R2_BUCKET: tradeify-local-test
+2026-11-22T16:42:03.9381886Z ##[endgroup]
+2026-11-22T16:42:04.0129123Z 
+2026-11-22T16:42:04.0130005Z > site-creator-vinext-starter@0.1.0 build:cloudflare
+2026-11-22T16:42:04.0130641Z > node scripts/cloudflare.mjs build
+2026-11-22T16:42:04.0131125Z 
+2026-11-22T16:42:04.2280277Z [vinext] Tip: migrate from `vinext build` to `vite build`.
+2026-11-22T16:42:04.4643455Z [33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+2026-11-22T16:42:04.4645468Z   - JSON import "./.openai/hosting.json" without import attributes (vite.config.ts:3:27). Add `with { type: 'json' }`
+2026-11-22T16:42:04.4646853Z   - import "./scripts/vite/sites-vite-plugin" without a file extension (vite.config.ts:6:23). Add the file extension
+2026-11-22T16:42:04.4648385Z Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+2026-11-22T16:42:05.7784866Z [34m[1/5] analyze client references...[39m
+2026-11-22T16:42:05.7786088Z [36mvite v8.3.8 [32mbuilding rsc environment for production...[36m[39m
+2026-11-22T16:42:05.8135957Z transforming...
+2026-11-22T16:42:06.4471732Z ✓ 555 modules transformed.
+2026-11-22T16:42:06.4588425Z rendering chunks...
+2026-11-22T16:42:06.4662574Z [33m[plugin rsc:virtual:vite-rsc/assets-manifest] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:virtual:vite-rsc/assets-manifest) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:06.4665667Z [39m
+2026-11-22T16:42:06.4666032Z [32m✓ built in 685ms[39m
+2026-11-22T16:42:06.4674482Z [34m[2/5] analyze server references...[39m
+2026-11-22T16:42:06.4675373Z [36mvite v8.3.8 [32mbuilding ssr environment for production...[36m[39m
+2026-11-22T16:42:06.4871613Z transforming...
+2026-11-22T16:42:06.9372537Z ✓ 389 modules transformed.
+2026-11-22T16:42:06.9394485Z rendering chunks...
+2026-11-22T16:42:06.9414684Z [33m[plugin rsc:virtual:vite-rsc/assets-manifest] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:virtual:vite-rsc/assets-manifest) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:06.9416427Z [39m
+2026-11-22T16:42:06.9418816Z [32m✓ built in 473ms[39m
+2026-11-22T16:42:06.9423356Z [34m[3/5] build rsc environment...[39m
+2026-11-22T16:42:06.9424333Z [36mvite v8.3.8 [32mbuilding rsc environment for production...[36m[39m
+2026-11-22T16:42:06.9605566Z transforming...
+2026-11-22T16:42:07.7002853Z ✓ 538 modules transformed.
+2026-11-22T16:42:07.9170121Z rendering chunks...
+2026-11-22T16:42:08.0339223Z computing gzip size...
+2026-11-22T16:42:08.0432730Z dist/server/__vinext_cacheability_manifest.js                                                                                                0.02 kB
+2026-11-22T16:42:08.0434226Z dist/server/__vinext_cacheability_request_projection.js                                                                                      0.02 kB
+2026-11-22T16:42:08.0435288Z dist/server/__vinext_pregenerated_concrete_paths.js                                                                                          0.05 kB
+2026-11-22T16:42:08.0436831Z dist/server/wrangler.json                                                                                                                    1.73 kB │ gzip:  0.83 kB
+2026-11-22T16:42:08.0438584Z dist/server/_next/static/css/DmPuS_0c.css                                                                                                   49.85 kB │ gzip: 10.76 kB
+2026-11-22T16:42:08.0440038Z dist/server/_next/static/navigation.react-server-BUX1l59a.js                                                                                 0.04 kB │ gzip:  0.06 kB
+2026-11-22T16:42:08.0441269Z dist/server/index.js                                                                                                                         0.06 kB │ gzip:  0.08 kB
+2026-11-22T16:42:08.0442619Z dist/server/_next/static/cacheability-limits-BTpP4ZoO.js                                                                                     0.11 kB │ gzip:  0.13 kB │ map:     0.94 kB
+2026-11-22T16:42:08.0444043Z dist/server/_next/static/websocket-upgrade-response-Br6dDtPT.js                                                                              0.13 kB │ gzip:  0.14 kB │ map:     0.96 kB
+2026-11-22T16:42:08.0445528Z dist/server/_next/static/work-unit-async-storage-bA0VaW_f.js                                                                                 0.20 kB │ gzip:  0.18 kB │ map:     1.18 kB
+2026-11-22T16:42:08.0446841Z dist/server/_next/static/ui-DWpvIB1W.js                                                                                                      0.20 kB │ gzip:  0.19 kB │ map:     0.10 kB
+2026-11-22T16:42:08.0448694Z dist/server/_next/static/link-D0M64abx.js                                                                                                    0.21 kB │ gzip:  0.19 kB │ map:     0.11 kB
+2026-11-22T16:42:08.0450012Z dist/server/_next/static/error-BBVChQxI.js                                                                                                   0.22 kB │ gzip:  0.20 kB │ map:     0.11 kB
+2026-11-22T16:42:08.0451632Z dist/server/_next/static/framework~index-DcyYAnWs.js                                                                                         0.24 kB │ gzip:  0.19 kB │ map:     0.59 kB
+2026-11-22T16:42:08.0453045Z dist/server/_next/static/compare-c1f121CO.js                                                                                                 0.29 kB │ gzip:  0.22 kB │ map:     1.63 kB
+2026-11-22T16:42:08.0454470Z dist/server/_next/static/app-prerender-static-params-BCpMn6ul.js                                                                             0.35 kB │ gzip:  0.27 kB │ map:     5.50 kB
+2026-11-22T16:42:08.0455919Z dist/server/_next/static/route-CIvtLnGF.js                                                                                                   0.37 kB │ gzip:  0.29 kB │ map:     0.86 kB
+2026-11-22T16:42:08.0457337Z dist/server/_next/static/client-trace-metadata-DUR2PiYt.js                                                                                   0.40 kB │ gzip:  0.25 kB │ map:     5.81 kB
+2026-11-22T16:42:08.0458837Z dist/server/_next/static/revalidation-request-DZu2U1eZ.js                                                                                    0.40 kB │ gzip:  0.29 kB │ map:     2.45 kB
+2026-11-22T16:42:08.0460110Z dist/server/_next/static/base-path-DhuerTYQ.js                                                                                               0.42 kB │ gzip:  0.28 kB │ map:     3.12 kB
+2026-11-22T16:42:08.0461331Z dist/server/_next/static/asset-prefix-DG5zdfn4.js                                                                                            0.44 kB │ gzip:  0.29 kB │ map:     7.42 kB
+2026-11-22T16:42:08.0462602Z dist/server/_next/static/isolate-shared-promise-D5afjYoQ.js                                                                                  0.44 kB │ gzip:  0.30 kB │ map:     3.60 kB
+2026-11-22T16:42:08.0464054Z dist/server/_next/static/hash-lY2-Pf5M.js                                                                                                    0.47 kB │ gzip:  0.32 kB │ map:     3.31 kB
+2026-11-22T16:42:08.0465856Z dist/server/_next/static/page-BvVREocD.js                                                                                                    0.56 kB │ gzip:  0.39 kB │ map:     0.71 kB
+2026-11-22T16:42:08.0467141Z dist/server/_next/static/request-context-BxrBcbOz.js                                                                                         0.61 kB │ gzip:  0.39 kB │ map:     3.71 kB
+2026-11-22T16:42:08.0469162Z dist/server/_next/static/navigation-errors-CwsGEPjB.js                                                                                       0.62 kB │ gzip:  0.41 kB │ map:     6.03 kB
+2026-11-22T16:42:08.0470804Z dist/server/_next/static/server-Dc72jJyc.js                                                                                                  0.65 kB │ gzip:  0.44 kB │ map:     7.41 kB
+2026-11-22T16:42:08.0472262Z dist/server/_next/static/rolldown-runtime-XKyaHtl9.js                                                                                        0.72 kB │ gzip:  0.42 kB
+2026-11-22T16:42:08.0473662Z dist/server/_next/static/route-BbDpUxx1.js                                                                                                   0.80 kB │ gzip:  0.51 kB │ map:     2.58 kB
+2026-11-22T16:42:08.0475102Z dist/server/_next/static/isr-decision-C-j0Y7K8.js                                                                                            0.81 kB │ gzip:  0.40 kB │ map:     4.61 kB
+2026-11-22T16:42:08.0476504Z dist/server/_next/static/work-store-scope-uH-G2746.js                                                                                        0.83 kB │ gzip:  0.48 kB │ map:     6.43 kB
+2026-11-22T16:42:08.0477888Z dist/server/_next/static/implicit-tags-CXjh_Chj.js                                                                                           0.84 kB │ gzip:  0.49 kB │ map:     4.44 kB
+2026-11-22T16:42:08.0479630Z dist/server/_next/static/utils-JoVumalc.js                                                                                                   0.84 kB │ gzip:  0.40 kB │ map:    11.39 kB
+2026-11-22T16:42:08.0481034Z dist/server/_next/static/worker-prerender-discovery-DREdVWdm.js                                                                              0.89 kB │ gzip:  0.52 kB │ map:     4.42 kB
+2026-11-22T16:42:08.0482489Z dist/server/_next/static/framework~index~page~page~layout~not-found~page~page-B9A7EOli.js                                                    0.91 kB │ gzip:  0.58 kB │ map:     2.68 kB
+2026-11-22T16:42:08.0485202Z dist/server/_next/static/app-static-generation-BX8cz43B.js                                                                                   0.97 kB │ gzip:  0.55 kB │ map:     2.19 kB
+2026-11-22T16:42:08.0486609Z dist/server/_next/static/navigation-context-state-piLZBVdN.js                                                                                0.99 kB │ gzip:  0.50 kB │ map:     6.73 kB
+2026-11-22T16:42:08.0488398Z dist/server/_next/static/http-error-responses-B2gV-Vqb.js                                                                                    1.01 kB │ gzip:  0.47 kB │ map:     6.03 kB
+2026-11-22T16:42:08.0490477Z dist/server/_next/static/middleware-response-headers-Xqmnn01b.js                                                                             1.33 kB │ gzip:  0.71 kB │ map:     7.00 kB
+2026-11-22T16:42:08.0492556Z dist/server/_next/static/cdn-cache-CWsmUDzl.js                                                                                               1.34 kB │ gzip:  0.74 kB │ map:     8.12 kB
+2026-11-22T16:42:08.0494012Z dist/server/_next/static/route-C9GGbtvo.js                                                                                                   1.52 kB │ gzip:  0.85 kB │ map:     4.38 kB
+2026-11-22T16:42:08.0495415Z dist/server/_next/static/page-BY7eXI1P.js                                                                                                    2.07 kB │ gzip:  1.03 kB │ map:     3.05 kB
+2026-11-22T16:42:08.0497144Z dist/server/_next/static/worker-image-optimization-XUbJDxwl.js                                                                               2.13 kB │ gzip:  1.05 kB │ map:    10.43 kB
+2026-11-22T16:42:08.0498886Z dist/server/_next/static/page-CmQyIimx.js                                                                                                    2.39 kB │ gzip:  1.16 kB │ map:     3.33 kB
+2026-11-22T16:42:08.0500488Z dist/server/_next/static/app-prerender-endpoints-DTo3YYEm.js                                                                                 2.62 kB │ gzip:  1.07 kB │ map:     8.76 kB
+2026-11-22T16:42:08.0501961Z dist/server/_next/static/headers-C716FvLG.js                                                                                                 2.74 kB │ gzip:  1.16 kB │ map:    21.92 kB
+2026-11-22T16:42:08.0503462Z dist/server/_next/static/app-page-cache-render-IxixJ5cb.js                                                                                   2.97 kB │ gzip:  1.34 kB │ map:    10.69 kB
+2026-11-22T16:42:08.0505023Z dist/server/_next/static/request-error-log-BGDB1XHa.js                                                                                       3.30 kB │ gzip:  1.43 kB │ map:    26.74 kB
+2026-11-22T16:42:08.0506440Z dist/server/_next/static/page-C4shMj-U.js                                                                                                    3.62 kB │ gzip:  1.80 kB │ map:    11.50 kB
+2026-11-22T16:42:08.0507848Z dist/server/_next/static/isr-cache-DJXZTqzv.js                                                                                               4.19 kB │ gzip:  2.01 kB │ map:    26.80 kB
+2026-11-22T16:42:08.0509630Z dist/server/_next/static/cache-headers-7FdLmcUK.js                                                                                           4.46 kB │ gzip:  1.81 kB │ map:    30.50 kB
+2026-11-22T16:42:08.0511322Z dist/server/_next/static/cache-control-BbH8sQKU.js                                                                                           4.53 kB │ gzip:  1.79 kB │ map:    24.71 kB
+2026-11-22T16:42:08.0512721Z dist/server/_next/static/cache-handler-BoFDLe_1.js                                                                                           4.54 kB │ gzip:  1.70 kB │ map:    19.60 kB
+2026-11-22T16:42:08.0514124Z dist/server/_next/static/app-page-tracing-CZFCjJYs.js                                                                                        4.62 kB │ gzip:  2.30 kB │ map:    17.70 kB
+2026-11-22T16:42:08.0515579Z dist/server/_next/static/unified-request-context-Df7rhQ7M.js                                                                                 5.32 kB │ gzip:  2.12 kB │ map:    23.77 kB
+2026-11-22T16:42:08.0516984Z dist/server/_next/static/request-pipeline-DLFC6_9p.js                                                                                        5.66 kB │ gzip:  2.28 kB │ map:    50.18 kB
+2026-11-22T16:42:08.0518725Z dist/server/_next/static/framework~index~page~route~route~route~route~route~page~error~layout~not-found~page~page~ap~i2sjqcbt-CcOTYhCj.js    5.85 kB │ gzip:  2.43 kB │ map:    23.94 kB
+2026-11-22T16:42:08.0520337Z dist/server/_next/static/response-stage-policy-eksn8oJv.js                                                                                   6.97 kB │ gzip:  2.44 kB │ map:    32.76 kB
+2026-11-22T16:42:08.0521721Z dist/server/_next/static/route-D-vIO778.js                                                                                                   7.25 kB │ gzip:  2.88 kB │ map:    17.46 kB
+2026-11-22T16:42:08.0523099Z dist/server/_next/static/app-rsc-response-stage-CMfIGBQd.js                                                                                  7.68 kB │ gzip:  2.70 kB │ map:    23.11 kB
+2026-11-22T16:42:08.0524553Z dist/server/_next/static/app-page-cache-D2N3Nlq3.js                                                                                          8.24 kB │ gzip:  2.88 kB │ map:    64.83 kB
+2026-11-22T16:42:08.0526810Z dist/server/_next/static/app-worker-stages-CzL6AbT6.js                                                                                       8.29 kB │ gzip:  3.34 kB │ map:    53.01 kB
+2026-11-22T16:42:08.0528444Z dist/server/_next/static/config-headers-D-Mvh2Mr.js                                                                                          8.62 kB │ gzip:  3.53 kB │ map:    88.62 kB
+2026-11-22T16:42:08.0530175Z dist/server/_next/static/admin-resources-BEDi2kuH.js                                                                                         8.71 kB │ gzip:  3.72 kB │ map:    21.57 kB
+2026-11-22T16:42:08.0531537Z dist/server/_next/static/app-page-cache-finalizer-B6udZI3p.js                                                                                9.87 kB │ gzip:  3.43 kB │ map:    36.27 kB
+2026-11-22T16:42:08.0532958Z dist/server/_next/static/cacheability-request-BZjZbB1a.js                                                                                   10.95 kB │ gzip:  3.82 kB │ map:    44.24 kB
+2026-11-22T16:42:08.0534584Z dist/server/_next/static/chatgpt-auth-DEl7it9E.js                                                                                           10.98 kB │ gzip:  4.32 kB │ map:    37.69 kB
+2026-11-22T16:42:08.0536056Z dist/server/_next/static/headers-5jF0Vjbh.js                                                                                                11.88 kB │ gzip:  4.15 kB │ map:    73.47 kB
+2026-11-22T16:42:08.0537380Z dist/server/_next/static/route-miss-response-DsrNjvrU.js                                                                                    12.42 kB │ gzip:  4.27 kB │ map:    63.65 kB
+2026-11-22T16:42:08.0538990Z dist/server/_next/static/client-build-files-DzV7T-aq.js                                                                                     12.97 kB │ gzip:  5.29 kB │ map:    68.80 kB
+2026-11-22T16:42:08.0540360Z dist/server/_next/static/navigation-signal-S4tzxRjL.js                                                                                      13.14 kB │ gzip:  4.70 kB │ map:    64.02 kB
+2026-11-22T16:42:08.0541923Z dist/server/_next/static/text-stream-CVkrL14L.js                                                                                            19.66 kB │ gzip:  6.22 kB │ map:    77.03 kB
+2026-11-22T16:42:08.0543031Z dist/server/_next/static/fetch-cache-Dgl_D6BZ.js                                                                                            24.54 kB │ gzip:  8.54 kB │ map:   113.34 kB
+2026-11-22T16:42:08.0544299Z dist/server/_next/static/route-DE-BJ_U2.js                                                                                                  36.25 kB │ gzip: 12.52 kB │ map:   104.24 kB
+2026-11-22T16:42:08.0545734Z dist/server/_next/static/server-http-BCAdjI-5.js                                                                                            42.86 kB │ gzip: 12.36 kB │ map:   158.58 kB
+2026-11-22T16:42:08.0547004Z dist/server/_next/static/db-D8lIrGqF.js                                                                                                     45.05 kB │ gzip: 12.35 kB │ map:   188.85 kB
+2026-11-22T16:42:08.0548768Z dist/server/_next/static/framework~index~page~page~error~not-found~page~page-DimwuIl4.js                                                    56.48 kB │ gzip: 17.24 kB │ map:    16.62 kB
+2026-11-22T16:42:08.0550466Z dist/server/_next/static/app-route-handler-dispatch-DUL4XJE-.js                                                                             59.42 kB │ gzip: 20.72 kB │ map:   238.01 kB
+2026-11-22T16:42:08.0551974Z dist/server/_next/static/schemas-CRJJSNam.js                                                                                                87.35 kB │ gzip: 24.87 kB │ map:   520.11 kB
+2026-11-22T16:42:08.0553383Z dist/server/_next/static/quote-catalog-C_r7cLK4.js                                                                                         235.32 kB │ gzip: 55.04 kB │ map:     4.25 kB
+2026-11-22T16:42:08.0554752Z dist/server/_next/static/worker-entry-5O5-5rRk.js                                                                                          280.56 kB │ gzip: 81.13 kB │ map: 1,109.36 kB
+2026-11-22T16:42:08.0555618Z 
+2026-11-22T16:42:08.0593979Z [33m[33m[INEFFECTIVE_DYNAMIC_IMPORT] [0mapp/not-found.tsx is dynamically imported by \0virtual:vinext-rsc-entry but also statically imported by \0virtual:vinext-rsc-entry, dynamic import will not move module into another chunk.
+2026-11-22T16:42:08.0594867Z [39m
+2026-11-22T16:42:08.0598923Z [33m[33m[INEFFECTIVE_DYNAMIC_IMPORT] [0mapp/layout.tsx is dynamically imported by \0virtual:vinext-rsc-entry but also statically imported by \0virtual:vinext-rsc-entry, dynamic import will not move module into another chunk.
+2026-11-22T16:42:08.0600077Z [39m
+2026-11-22T16:42:08.0614610Z [33m[plugin rsc:inject-async-local-storage] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:inject-async-local-storage) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:08.0616219Z [39m
+2026-11-22T16:42:08.0620038Z [32m✓ built in 1.12s[39m
+2026-11-22T16:42:08.0621952Z [33m[plugin rsc:inject-async-local-storage] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:inject-async-local-storage) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:08.0622932Z [39m
+2026-11-22T16:42:08.0624330Z [33m[plugin rsc:virtual:vite-rsc/assets-manifest] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:virtual:vite-rsc/assets-manifest) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:08.0625502Z [39m
+2026-11-22T16:42:08.0630796Z [34m[4/5] build client environment...[39m
+2026-11-22T16:42:08.0631641Z [36mvite v8.3.8 [32mbuilding client environment for production...[36m[39m
+2026-11-22T16:42:08.0675185Z [33m`output.codeSplitting.groups[0].name` is a function. Set `output.codeSplitting.groups[0].debugName` so the bundler timing report can identify this group.[39m
+2026-11-22T16:42:08.0699927Z [33m`output.codeSplitting.groups[1].name` is a function. Set `output.codeSplitting.groups[1].debugName` so the bundler timing report can identify this group.[39m
+2026-11-22T16:42:08.0701650Z [33m`output.codeSplitting.groups[2].name` is a function. Set `output.codeSplitting.groups[2].debugName` so the bundler timing report can identify this group.[39m
+2026-11-22T16:42:08.0893464Z transforming...
+2026-11-22T16:42:09.2732315Z ✓ 2099 modules transformed.
+2026-11-22T16:42:09.3567903Z rendering chunks...
+2026-11-22T16:42:09.4384165Z computing gzip size...
+2026-11-22T16:42:09.4481402Z dist/client/.assetsignore                                 0.02 kB
+2026-11-22T16:42:09.4482964Z dist/client/.vite/vinext-client-reference-sources.json    0.32 kB │ gzip:  0.19 kB
+2026-11-22T16:42:09.4484213Z dist/client/vinext-client-entry-manifest.json             1.41 kB │ gzip:  0.38 kB
+2026-11-22T16:42:09.4485231Z dist/client/.vite/manifest.json                           5.11 kB │ gzip:  0.84 kB
+2026-11-22T16:42:09.4486146Z dist/client/_next/static/css/DmPuS_0c.css                49.85 kB │ gzip: 10.76 kB
+2026-11-22T16:42:09.4487035Z dist/client/_next/static/chunks/DFVczmuF.js               0.10 kB │ gzip:  0.11 kB
+2026-11-22T16:42:09.4488031Z dist/client/_next/static/chunks/CTXu54gh.js               0.46 kB │ gzip:  0.32 kB
+2026-11-22T16:42:09.4489177Z dist/client/_next/static/chunks/DC_SdTk8.js               0.69 kB │ gzip:  0.40 kB
+2026-11-22T16:42:09.4490082Z dist/client/_next/static/chunks/CcyWYbDU.js               0.75 kB │ gzip:  0.45 kB
+2026-11-22T16:42:09.4491293Z dist/client/_next/static/chunks/DpLa_Jpk.js               0.85 kB │ gzip:  0.34 kB
+2026-11-22T16:42:09.4492625Z dist/client/_next/static/chunks/CZlFAWDc.js               1.00 kB │ gzip:  0.35 kB
+2026-11-22T16:42:09.4493564Z dist/client/_next/static/chunks/g2xFHu4u.js               1.02 kB │ gzip:  0.61 kB
+2026-11-22T16:42:09.4494430Z dist/client/_next/static/chunks/D8Hu9bNJ.js               1.18 kB │ gzip:  0.57 kB
+2026-11-22T16:42:09.4495260Z dist/client/_next/static/chunks/D-jNbTQW.js              11.09 kB │ gzip:  4.29 kB
+2026-11-22T16:42:09.4496232Z dist/client/_next/static/chunks/BlCRP0pm.js              13.97 kB │ gzip:  4.89 kB
+2026-11-22T16:42:09.4497130Z dist/client/_next/static/chunks/BFi9f2wo.js              22.42 kB │ gzip:  7.76 kB
+2026-11-22T16:42:09.4498038Z dist/client/_next/static/chunks/NzvPIuBH.js              27.34 kB │ gzip:  8.23 kB
+2026-11-22T16:42:09.4499177Z dist/client/_next/static/chunks/Bv2jjNqd.js             105.45 kB │ gzip: 31.84 kB
+2026-11-22T16:42:09.4500010Z dist/client/_next/static/chunks/BauS3zgS.js             123.78 kB │ gzip: 37.78 kB
+2026-11-22T16:42:09.4501015Z dist/client/_next/static/chunks/B94idN45.js             146.36 kB │ gzip: 44.70 kB
+2026-11-22T16:42:09.4501859Z dist/client/_next/static/chunks/B0PXqnjO.js             219.27 kB │ gzip: 68.42 kB
+2026-11-22T16:42:09.4502733Z dist/client/_next/static/chunks/nzjoPgwA.js             259.91 kB │ gzip: 84.14 kB
+2026-11-22T16:42:09.4503183Z 
+2026-11-22T16:42:09.4540123Z [32m✓ built in 1.39s[39m
+2026-11-22T16:42:09.4563792Z [34m[5/5] build ssr environment...[39m
+2026-11-22T16:42:09.4564775Z [36mvite v8.3.8 [32mbuilding ssr environment for production...[36m[39m
+2026-11-22T16:42:09.4752957Z transforming...
+2026-11-22T16:42:09.8797803Z ✓ 385 modules transformed.
+2026-11-22T16:42:10.3822386Z rendering chunks...
+2026-11-22T16:42:10.4719393Z computing gzip size...
+2026-11-22T16:42:10.4772281Z dist/server/ssr/_next/static/navigation-server-CylOBTMq.js            0.04 kB │ gzip:  0.06 kB
+2026-11-22T16:42:10.4773805Z dist/server/ssr/_next/static/app-nav-failure-handler-BW2-CIfV.js      0.13 kB │ gzip:  0.13 kB │ map:   2.75 kB
+2026-11-22T16:42:10.4775038Z dist/server/ssr/_next/static/static.edge-CQperz17.js                  0.26 kB │ gzip:  0.20 kB │ map:   0.68 kB
+2026-11-22T16:42:10.4776175Z dist/server/ssr/_next/static/navigation-BPX-xA4o.js                   0.26 kB │ gzip:  0.21 kB │ map:  23.10 kB
+2026-11-22T16:42:10.4777361Z dist/server/ssr/_next/static/hybrid-client-route-owner-C2BOhzKH.js    0.33 kB │ gzip:  0.25 kB │ map:  29.75 kB
+2026-11-22T16:42:10.4778705Z dist/server/ssr/_next/static/jsx-runtime-LKYXHABd.js                  0.48 kB │ gzip:  0.34 kB │ map:   2.13 kB
+2026-11-22T16:42:10.4779990Z dist/server/ssr/_next/static/layout-segment-context-Cnn2sII4.js       0.58 kB │ gzip:  0.39 kB │ map:   3.39 kB
+2026-11-22T16:42:10.4781135Z dist/server/ssr/_next/static/error-BIHoTMDa.js                        0.65 kB │ gzip:  0.41 kB │ map:   1.18 kB
+2026-11-22T16:42:10.4782240Z dist/server/ssr/_next/static/rolldown-runtime-XKyaHtl9.js             0.72 kB │ gzip:  0.42 kB
+2026-11-22T16:42:10.4783369Z dist/server/ssr/_next/static/streamed-icons-Bjxs8xAA.js               0.78 kB │ gzip:  0.50 kB │ map:   2.76 kB
+2026-11-22T16:42:10.4784515Z dist/server/ssr/_next/static/client-page-root-BMbB9so-.js             1.02 kB │ gzip:  0.60 kB │ map:   7.48 kB
+2026-11-22T16:42:10.4785745Z dist/server/ssr/_next/static/Icon-XNgL-EHR.js                         1.12 kB │ gzip:  0.69 kB │ map:   6.33 kB
+2026-11-22T16:42:10.4786837Z dist/server/ssr/_next/static/app-router-scroll-state-Chjrq4uf.js      1.13 kB │ gzip:  0.60 kB │ map:   5.88 kB
+2026-11-22T16:42:10.4788261Z dist/server/ssr/_next/static/navigation-errors-CtjzsIPH.js            1.22 kB │ gzip:  0.69 kB │ map:   7.98 kB
+2026-11-22T16:42:10.4789403Z dist/server/ssr/_next/static/sun-C7UXiJBM.js                          1.23 kB │ gzip:  0.61 kB │ map:   5.16 kB
+2026-11-22T16:42:10.4790564Z dist/server/ssr/_next/static/navigation-context-state-B806QbwH.js     1.64 kB │ gzip:  0.68 kB │ map:   8.09 kB
+2026-11-22T16:42:10.4792413Z dist/server/ssr/_next/static/app-router-scroll-BDL9QzrO.js            2.55 kB │ gzip:  1.16 kB │ map:  10.72 kB
+2026-11-22T16:42:10.4793514Z dist/server/ssr/_next/static/react-dom-BRJCdz-1.js                    3.94 kB │ gzip:  1.45 kB │ map:  13.93 kB
+2026-11-22T16:42:10.4802090Z dist/server/ssr/_next/static/error-boundary-CsQQiQSb.js               6.33 kB │ gzip:  2.03 kB │ map:  24.54 kB
+2026-11-22T16:42:10.4803456Z dist/server/ssr/_next/static/react-CQmtu_zT.js                        7.64 kB │ gzip:  2.95 kB │ map:  30.44 kB
+2026-11-22T16:42:10.4804686Z dist/server/ssr/_next/static/link-Z03KzkG4.js                        10.08 kB │ gzip:  4.23 kB │ map:  98.86 kB
+2026-11-22T16:42:10.4805850Z dist/server/ssr/_next/static/app-elements-D2L2lwbE.js                11.12 kB │ gzip:  3.46 kB │ map:  48.27 kB
+2026-11-22T16:42:10.4807290Z dist/server/ssr/_next/static/markets-CHf3xpTD.js                     14.09 kB │ gzip:  4.98 kB │ map:  35.17 kB
+2026-11-22T16:42:10.4808685Z dist/server/ssr/_next/static/report-xlsx-MfafO9Ic.js                 22.47 kB │ gzip:  7.80 kB │ map:  64.26 kB
+2026-11-22T16:42:10.4809908Z dist/server/ssr/_next/static/administration-BFB29CzV.js              27.48 kB │ gzip:  8.30 kB │ map:  65.99 kB
+2026-11-22T16:42:10.4811166Z dist/server/ssr/_next/static/app-router-navigation-M57KW8e6.js       52.29 kB │ gzip: 15.04 kB │ map: 267.59 kB
+2026-11-22T16:42:10.4812299Z dist/server/ssr/_next/static/ui-KvaETEWy.js                         109.98 kB │ gzip: 32.75 kB │ map: 586.39 kB
+2026-11-22T16:42:10.4813399Z dist/server/ssr/_next/static/app-BlMG6FWd.js                        259.60 kB │ gzip: 85.13 kB │ map: 703.14 kB
+2026-11-22T16:42:10.4814445Z dist/server/ssr/index.js                                            300.41 kB │ gzip: 95.12 kB │ map: 900.12 kB
+2026-11-22T16:42:10.4814879Z 
+2026-11-22T16:42:10.4866028Z [33m[33m[INEFFECTIVE_DYNAMIC_IMPORT] [0mnode_modules/vinext/dist/shims/slot.js is dynamically imported by \0virtual:vite-rsc/client-references but also statically imported by node_modules/vinext/dist/server/app-route-tree.js, node_modules/vinext/dist/server/app-ssr-entry.js, node_modules/vinext/dist/shims/client-page-root.js, dynamic import will not move module into another chunk.
+2026-11-22T16:42:10.4868580Z [39m
+2026-11-22T16:42:10.4870705Z [33m[33m[INEFFECTIVE_DYNAMIC_IMPORT] [0mnode_modules/vinext/dist/shims/default-global-error.js is dynamically imported by \0virtual:vite-rsc/client-references but also statically imported by node_modules/vinext/dist/server/app-ssr-entry.js, node_modules/vinext/dist/shims/error-boundary.js, dynamic import will not move module into another chunk.
+2026-11-22T16:42:10.4872504Z [32m✓ built in 1.03s[39m
+2026-11-22T16:42:10.4873037Z [39m
+2026-11-22T16:42:10.4875177Z [33m[plugin rsc:inject-async-local-storage] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:inject-async-local-storage) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:10.4876766Z [39m
+2026-11-22T16:42:10.4878946Z [33m[plugin rsc:inject-async-local-storage] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:inject-async-local-storage) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:10.4880589Z [39m
+2026-11-22T16:42:10.4882901Z [33m[plugin rsc:virtual:vite-rsc/assets-manifest] [33m[SOURCEMAP_BROKEN] [0mSourcemap is likely to be incorrect: a plugin (rsc:virtual:vite-rsc/assets-manifest) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help: https://rolldown.rs/guide/troubleshooting#warning-sourcemap-is-likely-to-be-incorrect
+2026-11-22T16:42:10.4884645Z [39m
+2026-11-22T16:42:10.4920222Z 
+2026-11-22T16:42:10.4920751Z   Route (app)
+2026-11-22T16:42:10.4921534Z   ┌ ƒ /                
+2026-11-22T16:42:10.4922226Z   ├ ? /administracion  
+2026-11-22T16:42:10.4929592Z   ├ λ /api/bitacora    
+2026-11-22T16:42:10.4930190Z   ├ λ /api/capturas    
+2026-11-22T16:42:10.4930523Z   ├ λ /api/estado      
+2026-11-22T16:42:10.4930904Z   ├ λ /api/frase-diaria
+2026-11-22T16:42:10.4931209Z   ├ λ /api/frases      
+2026-11-22T16:42:10.4931509Z   ├ ƒ /condiciones     
+2026-11-22T16:42:10.4931820Z   └ ƒ /privacidad      
+2026-11-22T16:42:10.4931956Z 
+2026-11-22T16:42:10.4932242Z   λ API  ƒ Dynamic  ? Unknown
+2026-11-22T16:42:10.4932440Z 
+2026-11-22T16:42:10.4932687Z   ? Some routes could not be classified. vinext currently uses static analysis
+2026-11-22T16:42:10.4933340Z     and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+2026-11-22T16:42:10.4934103Z     Automatic classification will be improved in a future release.
+2026-11-22T16:42:10.4934421Z 
+2026-11-22T16:42:10.4938689Z   Build complete.
+2026-11-22T16:42:10.4939071Z 
+2026-11-22T16:42:10.5923116Z ##[group]Run npm run test:app-security
+2026-11-22T16:42:10.5923604Z [36;1mnpm run test:app-security[0m
+2026-11-22T16:42:10.5945161Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:42:10.5945494Z ##[endgroup]
+2026-11-22T16:42:10.6709847Z 
+2026-11-22T16:42:10.6711427Z > site-creator-vinext-starter@0.1.0 test:app-security
+2026-11-22T16:42:10.6712281Z > node tests/check-app-security.mjs
+2026-11-22T16:42:10.6712646Z 
+2026-11-22T16:42:11.7648548Z Tradeify session created
+2026-11-22T16:42:11.7759407Z Tradeify session created
+2026-11-22T16:42:11.7870338Z Tradeify session created
+2026-11-22T16:42:11.7967865Z Tradeify session created
+2026-11-22T16:42:11.8071631Z Tradeify session created
+2026-11-22T16:42:11.8164559Z Tradeify session created
+2026-11-22T16:42:12.4906371Z Tradeify security response { area: 'api', status: 401 }
+2026-11-22T16:42:12.4964545Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5003340Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5041119Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5074968Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5111536Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5142495Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5175061Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5213409Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5257376Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5330418Z Tradeify security response { area: 'api', status: 403 }
+2026-11-22T16:42:12.5639175Z Tradeify security response { area: 'api', status: 503 }
+2026-11-22T16:42:12.5682139Z Tradeify security response { area: 'api', status: 503 }
+2026-11-22T16:42:12.5721252Z Tradeify security response { area: 'api', status: 503 }
+2026-11-22T16:42:12.6125551Z Tradeify security response { area: 'api', status: 422 }
+2026-11-22T16:42:12.6173523Z Tradeify security response { area: 'api', status: 422 }
+2026-11-22T16:42:12.6299466Z Tradeify security response { area: 'api', status: 422 }
+2026-11-22T16:42:12.6509298Z Tradeify security response { area: 'api', status: 422 }
+2026-11-22T16:42:12.7687419Z Tradeify security response { area: 'api', status: 401 }
+2026-11-22T16:42:12.7695803Z {
+2026-11-22T16:42:12.7697119Z   "scope": "Worker compilado; OAuth simulado, D1/R2 desechables; sin producción",
+2026-11-22T16:42:12.7697734Z   "passed": [
+2026-11-22T16:42:12.7698541Z     "Autenticación y estados denegados sin fuga de datos",
+2026-11-22T16:42:12.7699149Z     "CSRF y origen administrativos",
+2026-11-22T16:42:12.7699807Z     "Mantenimiento bloquea escrituras y conserva lecturas, datos y acceso del propietario",
+2026-11-22T16:42:12.7703759Z     "Protección del propietario y límites obligatorios del servidor",
+2026-11-22T16:42:12.7707315Z     "Recursos sin notas privadas y aislamiento de frases",
+2026-11-22T16:42:12.7724053Z     "Migración de frases mediante API autenticada e idempotente",
+2026-11-22T16:42:12.7724931Z     "Borrado de cuenta elimina la biblioteca privada y preserva otros usuarios"
+2026-11-22T16:42:12.7725562Z   ]
+2026-11-22T16:42:12.7725897Z }
+2026-11-22T16:42:12.8082169Z ##[group]Run node tests/check-app-browser.mjs
+2026-11-22T16:42:12.8082526Z [36;1mnode tests/check-app-browser.mjs[0m
+2026-11-22T16:42:12.8101175Z shell: /usr/bin/bash -e {0}
+2026-11-22T16:42:12.8101543Z env:
+2026-11-22T16:42:12.8101959Z   TRADEIFY_PLAYWRIGHT_MODULE: /home/runner/work/_temp/tradeify-browser/node_modules/playwright/index.mjs
+2026-11-22T16:42:12.8102380Z ##[endgroup]
+2026-11-22T16:42:15.7066651Z Tradeify session created
+2026-11-22T16:42:15.7190902Z Tradeify session created
+2026-11-22T16:42:15.7302362Z Tradeify session created
+2026-11-22T16:42:15.7403730Z Tradeify session created
+2026-11-22T16:42:15.7511997Z Tradeify session created
+2026-11-22T16:42:15.7609089Z Tradeify session created
+2026-11-22T16:42:20.0814806Z PASS Bienvenida
+2026-11-22T16:42:20.2661260Z PASS Sesión autenticada
+2026-11-22T16:42:20.9389364Z PASS resumen-320-light
+2026-11-22T16:42:21.3864565Z PASS bitacora-320-light
+2026-11-22T16:42:21.8372249Z PASS estadisticas-320-light
+2026-11-22T16:42:22.2674953Z PASS psicologia-320-light
+2026-11-22T16:42:22.6815305Z PASS cuentas-320-light
+2026-11-22T16:42:23.1112918Z PASS estrategias-320-light
+2026-11-22T16:42:23.5751215Z PASS riesgo-320-light
+2026-11-22T16:42:23.9986784Z PASS revision-320-light
+2026-11-22T16:42:24.4190578Z PASS mercados-320-light
+2026-11-22T16:42:24.8008871Z PASS calculadoras-320-light
+2026-11-22T16:42:25.2427804Z PASS configuracion-320-light
+2026-11-22T16:42:25.8312964Z PASS ayuda-320-light
+2026-11-22T16:42:26.4720304Z PASS resumen-320-dark
+2026-11-22T16:42:26.9187095Z PASS bitacora-320-dark
+2026-11-22T16:42:27.3721122Z PASS estadisticas-320-dark
+2026-11-22T16:42:27.8004319Z PASS psicologia-320-dark
+2026-11-22T16:42:28.2134193Z PASS cuentas-320-dark
+2026-11-22T16:42:28.6452957Z PASS estrategias-320-dark
+2026-11-22T16:42:29.1075796Z PASS riesgo-320-dark
+2026-11-22T16:42:29.5315549Z PASS revision-320-dark
+2026-11-22T16:42:29.9507885Z PASS mercados-320-dark
+2026-11-22T16:42:30.3340708Z PASS calculadoras-320-dark
+2026-11-22T16:42:30.7733697Z PASS configuracion-320-dark
+2026-11-22T16:42:31.3656789Z PASS ayuda-320-dark
+2026-11-22T16:42:31.9559153Z PASS resumen-360-light
+2026-11-22T16:42:32.3992946Z PASS bitacora-360-light
+2026-11-22T16:42:32.8556958Z PASS estadisticas-360-light
+2026-11-22T16:42:33.2836457Z PASS psicologia-360-light
+2026-11-22T16:42:33.6966935Z PASS cuentas-360-light
+2026-11-22T16:42:34.1274984Z PASS estrategias-360-light
+2026-11-22T16:42:34.5894619Z PASS riesgo-360-light
+2026-11-22T16:42:35.0171687Z PASS revision-360-light
+2026-11-22T16:42:35.4365038Z PASS mercados-360-light
+2026-11-22T16:42:35.8173447Z PASS calculadoras-360-light
+2026-11-22T16:42:36.2411231Z PASS configuracion-360-light
+2026-11-22T16:42:36.8320724Z PASS ayuda-360-light
+2026-11-22T16:42:37.4058560Z PASS resumen-360-dark
+2026-11-22T16:42:37.8506691Z PASS bitacora-360-dark
+2026-11-22T16:42:38.3054679Z PASS estadisticas-360-dark
+2026-11-22T16:42:38.7330750Z PASS psicologia-360-dark
+2026-11-22T16:42:39.1455330Z PASS cuentas-360-dark
+2026-11-22T16:42:39.5606876Z PASS estrategias-360-dark
+2026-11-22T16:42:40.0213997Z PASS riesgo-360-dark
+2026-11-22T16:42:40.4492859Z PASS revision-360-dark
+2026-11-22T16:42:40.8688939Z PASS mercados-360-dark
+2026-11-22T16:42:41.2509362Z PASS calculadoras-360-dark
+2026-11-22T16:42:41.6734739Z PASS configuracion-360-dark
+2026-11-22T16:42:42.2497339Z PASS ayuda-360-dark
+2026-11-22T16:42:43.4296857Z PASS resumen-390-light
+2026-11-22T16:42:44.1906236Z PASS bitacora-390-light
+2026-11-22T16:42:44.8927144Z PASS estadisticas-390-light
+2026-11-22T16:42:45.4327399Z PASS psicologia-390-light
+2026-11-22T16:42:45.9597191Z PASS cuentas-390-light
+2026-11-22T16:42:46.5913368Z PASS estrategias-390-light
+2026-11-22T16:42:47.3425897Z PASS riesgo-390-light
+2026-11-22T16:42:47.9082703Z PASS revision-390-light
+2026-11-22T16:42:48.4434594Z PASS mercados-390-light
+2026-11-22T16:42:48.8940109Z PASS calculadoras-390-light
+2026-11-22T16:42:49.4630471Z PASS configuracion-390-light
+2026-11-22T16:42:50.4290247Z PASS ayuda-390-light
+2026-11-22T16:42:51.4515086Z PASS resumen-390-dark
+2026-11-22T16:42:52.1879790Z PASS bitacora-390-dark
+2026-11-22T16:42:52.8738734Z PASS estadisticas-390-dark
+2026-11-22T16:42:53.4216943Z PASS psicologia-390-dark
+2026-11-22T16:42:53.9415507Z PASS cuentas-390-dark
+2026-11-22T16:42:54.5790976Z PASS estrategias-390-dark
+2026-11-22T16:42:55.3297780Z PASS riesgo-390-dark
+2026-11-22T16:42:55.8687839Z PASS revision-390-dark
+2026-11-22T16:42:56.4070541Z PASS mercados-390-dark
+2026-11-22T16:42:56.8609298Z PASS calculadoras-390-dark
+2026-11-22T16:42:57.4301551Z PASS configuracion-390-dark
+2026-11-22T16:42:58.4016061Z PASS ayuda-390-dark
+2026-11-22T16:42:59.0428727Z PASS resumen-768-light
+2026-11-22T16:42:59.5050092Z PASS bitacora-768-light
+2026-11-22T16:42:59.9810554Z PASS estadisticas-768-light
+2026-11-22T16:43:00.4210877Z PASS psicologia-768-light
+2026-11-22T16:43:00.8771135Z PASS cuentas-768-light
+2026-11-22T16:43:01.3207131Z PASS estrategias-768-light
+2026-11-22T16:43:01.8000274Z PASS riesgo-768-light
+2026-11-22T16:43:02.2582528Z PASS revision-768-light
+2026-11-22T16:43:02.6903443Z PASS mercados-768-light
+2026-11-22T16:43:03.0894243Z PASS calculadoras-768-light
+2026-11-22T16:43:03.5363255Z PASS configuracion-768-light
+2026-11-22T16:43:04.1248787Z PASS ayuda-768-light
+2026-11-22T16:43:04.7591468Z PASS resumen-768-dark
+2026-11-22T16:43:05.2227191Z PASS bitacora-768-dark
+2026-11-22T16:43:05.6979551Z PASS estadisticas-768-dark
+2026-11-22T16:43:06.1372882Z PASS psicologia-768-dark
+2026-11-22T16:43:06.5750734Z PASS cuentas-768-dark
+2026-11-22T16:43:07.0182508Z PASS estrategias-768-dark
+2026-11-22T16:43:07.5250495Z PASS riesgo-768-dark
+2026-11-22T16:43:07.9572344Z PASS revision-768-dark
+2026-11-22T16:43:08.3717932Z PASS mercados-768-dark
+2026-11-22T16:43:08.7554242Z PASS calculadoras-768-dark
+2026-11-22T16:43:09.2007160Z PASS configuracion-768-dark
+2026-11-22T16:43:09.7902082Z PASS ayuda-768-dark
+2026-11-22T16:43:10.4994784Z PASS resumen-1024-light
+2026-11-22T16:43:10.9824883Z PASS bitacora-1024-light
+2026-11-22T16:43:11.4530371Z PASS estadisticas-1024-light
+2026-11-22T16:43:11.8932799Z PASS psicologia-1024-light
+2026-11-22T16:43:12.3343725Z PASS cuentas-1024-light
+2026-11-22T16:43:12.7889789Z PASS estrategias-1024-light
+2026-11-22T16:43:13.2985540Z PASS riesgo-1024-light
+2026-11-22T16:43:13.7494911Z PASS revision-1024-light
+2026-11-22T16:43:14.2036866Z PASS mercados-1024-light
+2026-11-22T16:43:14.6106807Z PASS calculadoras-1024-light
+2026-11-22T16:43:15.0578618Z PASS configuracion-1024-light
+2026-11-22T16:43:15.6403013Z PASS ayuda-1024-light
+2026-11-22T16:43:16.2983283Z PASS resumen-1024-dark
+2026-11-22T16:43:16.7842849Z PASS bitacora-1024-dark
+2026-11-22T16:43:17.2704929Z PASS estadisticas-1024-dark
+2026-11-22T16:43:17.7430003Z PASS psicologia-1024-dark
+2026-11-22T16:43:18.1844426Z PASS cuentas-1024-dark
+2026-11-22T16:43:18.6389997Z PASS estrategias-1024-dark
+2026-11-22T16:43:19.1504230Z PASS riesgo-1024-dark
+2026-11-22T16:43:19.5994700Z PASS revision-1024-dark
+2026-11-22T16:43:20.0513562Z PASS mercados-1024-dark
+2026-11-22T16:43:20.4435205Z PASS calculadoras-1024-dark
+2026-11-22T16:43:20.8924132Z PASS configuracion-1024-dark
+2026-11-22T16:43:21.4932039Z PASS ayuda-1024-dark
+2026-11-22T16:43:22.6783911Z PASS resumen-1440-light
+2026-11-22T16:43:23.5814785Z PASS bitacora-1440-light
+2026-11-22T16:43:24.3257363Z PASS estadisticas-1440-light
+2026-11-22T16:43:24.9138592Z PASS psicologia-1440-light
+2026-11-22T16:43:25.4874997Z PASS cuentas-1440-light
+2026-11-22T16:43:26.1367112Z PASS estrategias-1440-light
+2026-11-22T16:43:27.0511124Z PASS riesgo-1440-light
+2026-11-22T16:43:27.6359431Z PASS revision-1440-light
+2026-11-22T16:43:28.2316226Z PASS mercados-1440-light
+2026-11-22T16:43:28.7060107Z PASS calculadoras-1440-light
+2026-11-22T16:43:29.3077733Z PASS configuracion-1440-light
+2026-11-22T16:43:30.3991346Z PASS ayuda-1440-light
+2026-11-22T16:43:31.4180029Z PASS resumen-1440-dark
+2026-11-22T16:43:32.2740909Z PASS bitacora-1440-dark
+2026-11-22T16:43:33.0380176Z PASS estadisticas-1440-dark
+2026-11-22T16:43:33.6602748Z PASS psicologia-1440-dark
+2026-11-22T16:43:34.2366468Z PASS cuentas-1440-dark
+2026-11-22T16:43:34.8844170Z PASS estrategias-1440-dark
+2026-11-22T16:43:35.8067669Z PASS riesgo-1440-dark
+2026-11-22T16:43:36.3649066Z PASS revision-1440-dark
+2026-11-22T16:43:36.9568595Z PASS mercados-1440-dark
+2026-11-22T16:43:37.4318524Z PASS calculadoras-1440-dark
+2026-11-22T16:43:38.1048333Z PASS configuracion-1440-dark
+2026-11-22T16:43:39.0527194Z PASS ayuda-1440-dark
+2026-11-22T16:43:39.7115799Z PASS resumen-1920-light
+2026-11-22T16:43:40.1935576Z PASS bitacora-1920-light
+2026-11-22T16:43:40.6964208Z PASS estadisticas-1920-light
+2026-11-22T16:43:41.1397722Z PASS psicologia-1920-light
+2026-11-22T16:43:41.6033894Z PASS cuentas-1920-light
+2026-11-22T16:43:42.0735841Z PASS estrategias-1920-light
+2026-11-22T16:43:42.6070298Z PASS riesgo-1920-light
+2026-11-22T16:43:43.0819842Z PASS revision-1920-light
+2026-11-22T16:43:43.5628398Z PASS mercados-1920-light
+2026-11-22T16:43:43.9699508Z PASS calculadoras-1920-light
+2026-11-22T16:43:44.4439962Z PASS configuracion-1920-light
+2026-11-22T16:43:45.0729948Z PASS ayuda-1920-light
+2026-11-22T16:43:45.6981268Z PASS resumen-1920-dark
+2026-11-22T16:43:46.1934979Z PASS bitacora-1920-dark
+2026-11-22T16:43:46.7548545Z PASS estadisticas-1920-dark
+2026-11-22T16:43:47.2224785Z PASS psicologia-1920-dark
+2026-11-22T16:43:47.6831514Z PASS cuentas-1920-dark
+2026-11-22T16:43:48.1566063Z PASS estrategias-1920-dark
+2026-11-22T16:43:48.6897329Z PASS riesgo-1920-dark
+2026-11-22T16:43:49.1512914Z PASS revision-1920-dark
+2026-11-22T16:43:49.6392858Z PASS mercados-1920-dark
+2026-11-22T16:43:50.0537947Z PASS calculadoras-1920-dark
+2026-11-22T16:43:50.5267202Z PASS configuracion-1920-dark
+2026-11-22T16:43:51.1596268Z PASS ayuda-1920-dark
+2026-11-22T16:43:52.7420847Z PASS Diez calculadoras: valores válidos, vacíos y decimales
+2026-11-22T16:43:53.8000960Z PASS Ayuda: búsqueda, categorías, guía y foco de teclado
+2026-11-22T16:43:54.9909630Z PASS Bitácora: búsqueda, estado, orden, páginas y vacíos
+2026-11-22T16:43:56.0880172Z PASS Curva interactiva, cuenta y periodo
+2026-11-22T16:44:00.3129921Z PASS Alta, parcial, stop actual, persistencia, edición, cierre y eliminación
+2026-11-22T16:44:01.6446334Z PASS Revisión semanal y mensual: guardado y persistencia
+2026-11-22T16:44:03.5284694Z PASS Frases: favoritas, filtros, preferencias y cola sin conexión
+2026-11-22T16:44:04.6146214Z PASS Restauración JSON: diagnóstico de archivo inválido y foco
+2026-11-22T16:44:06.8020492Z PASS Restauración JSON válida: vista previa, confirmación y persistencia
+2026-11-22T16:44:07.9947561Z PASS Importación CSV: apertura y plantilla
+2026-11-22T16:44:16.7433053Z PASS Reportes contextuales: todas las secciones
+2026-11-22T16:44:18.9757038Z PASS Reportes individual y mensual desde sus contextos
+2026-11-22T16:44:20.6484313Z PASS Descargas reales XLSX, CSV y PNG con privacidad
+2026-11-22T16:44:21.8816467Z PASS Metadatos concurrentes: cuenta creada desde otro dispositivo
+2026-11-22T16:44:24.8931114Z PASS Cuentas, movimientos, límites y estrategias: formularios guardados
+2026-11-22T16:44:41.0020792Z PASS Foco atrapado y formularios en siete anchos y dos temas
+2026-11-22T16:44:48.0468402Z PASS Administración: búsqueda, recursos, mantenimiento reversible y auditoría
+2026-11-22T16:44:49.0609730Z PASS administracion-320-light
+2026-11-22T16:44:50.1272162Z PASS administracion-320-dark
+2026-11-22T16:44:51.1277169Z PASS administracion-360-light
+2026-11-22T16:44:52.1116255Z PASS administracion-360-dark
+2026-11-22T16:44:53.1939895Z PASS administracion-390-light
+2026-11-22T16:44:54.1952824Z PASS administracion-390-dark
+2026-11-22T16:44:55.2209093Z PASS administracion-768-light
+2026-11-22T16:44:56.3213638Z PASS administracion-768-dark
+2026-11-22T16:44:57.3408949Z PASS administracion-1024-light
+2026-11-22T16:44:58.3403653Z PASS administracion-1024-dark
+2026-11-22T16:44:59.4702240Z PASS administracion-1440-light
+2026-11-22T16:45:00.5054554Z PASS administracion-1440-dark
+2026-11-22T16:45:01.5444699Z PASS administracion-1920-light
+2026-11-22T16:45:02.6607064Z PASS administracion-1920-dark
+2026-11-22T16:45:02.9567935Z PASS Calculadora interactiva
+2026-11-22T16:45:03.2257835Z PASS Reporte contextual y privacidad
+2026-11-22T16:45:03.5487239Z Tradeify session revoked
+2026-11-22T16:45:03.6427019Z PASS Cierre de sesión conserva registros
+2026-11-22T16:45:03.6670969Z Tradeify security response { area: 'page', status: 403 }
+2026-11-22T16:45:03.7391476Z PASS Acceso denegado · pending
+2026-11-22T16:45:03.7472538Z Tradeify security response { area: 'page', status: 403 }
+2026-11-22T16:45:03.8220586Z PASS Acceso denegado · suspended
+2026-11-22T16:45:03.8292611Z Tradeify security response { area: 'page', status: 403 }
+2026-11-22T16:45:03.9059370Z PASS Acceso denegado · expired
+2026-11-22T16:45:03.9134886Z Tradeify security response { area: 'page', status: 403 }
+2026-11-22T16:45:03.9883038Z PASS Acceso denegado · blocked
+2026-11-22T16:45:04.1072233Z ##[group]Run actions/upload-artifact@v4
+2026-11-22T16:45:04.1072504Z with:
+2026-11-22T16:45:04.1072821Z   name: app-browser-b806ca02151805500034c42a5dfe8327cbf006d4
+2026-11-22T16:45:04.1073152Z   path: outputs/app-browser
+2026-11-22T16:45:04.1073411Z   retention-days: 14
+2026-11-22T16:45:04.1073639Z   if-no-files-found: warn
+2026-11-22T16:45:04.1073901Z   compression-level: 6
+2026-11-22T16:45:04.1074135Z   overwrite: false
+2026-11-22T16:45:04.1074381Z   include-hidden-files: false
+2026-11-22T16:45:04.1074632Z ##[endgroup]
+2026-11-22T16:45:04.2356389Z (node:3685) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-22T16:45:04.2358042Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-22T16:45:04.2837611Z With the provided path, there will be 216 files uploaded
+2026-11-22T16:45:04.2838845Z Artifact name is valid!
+2026-11-22T16:45:04.2839266Z Root directory input is valid!
+2026-11-22T16:45:04.5855123Z Beginning upload of artifact content to blob storage
+2026-11-22T16:45:04.8048913Z (node:3685) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-22T16:45:05.0913634Z Uploaded bytes 8388608
+2026-11-22T16:45:05.2060033Z Uploaded bytes 16777216
+2026-11-22T16:45:05.3856380Z Uploaded bytes 25165824
+2026-11-22T16:45:05.5917482Z Uploaded bytes 33554432
+2026-11-22T16:45:05.6793188Z Uploaded bytes 36601706
+2026-11-22T16:45:05.6971656Z Finished uploading artifact content to blob storage!
+2026-11-22T16:45:05.6972661Z SHA256 digest of uploaded artifact zip is b8668eb35fd3b2ed6f5c654fe50dc3ed940cceeaa13308020c048dac1592dbae
+2026-11-22T16:45:05.6973517Z Finalizing artifact upload
+2026-11-22T16:45:06.0655199Z Artifact app-browser-b806ca02151805500034c42a5dfe8327cbf006d4.zip successfully finalized. Artifact ID 14762633997
+2026-11-22T16:45:06.0656250Z Artifact app-browser-b806ca02151805500034c42a5dfe8327cbf006d4 has been successfully uploaded! Final size is 36601706 bytes. Artifact ID is 14762633997
+2026-11-22T16:45:06.0660670Z Artifact download URL: https://github.com/tradeifyweb2026-ship-it/Tradeify.web/actions/runs/45045134407/artifacts/14762633997
+2026-11-22T16:45:06.0824339Z Post job cleanup.
+2026-11-22T16:45:06.1753938Z (node:3697) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-22T16:45:06.1754906Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-75ebf9c98c9e8c54697c3fffa44e2c8e912ab3827a1cf1992cd19a3f96cb1485, not saving cache.
+2026-11-22T16:45:06.1758610Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-22T16:45:06.1845498Z Post job cleanup.
+2026-11-22T16:45:06.2541931Z [command]/usr/bin/git version
+2026-11-22T16:45:06.2599733Z git version 2.56.1
+2026-11-22T16:45:06.2622281Z Temporarily overriding HOME='/home/runner/work/_temp/fc9d515a-261d-4d62-a7e0-9a4806ec2d2e' before making global git config changes
+2026-11-22T16:45:06.2623370Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-22T16:45:06.2624754Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Tradeify.web/Tradeify.web
+2026-11-22T16:45:06.2728885Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-22T16:45:06.2730963Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-22T16:45:06.3583867Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-22T16:45:06.3585183Z http.https://github.com/.extraheader
+2026-11-22T16:45:06.3587286Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-22T16:45:06.3589486Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-22T16:45:06.3756809Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-22T16:45:06.3785596Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-22T16:45:06.4072943Z Cleaning up orphan processes
+2026-11-22T16:45:06.4296899Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

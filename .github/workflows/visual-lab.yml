@@ -1,0 +1,45 @@
+name: Tradeify Obsidian visual laboratory
+on:
+  push:
+    branches: [rediseno-v2-laboratorio-visual-2026-11-24]
+    paths: ['app/**','components/**','lib/**','public/**','sites/**','scripts/**','tests/**','package.json','package-lock.json','eslint.config.mjs','.github/workflows/visual-lab.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: nebula-visual-lab
+  cancel-in-progress: true
+jobs:
+  application:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with: {node-version: '24', cache: npm}
+      - run: npm ci
+      - run: npm install --prefix "$RUNNER_TEMP/tradeify-browser" --ignore-scripts playwright@1.62.1
+      - run: '"$RUNNER_TEMP/tradeify-browser/node_modules/.bin/playwright" install --with-deps chromium'
+      - run: npm run typecheck && npm run lint && npm run test:logic && npm run test:advanced
+      - run: npm run build:visual-demo && npm run test:visual-contracts
+      - run: node tests/check-visual-lab-browser.mjs
+        env:
+          TRADEIFY_PLAYWRIGHT_MODULE: ${{ runner.temp }}/tradeify-browser/node_modules/playwright/index.mjs
+      - run: npm run build:cloudflare
+        env:
+          TRADEIFY_D1_ID: 11111111-1111-4111-8111-111111111111
+          TRADEIFY_R2_BUCKET: tradeify-local-test
+      - run: npm run test:app-security && npm run test:security && npm run test:recovery && node tests/check-public-share-api.mjs
+      - run: node tests/check-app-browser.mjs
+        env:
+          TRADEIFY_PLAYWRIGHT_MODULE: ${{ runner.temp }}/tradeify-browser/node_modules/playwright/index.mjs
+      - run: npm run build && npm run test:api
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: nebula-browser-${{ github.sha }}
+          path: |
+            outputs/app-browser
+            outputs/visual-lab
+          retention-days: 14

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readJson,readBytes,RequestBodyError} from '../lib/request-body.ts';
+const request=text=>new Request('https://isolated.example.test',{method:'POST',headers:{'Content-Type':'application/json; charset=utf-8'},body:text});
+let cancelled=false;
+const stream=new ReadableStream({pull(c){c.enqueue(new Uint8Array(100));},cancel(){cancelled=true;}});
+await assert.rejects(readBytes(new Request('https://isolated.example.test',{method:'POST',body:stream,duplex:'half'}),180),error=>error instanceof RequestBodyError&&error.status===413);
+assert.equal(cancelled,true,'Debe cancelar el flujo al superar el límite sin Content-Length');
+await assert.rejects(readJson(request('{'),100,400),{status:400});
+await assert.rejects(readJson(request('['.repeat(33)+'0'+']'.repeat(33)),100),{status:422});
+assert.ok(await readJson(request('['.repeat(32)+'0'+']'.repeat(32)),100));
+assert.deepEqual(await readJson(request(JSON.stringify({text:'{[\\"}]}'.repeat(40)})),2000),{text:'{[\\"}]}'.repeat(40)});
+await assert.rejects(readJson(new Request('https://isolated.example.test',{method:'POST',headers:{'Content-Type':'application/jsonp'},body:'{}'}),100),{status:415});
+await assert.rejects(readBytes(request('€'.repeat(10)),29),{status:413});
+assert.equal((await readBytes(request('€'.repeat(10)),30)).length,30);
+console.log('check-request-body: streaming cancelado, bytes UTF-8, media type, profundidad 32/33, escapes y JSON malformado verificados.');

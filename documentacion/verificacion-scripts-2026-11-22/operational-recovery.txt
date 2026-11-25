@@ -1,0 +1,32 @@
+
+> site-creator-vinext-starter@0.1.0 test:recovery
+> node tests/check-operational-recovery.mjs
+
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:76
+   for(const name of tables)for(const row of rows[name]){const columns=Object.keys(row);offline.prepare('INSERT INTO '+ident(name)+' ('+columns.map(ident).join(',')+') VALUES ('+columns.map(()=>'?').join(',')+')').run(...columns.map(c=>row[c]));}
+                                                                                                ^
+
+Error: foreign key mismatch - "private_scripts" referencing "script_vaults"
+    at file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:76:97
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async check (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:17:32)
+    at async file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:65:2 {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error'
+}
+
+Node.js v24.22.3

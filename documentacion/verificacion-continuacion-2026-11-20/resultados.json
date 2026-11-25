@@ -1,0 +1,241 @@
+{
+  "initialCommit": "404542cbbfa52bbaebfe67cd3644998b554b30ed",
+  "scope": "Local y recursos desechables; Google simulado; sin publicación",
+  "checks": [
+    {
+      "test": "npm-ci",
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exitCode": 0,
+      "seconds": 17.61,
+      "evidence": "npm-ci.txt"
+    },
+    {
+      "test": "logic",
+      "command": [
+        "npm",
+        "run",
+        "test:logic"
+      ],
+      "exitCode": 0,
+      "seconds": 4.86,
+      "evidence": "logic.txt"
+    },
+    {
+      "test": "queries-10000",
+      "command": [
+        "npm",
+        "run",
+        "test:queries"
+      ],
+      "exitCode": 0,
+      "evidence": "queries-10000.txt",
+      "finalRerun": "Aprobada tras reintentos 429 y cancelación; duración previa conservada por separado",
+      "previousSeconds": 9.73
+    },
+    {
+      "test": "restore-migrations",
+      "command": [
+        "npm",
+        "run",
+        "test:restore"
+      ],
+      "exitCode": 0,
+      "seconds": 2.37,
+      "evidence": "restore-migrations.txt"
+    },
+    {
+      "test": "exports",
+      "command": [
+        "npm",
+        "run",
+        "test:exports"
+      ],
+      "exitCode": 0,
+      "seconds": 0.37,
+      "evidence": "exports.txt"
+    },
+    {
+      "test": "check-markets",
+      "command": [
+        "node",
+        "tests/check-markets.mjs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.11,
+      "evidence": "check-markets.txt"
+    },
+    {
+      "test": "check-capture-links",
+      "command": [
+        "node",
+        "tests/check-capture-links.mjs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.32,
+      "evidence": "check-capture-links.txt"
+    },
+    {
+      "test": "check-capture-failures",
+      "command": [
+        "node",
+        "tests/check-capture-failures.mjs"
+      ],
+      "exitCode": 0,
+      "seconds": 0.52,
+      "evidence": "check-capture-failures.txt"
+    },
+    {
+      "test": "audit-production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--json"
+      ],
+      "exitCode": 0,
+      "seconds": 4.65,
+      "evidence": "audit-production.txt"
+    },
+    {
+      "test": "audit-all",
+      "command": [
+        "npm",
+        "audit",
+        "--json"
+      ],
+      "exitCode": 1,
+      "seconds": 4.91,
+      "evidence": "audit-all.txt"
+    },
+    {
+      "test": "logic-node22",
+      "command": [
+        "npm",
+        "exec",
+        "--yes",
+        "--package=node@22.22.0",
+        "--",
+        "node",
+        "scripts/check-v2.mjs"
+      ],
+      "exitCode": 0,
+      "seconds": 7.64,
+      "evidence": "logic-node22.txt"
+    },
+    {
+      "test": "schema-check",
+      "command": [
+        "npm",
+        "run",
+        "db:generate"
+      ],
+      "exitCode": 0,
+      "seconds": 0.88,
+      "evidence": "schema-check.txt"
+    },
+    {
+      "test": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "evidence": "typecheck.txt",
+      "finalRerun": "Aprobada tras reintentos 429 y cancelación; duración previa conservada por separado",
+      "previousSeconds": 5.11
+    },
+    {
+      "test": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "evidence": "lint.txt",
+      "finalRerun": "Aprobada tras reintentos 429 y cancelación; duración previa conservada por separado",
+      "previousSeconds": 9.61
+    },
+    {
+      "test": "build-sites",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "evidence": "build-sites.txt",
+      "finalRerun": "Aprobada tras reintentos 429 y cancelación; duración previa conservada por separado",
+      "previousSeconds": 8.73
+    },
+    {
+      "test": "api",
+      "command": [
+        "npm",
+        "run",
+        "test:api"
+      ],
+      "exitCode": 0,
+      "evidence": "api.txt",
+      "finalRerun": "Aprobada tras reintentos 429 y cancelación; duración previa conservada por separado",
+      "previousSeconds": 3.44
+    },
+    {
+      "test": "build-cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 9.21,
+      "evidence": "build-cloudflare-r2.txt"
+    },
+    {
+      "test": "cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 2.62,
+      "evidence": "cloudflare-r2.txt"
+    },
+    {
+      "test": "build-cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 6.98,
+      "evidence": "build-cloudflare-no-r2.txt"
+    },
+    {
+      "test": "cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 2.4,
+      "evidence": "cloudflare-no-r2.txt"
+    }
+  ],
+  "finalCodeNote": "Incluye prueba de 429 y cancelación, compilaciones y pruebas API/Cloudflare posteriores al último ajuste.",
+  "verifiedCodeCommit": "6158482e91b5744dda4cf46b89639d3d706374ab",
+  "logNormalization": "Se retiran escapes ANSI, espacios finales y blancos sobrantes; se conservan diagnósticos y códigos de salida.",
+  "visual": {
+    "status": "blocked",
+    "reason": "Chromium: socket() failed: Operation not permitted (1)",
+    "evidence": "browser-attempt.txt",
+    "viewportsVerified": []
+  }
+}

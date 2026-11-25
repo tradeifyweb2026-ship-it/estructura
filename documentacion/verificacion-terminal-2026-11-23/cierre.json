@@ -1,0 +1,69 @@
+{
+  "requestedAncestor": "404542cbbfa52bbaebfe67cd3644998b554b30ed",
+  "deliveryStart": "18ec6e042e80b10026fd15ea68900474250b2a33",
+  "functionalHead": "84daa8d9edf3b0b1bbce8f8a48fdc4d0c05a3b35",
+  "branch": "mejoras-v2-2026-11-18",
+  "mainAndBackup": "913425d042c681d1682bd7df11facda70d26c4d2",
+  "commits": [
+    {
+      "sha": "98a6b904765125f1c1b2a337f8645ca05c71713d",
+      "message": "feat(sharing): add private Terminal cards with verified net return and existing report exports"
+    },
+    {
+      "sha": "6fb88ae09aacbe63845a988c72beca58d46c2599",
+      "message": "test(sharing): locate labelled selects correctly and isolate browser identities before switching cookies"
+    },
+    {
+      "sha": "9616c4f0e3a149d774c54452e23ef589f455e36a",
+      "message": "feat(sharing): add confirmed 30-day public snapshots and revocable QR in Terminal cards"
+    },
+    {
+      "sha": "262cd0e966de08fc6f6ff121467caa7e85c91716",
+      "message": "feat(ux): separate sharing reports and backups, group navigation and replace native confirmations"
+    },
+    {
+      "sha": "84daa8d9edf3b0b1bbce8f8a48fdc4d0c05a3b35",
+      "message": "fix(ux): keep the mobile menu above daily phrases and verify explicit restore and public privacy flows"
+    }
+  ],
+  "codePaths": 49,
+  "local": {
+    "manifest": "release-final/resultados.json",
+    "passed": 18,
+    "knownDevModerate": 4,
+    "productionAdvisories": 0
+  },
+  "chromium": {
+    "manifest": "chromium-final/manifest.json",
+    "run": 45189916983,
+    "cases": 219,
+    "axe": 68,
+    "axeViolations": 0,
+    "jsErrors": 0,
+    "unexpectedConsoleErrors": 0
+  },
+  "tradingViewReal": {
+    "run": 45186254867,
+    "source": "9616c4f0e3a149d774c54452e23ef589f455e36a",
+    "status": "success",
+    "limit": "No acredita Google, dominio o recursos de producción; limitación NAS100 registrada."
+  },
+  "reportDocuments": {
+    "run": 45183268912,
+    "source": "98a6b904765125f1c1b2a337f8645ca05c71713d",
+    "status": "success",
+    "limit": "Plantillas conservadas después; el flujo PDF real final también se verifica en 45189916983."
+  },
+  "newPhases": "01–09 completas dentro de su alcance local aprobado; validación de servicios y requisitos externos sigue bloqueada",
+  "published": false,
+  "productionMigrations": false,
+  "productionDataWrites": false,
+  "blockers": [
+    "Acceso/configuración/plan/presupuesto reales de Cloudflare, D1 y R2",
+    "Google OAuth en dominio real",
+    "Respaldo recuperable y reversión reales autorizados",
+    "Cron/cola/observabilidad efectivos",
+    "Responsable/contacto/bases/retención/expurgo y derechos/licencias indispensables",
+    "Autorización adicional de publicación según PDF vigente"
+  ]
+}

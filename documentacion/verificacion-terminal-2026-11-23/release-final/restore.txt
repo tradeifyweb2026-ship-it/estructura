@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 test:restore
+> node tests/check-restore-transaction.mjs && node tests/check-migration-upgrade.mjs
+
+Restauración D1: cambio concurrente determinista, rollback y recibo idempotente OK.
+Migraciones 0006–0016: actualización desde V2 previa conserva registros, versiones y relaciones en D1.

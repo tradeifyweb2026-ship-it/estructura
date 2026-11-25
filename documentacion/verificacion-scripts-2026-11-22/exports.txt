@@ -1,0 +1,7 @@
+
+> site-creator-vinext-starter@0.1.0 test:exports
+> node tests/check-export.mjs && node tests/check-report-profiles.mjs
+
+check-export: ok
+Reportes: diez perfiles, cinco contratos de salida, privacidad, vacíos, multimoneda, tipos, inyección y 10000 registros OK. Rasterización/impresión requieren navegador real.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.

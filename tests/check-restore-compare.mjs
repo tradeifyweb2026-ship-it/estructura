@@ -1,0 +1,2 @@
+import assert from "node:assert/strict";import {restoreDecision} from "../lib/restore-compare.mjs";
+assert.equal(restoreDecision(undefined,{a:1}),"add");assert.equal(restoreDecision({b:2,a:1},{a:1,b:2}),"skip");assert.equal(restoreDecision({a:1},{a:2}),"conflict");assert.equal(restoreDecision({a:[1,2]},{a:[2,1]}),"conflict");assert.equal(restoreDecision({a:1,x:undefined},{a:1}),"skip");assert.equal(restoreDecision({a:null},{}),"conflict");console.log("Restore compare: 6 casos OK");

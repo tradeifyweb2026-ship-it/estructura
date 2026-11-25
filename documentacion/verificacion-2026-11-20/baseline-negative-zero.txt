@@ -1,0 +1,36 @@
+$ npm exec --yes --package=node@22.22.0 -- node work/original-partial-test.mjs
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+(node:42) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  {
+    average: 90,
+    closed: 25,
+    realizedR: 0.5,
+    remaining: 75,
++   stopR: -0
+-   stopR: 0
+  }
+
+    at file:///workspace/scratch/04fd2a9fe152/Tradeify.web/work/original-partial-test.mjs:131:76
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: { closed: 25, remaining: 75, realizedR: 0.5, stopR: -0, average: 90 },
+  expected: { closed: 25, remaining: 75, realizedR: 0.5, stopR: 0, average: 90 },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.22.0
+
+Exit: 1

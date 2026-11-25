@@ -1,0 +1,34 @@
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify security response { area: 'api', status: 401 }
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+401 !== 200
+
+    at file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:62:10
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async check (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:14:32)
+    at async file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:61:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 401,
+  expected: 200,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.3

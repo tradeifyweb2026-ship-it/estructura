@@ -1,0 +1,2 @@
+$ node tests/check-markets.mjs
+Mercados: 11 módulos, símbolos, carga única, reintento, timeout y actualización de tema/activo sin recrear el elemento: OK.

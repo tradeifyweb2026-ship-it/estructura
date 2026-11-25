@@ -1,0 +1,183 @@
+[
+  {
+    "name": "resumen-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 311,
+      "decimalTextNodes": 20,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 5,
+      "frames": [],
+      "frameTextCharacters": 0
+    }
+  },
+  {
+    "name": "tv-advanced-chart-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 67,
+      "decimalTextNodes": 0,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 3,
+      "frames": [
+        "https://www.tradingview-widget.com/embed-widget/advanced-chart/"
+      ],
+      "frameTextCharacters": 196
+    }
+  },
+  {
+    "name": "tv-economic-calendar-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 3722,
+      "decimalTextNodes": 75,
+      "integerNodes": 14,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 159,
+      "frames": [
+        "https://www.tradingview-widget.com/embed-widget/events/"
+      ],
+      "frameTextCharacters": 2770
+    }
+  },
+  {
+    "name": "tv-news-feed-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 82,
+      "decimalTextNodes": 0,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 2,
+      "svgPaths": 7,
+      "frames": [],
+      "frameTextCharacters": 0
+    }
+  },
+  {
+    "name": "tv-heatmap-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 89,
+      "decimalTextNodes": 0,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 3,
+      "frames": [
+        "https://www.tradingview-widget.com/embed-widget/stock-heatmap/"
+      ],
+      "frameTextCharacters": 25,
+      "coloredDataPixels": 337921
+    }
+  },
+  {
+    "name": "tv-forex-table-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 1184,
+      "decimalTextNodes": 42,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 6,
+      "frames": [],
+      "frameTextCharacters": 0
+    }
+  },
+  {
+    "name": "tv-technical-analysis-real",
+    "status": "passed",
+    "evidence": {
+      "requestedSymbol": {
+        "textCharacters": 317,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 0,
+        "restricted": true,
+        "newsLinks": 0,
+        "svgPaths": 19,
+        "frames": [],
+        "frameTextCharacters": 0,
+        "availability": "provider-restricted"
+      },
+      "explicitApple": {
+        "textCharacters": 246,
+        "decimalTextNodes": 0,
+        "integerNodes": 0,
+        "analysisLabels": 1,
+        "restricted": false,
+        "newsLinks": 0,
+        "svgPaths": 18,
+        "frames": [],
+        "frameTextCharacters": 0,
+        "coloredDataPixels": 2313
+      }
+    }
+  },
+  {
+    "name": "tv-market-data-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 300,
+      "decimalTextNodes": 3,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 6,
+      "frames": [],
+      "frameTextCharacters": 0
+    }
+  },
+  {
+    "name": "tv-world-market-summary-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 119,
+      "decimalTextNodes": 0,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 210,
+      "frames": [],
+      "frameTextCharacters": 0,
+      "coloredDataPixels": 3940
+    }
+  },
+  {
+    "name": "tv-economic-map-real",
+    "status": "passed",
+    "evidence": {
+      "textCharacters": 224,
+      "decimalTextNodes": 0,
+      "integerNodes": 0,
+      "analysisLabels": 0,
+      "restricted": false,
+      "newsLinks": 0,
+      "svgPaths": 208,
+      "frames": [],
+      "frameTextCharacters": 0
+    }
+  },
+  {
+    "name": "fundamentales-real",
+    "status": "passed"
+  },
+  {
+    "name": "csp-bloquea-script-y-handler-inline",
+    "status": "passed"
+  }
+]

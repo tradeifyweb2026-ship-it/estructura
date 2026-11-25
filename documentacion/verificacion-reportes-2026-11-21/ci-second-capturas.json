@@ -1,0 +1,845 @@
+{
+  "scope": "Reportes: PDF, captura de documento y rasterización PNG; no flujos autenticados de app",
+  "results": [
+    {
+      "profile": "resumen",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "resumen",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "bitacora",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "operacion",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estadisticas",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "psicologia",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "cuentas",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "riesgo",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "estrategias",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "semanal",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 320,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 320,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 360,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 360,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 390,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 390,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 768,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 768,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1024,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1024,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1440,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1440,
+      "colorScheme": "dark",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1920,
+      "colorScheme": "light",
+      "status": "passed"
+    },
+    {
+      "profile": "mensual",
+      "width": 1920,
+      "colorScheme": "dark",
+      "status": "passed"
+    }
+  ]
+}

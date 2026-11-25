@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "id": "ca5166a298ffcc226dc59c3a1635c10d3f5a91acc1a6291b6634f632c2722002",
+  "source": "2272e9580a795411dca035a2ec064869c2a57752",
+  "target": {
+    "environment": "staging",
+    "workerName": "tradeify-staging-fixture",
+    "databaseName": "tradeify-staging-fixture",
+    "databaseId": "22222222-2222-4222-8222-222222222222",
+    "bucketName": "tradeify-staging-fixture",
+    "accountId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "readOnly": true,
+  "schemaFingerprint": "230abe915bd29adafba96a85ed6015b9b017661e352898ae0178bd16fd369e92",
+  "registryPresent": true,
+  "freshDatabase": false,
+  "missing": [],
+  "different": [],
+  "extra": [],
+  "migrations": [
+    {
+      "name": "0000_wild_thundra.sql",
+      "sha256": "52762303ae1676bf3d86b3f70369a4fd97a97c5a815458f33bd94fafe9bdfd82",
+      "status": "recorded"
+    },
+    {
+      "name": "0001_magical_spot.sql",
+      "sha256": "ee10775b60b5ff25df7704c4e390111ad97c1f9240fcaac79705760fdd9295db",
+      "status": "recorded"
+    },
+    {
+      "name": "0002_auth_sessions.sql",
+      "sha256": "1b5b37531b5072df28a88a0f002d2fb8846eeac265818a814d65a9a589624716",
+      "status": "recorded"
+    },
+    {
+      "name": "0003_user_limits.sql",
+      "sha256": "0891682bf0acf354530bfeaae1d5f3a1c076a5deeb9e3075c2463eb978041cf7",
+      "status": "recorded"
+    },
+    {
+      "name": "0004_login_codes.sql",
+      "sha256": "fb8f3604f6773c80f37980931ea3bf32798de30dd319bc2fe52d9cddc9b4b9e5",
+      "status": "recorded"
+    },
+    {
+      "name": "0005_administration.sql",
+      "sha256": "d5fd8ff36dc4db0830e307f9dfc6e14866dd4bf002f9db2e42586b4eba61cc30",
+      "status": "recorded"
+    },
+    {
+      "name": "0006_restore_receipts.sql",
+      "sha256": "eb8a9decdb5e2c2575bcf60aa7fefc04070534df9f2e31c162899b4abdf996ee",
+      "status": "recorded"
+    },
+    {
+      "name": "0007_individual_quotas.sql",
+      "sha256": "54fa9eef3d2c6e217911f90051d719f6cd84542de83b6d8b99d939a1c329872f",
+      "status": "recorded"
+    },
+    {
+      "name": "0008_query_indexes_revisions.sql",
+      "sha256": "7afc0328e3da6afe2bb966510f4a5754829386b5f56f2e5481f1a0c21b195800",
+      "status": "recorded"
+    },
+    {
+      "name": "0009_section_cache.sql",
+      "sha256": "503889515bf17aa98e26d6c24e6473c1e360ab20f24d9afb1190940b26e4f5e6",
+      "status": "recorded"
+    },
+    {
+      "name": "0010_quote_library.sql",
+      "sha256": "9873ba0b6dfde23fdead944b9bd6ab72b9b39f8bed50d23910b74836b2f136fb",
+      "status": "recorded"
+    },
+    {
+      "name": "0011_admin_operations.sql",
+      "sha256": "ee2e631d4bafb72ab365d2bdd516f6a4265410a826e21c495fc93fe3b372ffad",
+      "status": "recorded"
+    },
+    {
+      "name": "0012_operational_incidents.sql",
+      "sha256": "90b88cf4f156302430d0a4ebc319e6efc78b9f8f09300143650d0a93471dba9f",
+      "status": "recorded"
+    },
+    {
+      "name": "0013_storage_deletions.sql",
+      "sha256": "b269dc7f0e42ac7ac0fdf2e7dc2ede83d03d669d117b79092b3341516cf79729",
+      "status": "recorded"
+    },
+    {
+      "name": "0014_asset_catalog.sql",
+      "sha256": "f2b3517aced39a26fa174f3cd3809ac260ecf868fe876e775421fe4acfe820af",
+      "status": "recorded"
+    },
+    {
+      "name": "0015_private_scripts.sql",
+      "sha256": "915eba873e108c0aa29474aa00ec0ac912ec52e4fbe790d950a4c8558cb8f647",
+      "status": "recorded"
+    },
+    {
+      "name": "0016_public_trade_shares.sql",
+      "sha256": "d45b396b88196dbf2c110ec7bb92d67df9269715c71e8f6f2e8d1f6214ab4e1e",
+      "status": "recorded"
+    }
+  ],
+  "ready": true,
+  "baselineRequired": false,
+  "explanation": "Un registro de migración no prueba que sus objetos existan. Diferencias de SQL requieren revisión; no se corrigen ni se marca una migración como aplicada automáticamente.",
+  "foreignKeyViolations": 0
+}

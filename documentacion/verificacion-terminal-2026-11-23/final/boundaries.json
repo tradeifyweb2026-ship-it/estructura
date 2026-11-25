@@ -1,0 +1,33 @@
+{
+  "scope": "Worker compilado y D1/R2 desechables; Google simulado; sin producción",
+  "results": [
+    {
+      "name": "Estado público comparte el limitador API, incluso sin sesión",
+      "status": "passed"
+    },
+    {
+      "name": "Mi cuenta rechaza más de 16 KiB antes de interpretar acciones",
+      "status": "passed"
+    },
+    {
+      "name": "Mi cuenta exige JSON y conserva la sesión ante rechazo",
+      "status": "passed"
+    },
+    {
+      "name": "Frases conserva el estado HTTP 413 de su límite de bytes",
+      "status": "passed"
+    },
+    {
+      "name": "Frases rechaza profundidad excesiva, incluso en campos descartados por Zod",
+      "status": "passed"
+    },
+    {
+      "name": "Bitácora rechaza profundidad excesiva antes de validar y no cambia datos",
+      "status": "passed"
+    },
+    {
+      "name": "Cuerpos pequeños válidos, llaves dentro de texto y JSON malformado",
+      "status": "passed"
+    }
+  ]
+}

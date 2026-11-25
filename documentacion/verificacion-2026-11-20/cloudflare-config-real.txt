@@ -1,0 +1,22 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> site-creator-vinext-starter@0.1.0 build:cloudflare
+> node scripts/cloudflare.mjs build
+
+[vinext] Tip: migrate from `vinext build` to `vite build`.
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - JSON import "./.openai/hosting.json" without import attributes (vite.config.ts:3:27). Add `with { type: 'json' }`
+  - import "./scripts/vite/sites-vite-plugin" without a file extension (vite.config.ts:6:23). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+
+
+failed to load config from /workspace/scratch/04fd2a9fe152/Tradeify.web/vite.config.ts
+error during build:
+Error: Configura TRADEIFY_D1_ID con el UUID de tu base D1.
+    at cloudflareBindings (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/.vite-temp/vite.config.ts.timestamp-1795230098823-67451a65e303b.mjs:327:150)
+    at file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/.vite-temp/vite.config.ts.timestamp-1795230098823-67451a65e303b.mjs:380:14
+    at async loadConfigFromFile (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/vite/dist/node/chunks/node.js:37981:18)
+    at async resolveConfig (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/vite/dist/node/chunks/node.js:37580:22)
+    at async createBuilder (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/vite/dist/node/chunks/node.js:35183:17)
+    at async CAC.<anonymous> (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/node_modules/vite/dist/node/cli.js:778:19)

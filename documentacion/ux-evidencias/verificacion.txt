@@ -1,0 +1,47 @@
+Tradeify: cierre de revisión UX · 17-11-2026
+Base remota: 81422a5648ae65de35866f08fac093ffec9f53dd
+Pruebas con identidad, datos, UUID y bucket ficticios.
+
+TypeScript: pasa.
+ESLint ui/settings/trade-editor/trade-list/dialog-history: pasa.
+ESLint global: 5 errores preexistentes, 3 advertencias; no aprobado globalmente.
+Los dos errores de app.tsx se reproducen en la base.
+git diff --check: pasa.
+Visor local excluido de public y dist.
+
+
+Sites build
+  λ API  ƒ Dynamic
+
+  Build complete.
+
+
+API
+Verified compiled Worker with D1 and R2: authenticated CRUD, journal scope, saving and replacing screenshots, data isolation, metrics, CSV round trip and deduplication, plans and weekly reviews.
+
+Cloudflare build
+  λ API  ƒ Dynamic
+
+  Build complete.
+
+
+Cloudflare integration
+check-cloudflare: PKCE, propietario, cookies, revocación, expiración, CSRF, cabeceras y límites 429 verificados con Google y datos simulados.
+
+Export
+check-export: ok
+
+Capture failures
+check-capture-failures: escritura incierta, confirmación y limpieza segura verificadas en el handler real.
+
+Wrangler dry-run
+✨ Read 27 files from the assets directory /workspace/scratch/a99663bfaa31/auditoria/Tradeify.web/dist/client
+Total Upload: 1559.86 KiB / gzip: 456.76 KiB
+Your Worker has access to the following bindings:
+Binding                                       Resource         
+env.DB (tradeify)                             D1 Database      
+env.BUCKET (tradeify-ux-test)                 R2 Bucket        
+env.AUTH_RATE_LIMITER (20 requests/60s)       Rate Limit       
+env.API_RATE_LIMITER (120 requests/60s)       Rate Limit       
+
+--dry-run: exiting now.

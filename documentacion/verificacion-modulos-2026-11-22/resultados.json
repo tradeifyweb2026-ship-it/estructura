@@ -1,0 +1,201 @@
+{
+  "initialCommit": "e1f0283f3c9f0ba2d5f5fad265f1f80b29d9ad8c",
+  "scope": "Local; servicios y credenciales ficticios, D1/R2 desechables. No certifica producción ni navegador.",
+  "checks": [
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.47,
+      "evidence": "typecheck.txt"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 10.72,
+      "evidence": "lint.txt"
+    },
+    {
+      "name": "logic",
+      "command": [
+        "npm",
+        "run",
+        "test:logic"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 5.82,
+      "evidence": "logic.txt"
+    },
+    {
+      "name": "advanced",
+      "command": [
+        "npm",
+        "run",
+        "test:advanced"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 5.69,
+      "evidence": "advanced.txt"
+    },
+    {
+      "name": "queries",
+      "command": [
+        "npm",
+        "run",
+        "test:queries"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 100.72,
+      "evidence": "queries.txt"
+    },
+    {
+      "name": "restore",
+      "command": [
+        "npm",
+        "run",
+        "test:restore"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.94,
+      "evidence": "restore.txt"
+    },
+    {
+      "name": "exports",
+      "command": [
+        "npm",
+        "run",
+        "test:exports"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 1,
+      "evidence": "exports.txt"
+    },
+    {
+      "name": "build-site",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 8.07,
+      "evidence": "build-site.txt"
+    },
+    {
+      "name": "api",
+      "command": [
+        "npm",
+        "run",
+        "test:api"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.24,
+      "evidence": "api.txt"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 7.93,
+      "evidence": "build-cloudflare-r2.txt"
+    },
+    {
+      "name": "cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.5,
+      "evidence": "cloudflare-r2.txt"
+    },
+    {
+      "name": "app-security",
+      "command": [
+        "npm",
+        "run",
+        "test:app-security"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.32,
+      "evidence": "app-security.txt"
+    },
+    {
+      "name": "build-cloudflare-without-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 7.52,
+      "evidence": "build-cloudflare-without-r2.txt"
+    },
+    {
+      "name": "cloudflare-without-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.27,
+      "evidence": "cloudflare-without-r2.txt"
+    },
+    {
+      "name": "audit-production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--json"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.81,
+      "evidence": "audit-production.txt"
+    },
+    {
+      "name": "audit-development",
+      "command": [
+        "npm",
+        "audit",
+        "--json"
+      ],
+      "exitCode": 1,
+      "status": "known-advisories",
+      "seconds": 4.23,
+      "evidence": "audit-development.txt"
+    }
+  ],
+  "coreCommit": "b806ca02151805500034c42a5dfe8327cbf006d4",
+  "finalSourceCommit": "b806ca02151805500034c42a5dfe8327cbf006d4"
+}

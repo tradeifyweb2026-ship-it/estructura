@@ -1,0 +1,224 @@
+{
+  "auditInitialCommit": "84dc36a8a78e662ea04bdf70cc4e1bb3f74cea10",
+  "sourceCommit": "bfef507157bd2ba8dce6a63aa2b1f9ebb4933438",
+  "scope": "Local; servicios y credenciales ficticios, D1/R2 desechables. No certifica producción ni navegador.",
+  "checks": [
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.51,
+      "evidence": "typecheck.txt"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 11.06,
+      "evidence": "lint.txt"
+    },
+    {
+      "name": "logic",
+      "command": [
+        "npm",
+        "run",
+        "test:logic"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 6.86,
+      "evidence": "logic.txt"
+    },
+    {
+      "name": "advanced",
+      "command": [
+        "npm",
+        "run",
+        "test:advanced"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 22.82,
+      "evidence": "advanced.txt"
+    },
+    {
+      "name": "queries",
+      "command": [
+        "npm",
+        "run",
+        "test:queries"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 90.77,
+      "evidence": "queries.txt"
+    },
+    {
+      "name": "restore",
+      "command": [
+        "npm",
+        "run",
+        "test:restore"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.01,
+      "evidence": "restore.txt"
+    },
+    {
+      "name": "exports",
+      "command": [
+        "npm",
+        "run",
+        "test:exports"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 0.99,
+      "evidence": "exports.txt"
+    },
+    {
+      "name": "build-site",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 8.8,
+      "evidence": "build-site.txt"
+    },
+    {
+      "name": "api",
+      "command": [
+        "npm",
+        "run",
+        "test:api"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 3.64,
+      "evidence": "api.txt"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 7.97,
+      "evidence": "build-cloudflare-r2.txt"
+    },
+    {
+      "name": "cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 7.53,
+      "evidence": "cloudflare-r2.txt"
+    },
+    {
+      "name": "app-security",
+      "command": [
+        "npm",
+        "run",
+        "test:app-security"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.62,
+      "evidence": "app-security.txt"
+    },
+    {
+      "name": "security-regressions",
+      "command": [
+        "npm",
+        "run",
+        "test:security"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 19,
+      "evidence": "security-regressions.txt"
+    },
+    {
+      "name": "operational-recovery",
+      "command": [
+        "npm",
+        "run",
+        "test:recovery"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 5.72,
+      "evidence": "operational-recovery.txt"
+    },
+    {
+      "name": "build-cloudflare-without-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 8.81,
+      "evidence": "build-cloudflare-without-r2.txt"
+    },
+    {
+      "name": "cloudflare-without-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 2.85,
+      "evidence": "cloudflare-without-r2.txt"
+    },
+    {
+      "name": "audit-production",
+      "command": [
+        "npm",
+        "audit",
+        "--omit=dev",
+        "--json"
+      ],
+      "exitCode": 0,
+      "status": "passed",
+      "seconds": 4.31,
+      "evidence": "audit-production.txt"
+    },
+    {
+      "name": "audit-development",
+      "command": [
+        "npm",
+        "audit",
+        "--json"
+      ],
+      "exitCode": 1,
+      "status": "known-advisories",
+      "seconds": 3.37,
+      "evidence": "audit-development.txt"
+    }
+  ]
+}

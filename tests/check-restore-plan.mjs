@@ -1,0 +1,18 @@
+import assert from "node:assert/strict";
+import { backupSchema, blankJournal } from "../lib/journal.ts";
+import { planRestore } from "../lib/restore-plan.ts";
+const account={id:crypto.randomUUID(),version:1,name:"Fixture",type:"Demo",currency:"USD",startingBalanceCents:0,archived:false};
+const backup={app:"bitacora-de-trading",formato:1,cuentas:[account],setups:[],operaciones:[],revisiones:[],plan:blankJournal.plan};
+assert.equal(backupSchema.safeParse(backup).success,true,"Formato histórico sin metadatos nuevos");
+assert.equal(backupSchema.safeParse({...backup,cuentas:[account,account]}).success,false);
+assert.equal(backupSchema.safeParse({...backup,formato:2}).success,false);
+assert.equal(planRestore(backup,blankJournal).conflicts,0);
+assert.equal(planRestore(backup,{...blankJournal,accounts:[account]}).skipped,1);
+assert.equal(planRestore(backup,{...blankJournal,accounts:[{...account,name:"Otro"}]}).conflicts,1);
+assert.equal(planRestore({...backup,cuentas:[],revisiones:[{week:"2026-11-16",scope:account.id,version:1,followed:"",repeat:"",change:""}]},blankJournal).conflicts,1);
+const many={...backup,cuentas:Array.from({length:25},()=>({...account,id:crypto.randomUUID()}))};
+assert.deepEqual(planRestore(many,blankJournal).batches.filter(b=>b.kind==="accounts").map(b=>b.records.length),[10,10,5]);
+assert.equal(planRestore({...backup,cuentas:[]},blankJournal).added,1,"Respaldo vacío aún puede contener un plan");
+const setup={id:crypto.randomUUID(),version:1,name:"Legacy",description:"",rules:"",color:"verde",archived:false};
+assert.equal(planRestore({...backup,cuentas:[],setups:[setup]},{...blankJournal,setups:[{...setup,versions:[]}]}).skipped,1,"Historial ausente equivale a historial vacío en respaldos antiguos");
+console.log("Restauración: versiones históricas, duplicados, referencias, conflictos y lotes OK.");

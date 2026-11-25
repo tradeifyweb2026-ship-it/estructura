@@ -1,0 +1,20 @@
+{
+  "app": "tradeify-assets",
+  "format": 1,
+  "assets": [
+    {
+      "id": "4e9dbeba-8ff8-4608-b618-e9062e0d282b",
+      "asset": {
+        "name": "NASDAQ 100",
+        "aliases": [
+          "MNQ",
+          "NAS100",
+          "NQ",
+          "US100",
+          "USTEC"
+        ],
+        "favorite": true
+      }
+    }
+  ]
+}

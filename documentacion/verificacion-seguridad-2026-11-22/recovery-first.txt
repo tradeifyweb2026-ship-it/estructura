@@ -1,0 +1,29 @@
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+node:internal/process/task_queues:104
+    runMicrotasks();
+    ^
+
+Error: D1_ERROR: not authorized: SQLITE_AUTH
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:47:16
+    at async check (file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:13:32)
+    at async file:///workspace/scratch/04fd2a9fe152/Tradeify.web/tests/check-operational-recovery.mjs:43:2 {
+  [cause]: Error: not authorized: SQLITE_AUTH
+      at D1DatabaseSessionAlwaysPrimary._sendOrThrow (cloudflare-internal:d1-api:192:24)
+      at async cloudflare-internal:d1-api:413:19 {
+    [cause]: undefined
+  }
+}
+
+Node.js v24.22.3

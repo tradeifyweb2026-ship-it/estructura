@@ -1,0 +1,17 @@
+{
+  "runId": 45072637697,
+  "sourceCommit": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+  "status": "failed",
+  "artifactId": 14773683247,
+  "artifactSha256": "85a432df4620af5e3f59b4b038ecf6dc2b7ff262be23a86585c9225cc0765f9f",
+  "passed": 207,
+  "failed": [
+    {
+      "name": "Frases: favoritas, filtros, preferencias y cola sin conexión",
+      "status": "failed",
+      "error": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Quitar favorita', exact: true }).first() to be visible\n"
+    }
+  ],
+  "observation": "Captura nativa: Biblioteca sincronizada y 1 acción pendiente; sin favoritas. Acción encolada durante refresh final esperaba el reintento de 30 s.",
+  "screenshotSha256": "e73b3fc19f4340f21b62f5b4f9045630babc69483fefc722409de8e635986d63"
+}

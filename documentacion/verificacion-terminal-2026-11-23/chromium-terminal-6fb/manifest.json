@@ -1,0 +1,45 @@
+{
+  "source": "6fb88ae09aacbe63845a988c72beca58d46c2599",
+  "run": 45184726561,
+  "artifact": 14824425315,
+  "artifactSha256": "1875d52e92415c7ff4f65e1d603c037e07fe3aa477fe49363a7ce9a383625068",
+  "cases": 216,
+  "failed": 0,
+  "jsErrors": 0,
+  "axeTotal": 60,
+  "axeNewTerminal": 4,
+  "axeViolations": 0,
+  "files": [
+    {
+      "file": "consola.json",
+      "sha256": "655ddec1997627ee636cbeb23508945708c920d2456356f7563cc26e7583d66e",
+      "bytes": 10646
+    },
+    {
+      "file": "limites.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "file": "resultados.json",
+      "sha256": "12f33e1bc3fb65ae084d2d3c42c8cee5a051f1ade5def4b835fa97d6d1f4256a",
+      "bytes": 17480
+    },
+    {
+      "file": "terminal-320-light-1x1.png",
+      "sha256": "6d7d7f9a1d063ee5e3248a017be8dfd19fbe140f24a47d224b1feb7c2bd9e029",
+      "bytes": 55457
+    },
+    {
+      "file": "terminal-accesibilidad.json",
+      "sha256": "f41f33bc8f3093279b8e984304dae16b46aa092885bf1b8565c1cef9a3e55773",
+      "bytes": 282
+    },
+    {
+      "file": "terminal-exportado-1x1.png",
+      "sha256": "6cafa96e001df00ffc6bac8fbca0f382aeb314698163d34ac7a675b8a431f6da",
+      "bytes": 108735
+    }
+  ],
+  "scope": "Chromium real en GitHub Actions; OAuth simulado, D1/R2 desechables, no producción. Tres formatos exportados, 42 capturas de tarjeta, siete anchos/dos temas."
+}

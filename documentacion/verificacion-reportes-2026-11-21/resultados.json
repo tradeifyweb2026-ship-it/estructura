@@ -1,0 +1,165 @@
+{
+  "initialCommit": "2828c1dbda14b7e83ec88c9c246fd9aa935cffc9",
+  "scope": "Local, D1/R2 desechables; sin publicación",
+  "checks": [
+    {
+      "name": "install",
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exitCode": 0,
+      "seconds": 16.624,
+      "evidence": "install.txt"
+    },
+    {
+      "name": "logic",
+      "command": [
+        "npm",
+        "run",
+        "test:logic"
+      ],
+      "exitCode": 0,
+      "seconds": 5.575,
+      "evidence": "logic.txt"
+    },
+    {
+      "name": "queries",
+      "command": [
+        "npm",
+        "run",
+        "test:queries"
+      ],
+      "exitCode": 0,
+      "seconds": 9.445,
+      "evidence": "queries.txt"
+    },
+    {
+      "name": "restore",
+      "command": [
+        "npm",
+        "run",
+        "test:restore"
+      ],
+      "exitCode": 0,
+      "seconds": 2.479,
+      "evidence": "restore.txt"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 4.057,
+      "evidence": "typecheck.txt"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 8.811,
+      "evidence": "lint.txt"
+    },
+    {
+      "name": "exports",
+      "command": [
+        "npm",
+        "run",
+        "test:exports"
+      ],
+      "exitCode": 0,
+      "seconds": 0.791,
+      "evidence": "exports.txt"
+    },
+    {
+      "name": "build-sites",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "seconds": 6.934,
+      "evidence": "build-sites.txt"
+    },
+    {
+      "name": "api",
+      "command": [
+        "npm",
+        "run",
+        "test:api"
+      ],
+      "exitCode": 0,
+      "seconds": 3.196,
+      "evidence": "api.txt"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 6.931,
+      "evidence": "build-cloudflare-r2.txt"
+    },
+    {
+      "name": "cloudflare-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 2.545,
+      "evidence": "cloudflare-r2.txt"
+    },
+    {
+      "name": "build-cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "build:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 7.288,
+      "evidence": "build-cloudflare-no-r2.txt"
+    },
+    {
+      "name": "cloudflare-no-r2",
+      "command": [
+        "npm",
+        "run",
+        "test:cloudflare"
+      ],
+      "exitCode": 0,
+      "seconds": 2.409,
+      "evidence": "cloudflare-no-r2.txt"
+    }
+  ],
+  "verifiedCodeCommit": "c1c52b96ac73de8cbb43bb0f34eb8aee3fcd168b",
+  "visualLocal": {
+    "status": "blocked",
+    "reason": "Chromium socket() failed: Operation not permitted",
+    "evidence": "browser-attempt.txt"
+  },
+  "normalization": "Registros sin escapes ANSI ni espacios al final; códigos de salida originales conservados.",
+  "visualRemote": {
+    "status": "success",
+    "commit": "c1c52b96ac73de8cbb43bb0f34eb8aee3fcd168b",
+    "runId": 44969502971,
+    "evidence": "ci.json",
+    "screenshots": 140,
+    "pdf": 10,
+    "png": 30
+  },
+  "changedFileCount": 42
+}

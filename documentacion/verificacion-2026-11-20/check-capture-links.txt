@@ -1,0 +1,2 @@
+$ node tests/check-capture-links.mjs
+check-capture-links: validación hostil, compatibilidad antigua, CSV y exportaciones OK

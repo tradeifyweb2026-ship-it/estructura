@@ -1,0 +1,3 @@
+import assert from "node:assert/strict";import {effectiveAccess} from "../lib/access-state.mjs";
+for(const [status,access_until,suspended_until,expected] of [["active",null,null,"active"],["active",1000,null,"expired"],["active",1001,null,"active"],["blocked",null,null,"blocked"],["pending",500,null,"pending"],["suspended",null,null,"suspended"],["suspended",null,1000,"active"],["suspended",null,1001,"suspended"],["suspended",500,1200,"expired"],["unknown",null,null,"blocked"]])assert.equal(effectiveAccess({status,access_until,suspended_until},1000),expected);
+console.log("Estados de acceso: 10 casos OK");

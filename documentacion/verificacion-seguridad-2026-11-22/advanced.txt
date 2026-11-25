@@ -1,0 +1,22 @@
+
+> site-creator-vinext-starter@0.1.0 test:advanced
+> node tests/check-advanced-modules.mjs
+
+{
+  "scope": "D1 y datos desechables; sin servicios reales",
+  "passed": [
+    "Preferencias con validación y control de versión",
+    "Entrega diaria idempotente y catálogo de procedencia original",
+    "Solicitudes manuales concurrentes y recuperación tras respuesta perdida",
+    "Sin repeticiones antes de agotar cada ciclo",
+    "Favoritas persistentes, búsqueda, filtros, orden y páginas",
+    "Migración conserva registros de procedencia desconocida sin atribuir autores",
+    "Importar historial marca frases como vistas y evita repetirlas antes de agotar el ciclo",
+    "Horario, desconexión y preferencias desactivadas",
+    "Mantenimiento reversible, conflictos y auditoría atómica",
+    "Incidencias agrupadas sin secretos ni peticiones completas",
+    "Alertas paginadas y búsqueda sin omitir usuarios fuera de la primera página",
+    "Ayuda completa, diez fórmulas, FAQ, glosario, búsqueda sin acentos"
+  ]
+}
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.

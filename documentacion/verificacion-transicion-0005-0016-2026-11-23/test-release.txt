@@ -1,0 +1,12 @@
+
+> site-creator-vinext-starter@0.1.0 test:release
+> node tests/check-release-safety.mjs
+
+PASS release safety: Validación no publica; staging exige recursos distintos y R2 separado
+PASS release safety: Producción requiere SHA exacto; comando publica conservando vars y nunca aplica migraciones
+PASS release safety: Inventario solo SELECT; registro ausente no escribe ni marca migraciones aplicadas
+PASS release safety: Registro no basta: detecta triggers/índices faltantes, esquema distinto y plan cambiado
+PASS release safety: DDL real de D1 local coincide con el plan y comprueba relaciones sin escribir datos privados
+PASS release safety: Sello vincula fuente, destinos, migraciones y TODOS los archivos del build; detecta manipulación
+check-release-safety: 6 grupos; no credenciales, recursos remotos ni despliegues. Los identificadores de estas pruebas son ficticios.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.

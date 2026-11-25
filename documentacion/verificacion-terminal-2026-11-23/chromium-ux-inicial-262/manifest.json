@@ -1,0 +1,11 @@
+{
+  "source": "262cd0e966de08fc6f6ff121467caa7e85c91716",
+  "run": 45188056493,
+  "artifact": 14823444865,
+  "artifactSha256": "db49919cb2b1a8f3fa1770e5e6e728fb4e28936bb0d391f67671a2ca203b8db3",
+  "status": "failed",
+  "cases": 219,
+  "failed": 3,
+  "newUxCases": "Ambos aprobados; fallaron dos localizadores posteriores exclusivos de tabla a 390 px y la antigua confirmación automática de estrategia. Se conserva el intento completo.",
+  "scope": "Chromium real con datos ficticios. No producción."
+}

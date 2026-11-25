@@ -1,0 +1,16 @@
+import assert from "node:assert/strict";
+import {mergeTradePage,upsertTrade,removeTrade,mergeCapturePage} from "../lib/journal-pages.mjs";
+const t=(id,openedAt,extra={})=>({id,openedAt,...extra});
+let rows=mergeTradePage([t("new",30,{version:2}),t("middle",20)],[t("middle",20),t("old",10),t("new",30,{version:1})]);
+assert.deepEqual(rows.map(x=>x.id),["new","middle","old"]);assert.equal(rows[0].version,2);
+rows=mergeTradePage([t("new",30),t("old",10)],[t("deleted",20),t("old",10)],new Set(["deleted"]));assert.deepEqual(rows.map(x=>x.id),["new","old"]);
+rows=upsertTrade([t("a",10),t("b",20)],t("a",30,{version:3}));assert.deepEqual(rows.map(x=>x.id),["a","b"]);assert.equal(rows[0].version,3);
+rows=upsertTrade([],t("first",1));assert.equal(rows[0].id,"first");
+assert.deepEqual(removeTrade([t("a",1),t("b",2)],"a").map(x=>x.id),["b"]);
+const oldCapture={tradeId:"old",slot:"before",revision:"1"};
+const newCapture={tradeId:"new",slot:"after",revision:"2"};
+const updatedCapture={...oldCapture,revision:"3"};
+assert.deepEqual(mergeCapturePage([oldCapture],[newCapture]).map(c=>c.tradeId),["old","new"]);
+assert.equal(mergeCapturePage([oldCapture],[updatedCapture])[0].revision,"3");
+assert.equal(mergeCapturePage([oldCapture],[oldCapture]).length,1);
+console.log("Paginación y capturas: 8 casos OK.");

@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+export async function runAssetInteractions({page,context,fixture,check,out,go}){
+ const who='asset-catalog-ui',cookie=await fixture.visualUser(who),user='google:'+who,accessibility=[];
+ await page.waitForLoadState('networkidle');await context.clearCookies();await context.addCookies([{name:cookie.split('=')[0],value:cookie.slice(cookie.indexOf('=')+1),url:fixture.origin,secure:true,httpOnly:true,sameSite:'Lax'}]);
+ try{
+  await check('Activos: catálogo vacío, creación con + y borrador financiero intacto',async()=>{
+   await go('bitacora');await page.getByRole('button',{name:'Nueva operación',exact:true}).click();let dialog=page.getByRole('dialog',{name:'Nueva operación',exact:true});
+   await dialog.getByText('No hay activos con esta selección. Pulsa + para crear el tuyo.',{exact:true}).waitFor();
+   await dialog.getByLabel('Activo',{exact:true}).fill('NQ');await dialog.getByLabel('Precio de entrada',{exact:false}).fill('100');await dialog.getByLabel('Stop loss inicial',{exact:true}).fill('95');
+   await dialog.getByRole('button',{name:'Agregar activo',exact:true}).click();const create=page.getByRole('dialog',{name:'Agregar activo',exact:true});
+   await create.getByLabel('Nombre visible del activo',{exact:true}).fill('NASDAQ 100');await create.getByLabel('Símbolos o alias (opcional)',{exact:false}).fill('NQ,nq');await create.getByRole('button',{name:'Guardar activo',exact:true}).click();await create.getByRole('alert').waitFor();assert.match(await create.getByRole('alert').innerText(),/No repitas/);
+   await create.getByLabel('Símbolos o alias (opcional)',{exact:false}).fill('NQ');await create.getByRole('button',{name:'Proponer símbolos de NASDAQ 100',exact:true}).click();
+   const axe=await readFile('node_modules/axe-core/axe.min.js','utf8');
+   for(const width of [320,360,390,768,1024,1440,1920])for(const theme of ['light','dark']){
+    await page.setViewportSize({width,height:900});await page.evaluate(theme=>{document.documentElement.dataset.theme=theme;},theme);await page.screenshot({path:out+'/activo-crear-'+width+'-'+theme+'.png',fullPage:true});assert.ok(await create.evaluate(e=>e.scrollWidth<=e.clientWidth+1));
+    if([390,1440].includes(width)){await page.evaluate(axe);const a=await page.evaluate(()=>globalThis.axe.run(document,{iframes:false,runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}}));accessibility.push({width,theme,violations:a.violations});assert.deepEqual(a.violations.map(v=>v.id),[]);}
+   }
+   await page.setViewportSize({width:1440,height:1000});await create.getByRole('button',{name:'Guardar activo',exact:true}).click();await create.waitFor({state:'hidden'});dialog=page.getByRole('dialog',{name:'Nueva operación',exact:true});
+   assert.equal(await dialog.getByLabel('Activo',{exact:true}).inputValue(),'NQ');assert.equal(await dialog.getByLabel('Precio de entrada',{exact:false}).inputValue(),'100');assert.equal(await dialog.getByLabel('Stop loss inicial',{exact:true}).inputValue(),'95');await dialog.getByText('NASDAQ 100',{exact:true}).first().waitFor();await dialog.getByRole('button',{name:'Guardar operación',exact:true}).click();await dialog.waitFor({state:'hidden'});
+   const row=await fixture.db.prepare("SELECT data FROM trades WHERE user_id=? AND json_extract(data,'$.asset')='NQ'").bind(user).first();assert.ok(row);const data=JSON.parse(row.data);assert.equal(data.asset,'NQ');assert.equal(data.market.name,'NASDAQ 100');assert.equal(data.entry,100);assert.equal(data.stop,95);
+  });
+  await check('Activos: favoritos, historial confirmado, estadísticas y respaldo privado',async()=>{
+   await go('configuracion');const panel=page.getByRole('heading',{name:'Mis activos',exact:true}).locator('xpath=ancestor::section[1]');await panel.getByRole('button',{name:'Marcar favorito: NASDAQ 100',exact:true}).click();await panel.getByRole('button',{name:'Quitar favorito: NASDAQ 100',exact:true}).waitFor();
+   await panel.getByLabel('Orden del catálogo').selectOption('recent');await panel.getByRole('button',{name:'Revisar historial',exact:true}).click();const history=page.getByRole('dialog',{name:'Asociar operaciones anteriores',exact:true});await history.getByRole('checkbox').waitFor();const before=await fixture.db.prepare("SELECT count(*) n FROM trades WHERE user_id=? AND json_extract(data,'$.market.id') IS NOT NULL").bind(user).first('n');await history.getByRole('checkbox').check();const button=history.getByRole('button',{name:/^Asociar estas [1-9]/});const count=Number((await button.innerText()).match(/\d+/)[0]);await button.click();await page.waitForFunction(()=>!document.querySelector('dialog[open] input[type="checkbox"]')?.checked);assert.equal(await fixture.db.prepare("SELECT count(*) n FROM trades WHERE user_id=? AND json_extract(data,'$.market.id') IS NOT NULL").bind(user).first('n'),before+count);await history.getByRole('button',{name:'Cerrar',exact:true}).last().click();
+   const download=page.waitForEvent('download');await panel.getByRole('button',{name:'Respaldar catálogo JSON privado',exact:true}).click();const file=await download,bytes=await readFile(await file.path()),backup=JSON.parse(bytes);assert.equal(backup.app,'tradeify-assets');assert.equal(backup.assets.length,1);assert.equal(backup.assets[0].asset.name,'NASDAQ 100');assert.equal(backup.assets[0].asset.favorite,true);await file.saveAs(out+'/catalogo-privado-fixture.json');
+   await panel.getByLabel('Restaurar catálogo JSON privado',{exact:true}).setInputFiles({name:'catalogo.json',mimeType:'application/json',buffer:bytes});await panel.getByRole('checkbox',{name:'Confirmo añadir este catálogo a mi usuario.',exact:true}).check();await panel.getByRole('button',{name:'Restaurar catálogo',exact:true}).click();await panel.getByText(/Restauración del catálogo finalizada/).waitFor();assert.equal(await fixture.db.prepare('SELECT count(*) n FROM asset_catalog WHERE user_id=?').bind(user).first('n'),1);
+   await go('estadisticas');await page.getByRole('option',{name:'NASDAQ 100',exact:true}).waitFor({state:'attached'});await page.getByRole('combobox',{name:/^Activo/}).selectOption('market:'+backup.assets[0].id);await page.getByRole('heading',{name:'Resultado por activo',exact:true}).waitFor();await page.screenshot({path:out+'/activo-estadisticas.png',fullPage:true});
+  });
+ }finally{
+  await writeFile(out+'/activos-accesibilidad.json',JSON.stringify(accessibility,null,2));await page.waitForLoadState('networkidle').catch(()=>{});await context.clearCookies();const c=fixture.cookies.normal;await context.addCookies([{name:c.split('=')[0],value:c.slice(c.indexOf('=')+1),url:fixture.origin,secure:true,httpOnly:true,sameSite:'Lax'}]);
+ }
+}

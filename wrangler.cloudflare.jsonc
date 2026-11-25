@@ -1,0 +1,14 @@
+{
+  "name": "tradeify",
+  "main": "worker/cloudflare.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "triggers": { "crons": ["*/10 * * * *"] },
+  "ratelimits": [
+    { "name": "AUTH_RATE_LIMITER", "namespace_id": "9976001", "simple": { "limit": 20, "period": 60 } },
+    { "name": "API_RATE_LIMITER", "namespace_id": "9976002", "simple": { "limit": 120, "period": 60 } },
+    { "name": "USER_RATE_LIMITER", "namespace_id": "9976003", "simple": { "limit": 600, "period": 60 } }
+  ]
+}

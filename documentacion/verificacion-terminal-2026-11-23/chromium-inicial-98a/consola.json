@@ -1,0 +1,327 @@
+[
+  {
+    "case": "mercados-320-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-320-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-360-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-360-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-390-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-390-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-768-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-768-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1024-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1024-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1440-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1440-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1920-light",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "mercados-1920-dark",
+    "type": "error",
+    "text": "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"text/html\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "location": {
+      "url": "https://widgets.tradingview-widget.com/w/es/tv-advanced-chart.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Capturas: página y error 404 sin imágenes rotas ni huecos",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "location": {
+      "url": "https://s3.tradingview.com/snapshots/u/ui-broken.png",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Capturas: página y error 404 sin imágenes rotas ni huecos",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "location": {
+      "url": "https://s3.tradingview.com/snapshots/u/ui-broken.png",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Capturas: página y error 404 sin imágenes rotas ni huecos",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "location": {
+      "url": "https://s3.tradingview.com/snapshots/u/ui-broken.png",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Scripts: conflicto y desconexión conservan cambios y borrador cifrado",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "location": {
+      "url": "https://127.0.0.1:43871/api/scripts",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Scripts: conflicto y desconexión conservan cambios y borrador cifrado",
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED",
+    "location": {
+      "url": "https://127.0.0.1:43871/api/scripts",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Scripts: propietario guarda más de 1.000 líneas y elimina solo su biblioteca",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "location": {
+      "url": "https://127.0.0.1:43871/api/scripts?mode=list",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": false
+  },
+  {
+    "case": "Frases: favoritas, filtros, preferencias y cola sin conexión",
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED",
+    "location": {
+      "url": "https://127.0.0.1:43871/api/frases",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Acceso denegado · pending",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "location": {
+      "url": "https://127.0.0.1:43871/?denied=pending",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Acceso denegado · suspended",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "location": {
+      "url": "https://127.0.0.1:43871/?denied=suspended",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Acceso denegado · expired",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "location": {
+      "url": "https://127.0.0.1:43871/?denied=expired",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  },
+  {
+    "case": "Acceso denegado · blocked",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "location": {
+      "url": "https://127.0.0.1:43871/?denied=blocked",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "expected": true
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "scope": "Documentos de reportes, siete anchos, dos temas, PDF y conversor PNG real. No flujos autenticados de toda la aplicación.",
+  "firstRun": {
+    "id": 44968324530,
+    "sha": "bfbb0fa4a7d944d9ce89286beaab253dab33652a",
+    "conclusion": "failure",
+    "reason": "resumen: overflow 320",
+    "evidence": "ci-first-failure.txt"
+  },
+  "secondRun": {
+    "id": 44968604683,
+    "sha": "68e86f1c3ffbb2d93093d2eff6802894561d2e5d",
+    "conclusion": "success",
+    "screenshots": 140,
+    "pdf": 10,
+    "png": 30,
+    "evidence": "ci-success.txt",
+    "captures": "ci-second-capturas.json",
+    "artifactId": 14732538339,
+    "artifactSha256": "83d10539204be15f2f1e3de4db49e3be00c7460033c9336cae35d746ecfb6ff4"
+  },
+  "thirdRun": {
+    "id": 44968928837,
+    "sha": "bcd0f319020765f1c1ce587b5723f7876e800c97",
+    "conclusion": "success"
+  },
+  "finalRun": {
+    "id": 44969502971,
+    "sha": "c1c52b96ac73de8cbb43bb0f34eb8aee3fcd168b",
+    "conclusion": "success",
+    "screenshots": 140,
+    "pdf": 10,
+    "png": 30,
+    "evidence": "ci-latest-success.txt",
+    "artifactId": 14732644403,
+    "artifactSha256": "sha256:ba36956740c8ef0132d88a56bccc88aca5073be3ba3f24783b0dfe13ffaef741",
+    "url": "https://github.com/tradeifyweb2026-ship-it/Tradeify.web/actions/runs/44969502971"
+  },
+  "viewports": [
+    320,
+    360,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "colorSchemes": [
+    "light",
+    "dark"
+  ],
+  "artifactRetentionDays": 14,
+  "humanSamplesInspected": [
+    "resumen-320-light.png",
+    "riesgo-share-4x5.png (segunda ejecución; tarjeta ampliada después)",
+    "bitacora.pdf página 1: A4, tres páginas, número de página presente"
+  ],
+  "fourthRun": {
+    "id": 44969102089,
+    "sha": "a47e186a04665f99e08d357178671d7fe3f18c10",
+    "conclusion": "success",
+    "screenshots": 140,
+    "pdf": 10,
+    "png": 30,
+    "evidence": "ci-final-success.txt",
+    "artifactId": 14732419200,
+    "artifactSha256": "sha256:5aa4d54a3766ec2e72abd8540b464cfccc48e9bccb3e58ecc7631e6e3db3fdad",
+    "url": "https://github.com/tradeifyweb2026-ship-it/Tradeify.web/actions/runs/44969102089"
+  }
+}

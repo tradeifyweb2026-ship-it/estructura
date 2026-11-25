@@ -1,0 +1,42 @@
+
+> site-creator-vinext-starter@0.1.0 test:app-security
+> node tests/check-app-security.mjs
+
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+Tradeify session created
+{
+  "scope": "Worker compilado; OAuth simulado, D1/R2 desechables; sin producción",
+  "passed": [
+    "Autenticación y estados denegados sin fuga de datos",
+    "CSRF y origen administrativos",
+    "Mantenimiento bloquea escrituras y conserva lecturas, datos y acceso del propietario",
+    "Protección del propietario y límites obligatorios del servidor",
+    "Recursos sin notas privadas y aislamiento de frases",
+    "Migración de frases mediante API autenticada e idempotente",
+    "Borrado de cuenta elimina la biblioteca privada y preserva otros usuarios"
+  ]
+}
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+Tradeify security response { area: 'api', status: 401 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 403 }
+Tradeify security response { area: 'api', status: 503 }
+Tradeify security response { area: 'api', status: 503 }
+Tradeify security response { area: 'api', status: 503 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 422 }
+Tradeify security response { area: 'api', status: 401 }

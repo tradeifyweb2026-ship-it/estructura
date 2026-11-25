@@ -1,0 +1,30 @@
+[
+  {
+    "client": 753,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 768,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "overflow": false,
+    "route": "Resumen",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1024,
+    "overflow": false,
+    "route": "Bitácora",
+    "scroll": 1024,
+    "width": 1024
+  }
+]

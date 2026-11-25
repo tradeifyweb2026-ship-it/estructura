@@ -1,0 +1,2 @@
+$ node tests/check-capture-failures.mjs
+check-capture-failures: sin PUT; limpieza legacy conserva R2 ante fallo D1.

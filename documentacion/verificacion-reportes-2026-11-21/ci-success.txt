@@ -1,0 +1,8 @@
+##[group]Run node tests/check-report-browser.mjs
+2026-11-22T00:51:45.1200847Z node tests/check-report-browser.mjs
+2026-11-22T00:51:45.1234033Z shell: /usr/bin/bash -e {0}
+2026-11-22T00:51:45.1234286Z env:
+2026-11-22T00:51:45.1234716Z   TRADEIFY_PLAYWRIGHT_MODULE: /home/runner/work/_temp/tradeify-browser/node_modules/playwright/index.mjs
+2026-11-22T00:51:45.1235205Z ##[endgroup]
+2026-11-22T00:53:05.3382222Z Reportes: Chromium real, siete anchos, dos temas, diez PDF y treinta PNG.
+2026-11-22T00:53:05.4259054Z

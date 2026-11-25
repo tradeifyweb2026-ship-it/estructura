@@ -1,0 +1,84 @@
+{
+  "scope": "Chromium real de GitHub Actions; D1/R2 y Google ficticios. Solo el ensayo TradingView usa proveedor real. ZIP retenidos 14 días; JSON/muestras en Git.",
+  "applicationApproved": {
+    "runId": 45073382497,
+    "sourceCommit": "339d2eb8bc550c3766161540b77c27781d8f3437",
+    "artifactId": 14774825842,
+    "sha256": "932efdf3522ef002e8d69ade876f2415d23c216042c7df8d0388a9c587cec358",
+    "checks": 208,
+    "automaticAccessibilityAnalyses": 48,
+    "violations": 0,
+    "javascriptExceptions": 0,
+    "unexpectedConsole": 0,
+    "rateLimitResponses": 0,
+    "controlledQuoteRefreshRegression": "passed"
+  },
+  "realProviderApproved": {
+    "runId": 45073382488,
+    "sourceCommit": "339d2eb8bc550c3766161540b77c27781d8f3437",
+    "artifactId": 14774715380,
+    "sha256": "deb3038bdc5bc046689d0a34982101e899a32671b362b35206c7d2e30d31a099",
+    "checks": 12,
+    "externalResponses": 718,
+    "baselineCspViolations": 0,
+    "deliberateBlockedInlineAttacks": 2
+  },
+  "intermediateFailedRuns": [
+    {
+      "runId": 45070478702,
+      "reason": "Observación inicial de mapas basada en texto; captura nativa mostraba canvas con datos; NAS100 denegado por proveedor."
+    },
+    {
+      "runId": 45071381734,
+      "reason": "Selector de etiqueta no coincidía con nombre accesible que incluye hint."
+    },
+    {
+      "runId": 45071862718,
+      "reason": "Prueba esperaba contadores; captura muestra medidor compacto con Venta y aguja."
+    },
+    {
+      "runId": 45071862659,
+      "reason": "Ráfaga dividida entre dos minutos legítimos del limitador; fixture alineado sin alterar cuotas."
+    },
+    {
+      "runId": 45072637697,
+      "sourceCommit": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+      "reason": "Fallo real de sincronización: acción añadida durante última lectura espera temporizador. Corregido en 339d2eb con regresión determinista.",
+      "artifactId": 14773683247,
+      "sha256": "85a432df4620af5e3f59b4b038ecf6dc2b7ff262be23a86585c9225cc0765f9f"
+    }
+  ],
+  "protectedBranches": [
+    {
+      "branch": "main",
+      "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+    },
+    {
+      "branch": "version-anterior-2026-11-18",
+      "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+    }
+  ],
+  "previousRealProviderApproved": {
+    "runId": 45072637654,
+    "sourceCommit": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+    "artifactId": 14773424966,
+    "sha256": "a2e334f1e977d34d641739425c421c67275cfb1b4abef1ea5424e2f500da462d",
+    "checks": 12,
+    "externalResponses": 721,
+    "baselineCspViolations": 0,
+    "deliberateBlockedInlineAttacks": 2
+  },
+  "samples": {
+    "tradingview": "2b8d17e7474b4bb1f9eb1084874bab7ca9ec6989",
+    "application": "483d53656f52e0160cf18f0ba48688181cb16c3a"
+  },
+  "previousApplicationApproved": {
+    "runId": 45053256658,
+    "sourceCommit": "483d53656f52e0160cf18f0ba48688181cb16c3a",
+    "artifactId": 14766098357,
+    "sha256": "3193d971bd361de8229ae73df210961f587b01174237b1588b9621228f4abe0d",
+    "checks": 208,
+    "automaticAccessibilityAnalyses": 48,
+    "violations": 0
+  }
+}

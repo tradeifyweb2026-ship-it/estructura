@@ -1,0 +1,154 @@
+{
+  "source": "9616c4f0e3a149d774c54452e23ef589f455e36a",
+  "scope": "Recursos locales desechables y proveedores simulados; no producción. Chromium se registra por ejecución externa independiente.",
+  "results": [
+    {
+      "name": "typecheck",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3575,
+      "log": "typecheck.txt"
+    },
+    {
+      "name": "lint",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 11909,
+      "log": "lint.txt"
+    },
+    {
+      "name": "logic",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 7377,
+      "log": "logic.txt"
+    },
+    {
+      "name": "advanced",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 31806,
+      "log": "advanced.txt"
+    },
+    {
+      "name": "queries",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 94270,
+      "log": "queries.txt"
+    },
+    {
+      "name": "restore",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3162,
+      "log": "restore.txt"
+    },
+    {
+      "name": "exports",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 763,
+      "log": "exports.txt"
+    },
+    {
+      "name": "build-site",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 8840,
+      "log": "build-site.txt"
+    },
+    {
+      "name": "api",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3768,
+      "log": "api.txt"
+    },
+    {
+      "name": "build-cloudflare-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 8590,
+      "log": "build-cloudflare-r2.txt"
+    },
+    {
+      "name": "cloudflare-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 2796,
+      "log": "cloudflare-r2.txt"
+    },
+    {
+      "name": "app-security",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 2665,
+      "log": "app-security.txt"
+    },
+    {
+      "name": "security",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 20247,
+      "log": "security.txt"
+    },
+    {
+      "name": "operational-recovery",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 6346,
+      "log": "operational-recovery.txt"
+    },
+    {
+      "name": "public-share-api",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3406,
+      "log": "public-share-api.txt"
+    },
+    {
+      "name": "build-cloudflare-without-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 9531,
+      "log": "build-cloudflare-without-r2.txt"
+    },
+    {
+      "name": "cloudflare-without-r2",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 3114,
+      "log": "cloudflare-without-r2.txt"
+    },
+    {
+      "name": "audit-production",
+      "status": "passed",
+      "exitCode": 0,
+      "durationMs": 5329,
+      "log": "audit-production.txt"
+    },
+    {
+      "name": "audit-development",
+      "status": "known-advisories",
+      "exitCode": 1,
+      "durationMs": 3635,
+      "log": "audit-development.txt",
+      "note": "npm audit devuelve 1 por los mismos cuatro moderados dev. El primer clasificador falló porque npm emitió un aviso antes del JSON; se conserva el intento inicial y se verifica el JSON tras ese prefijo, sin cambiar expectativas de vulnerabilidades.",
+      "packages": [
+        "@esbuild-kit/core-utils",
+        "@esbuild-kit/esm-loader",
+        "drizzle-kit",
+        "esbuild"
+      ]
+    }
+  ],
+  "auditDevelopment": {
+    "info": 0,
+    "low": 0,
+    "moderate": 4,
+    "high": 0,
+    "critical": 0,
+    "total": 4
+  }
+}

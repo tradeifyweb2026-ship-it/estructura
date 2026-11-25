@@ -1,0 +1,12 @@
+{
+  "scope": "Worker compilado; D1/R2 y usuarios ficticios, no servicio real. Exportaciones son cliente: se verifica acceso a sus fuentes privadas.",
+  "readMatrix": 60,
+  "writeMatrix": 30,
+  "passed": [
+    "Matriz completa de lecturas privadas: anónimo, pendiente, suspendido, vencido, bloqueado",
+    "Matriz de escrituras y borrados: identidad antes de interpretar el cuerpo",
+    "Usuario activo y propietario acceden a sus secciones; cabeceras no escalan privilegios",
+    "IDOR/BOLA: detalle, capturas, cuentas, estrategias y borrados ajenos",
+    "Asignación masiva y texto SQL/HTML no cambian propietario, rol, cuota ni versión interna"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "commits": 16,
+  "trees": 16,
+  "remoteBlobs": 389,
+  "missingTextBlobs": 215,
+  "treeFailures": [],
+  "scope": "Tres ramas inventariadas. 16 commits completos de main por API, incluidos mensajes; version-anterior comparte HEAD. 215 blobs de texto adicionales al historial V2 local. Detector incluye JSON/asignaciones sin comillas. No prueba todos los formatos de credenciales ni secretos del panel.",
+  "checkedMissing": 215,
+  "commitMessagesScanned": 16,
+  "tagInspection": "No verificable: endpoints tags/refs consultados no admitidos por el conector",
+  "failures": [],
+  "candidates": [
+    {
+      "kind": "assigned-secret",
+      "location": "8d419e91c10896f04cd66121ec62bd87fa60bb2e:tests/check-cloudflare.mjs",
+      "line": 26,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "e5f8dbb03606f4745e7094543caea7ea7d3bb47c:tests/check-cloudflare.mjs",
+      "line": 26,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "ac7e3bfdea0fbb0c0aaf39909b00ff43b80e97de:tests/check-cloudflare.mjs",
+      "line": 26,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "24e5c4933b15303fe82a0c87d7d632826b98e98f:tests/check-cloudflare.mjs",
+      "line": 27,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "a2df360e6c288ccf2cefb6e99ad62b94bf5019b8:tests/check-cloudflare.mjs",
+      "line": 25,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "16acc943704ef526b83f93c4d75b2370215a480f:tests/check-cloudflare.mjs",
+      "line": 25,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "fa924d2b1f8825131b5dbab0b44bfd461c74f939:tests/check-cloudflare.mjs",
+      "line": 25,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    },
+    {
+      "kind": "assigned-secret",
+      "location": "edbb6419b936a5e837455caca3cfd0c0645e8b85:tests/check-cloudflare.mjs",
+      "line": 23,
+      "evidence": "[REDACTADO]",
+      "fixture": true
+    }
+  ],
+  "commitShas": [
+    "913425d042c681d1682bd7df11facda70d26c4d2",
+    "d9a12db273d90808083235b58ee819e04f0ab839",
+    "b5a5416d6d2bf6bdbadc5a3912f0d45e0267ab6d",
+    "d3ee83e0fef937f5633032b7fec179267ca81366",
+    "db1dc076ab5050fa793f7eb76d9a8d4a0539e205",
+    "cb9120b96cfd16c30440211d759bbee03ae040c1",
+    "cecc9b992487d809f1a416725fdf599e8e1560a7",
+    "216768d2680c2dd9e4e6ca99efed5589e760dc3b",
+    "a2f5bd9cf6884aeac880e8c007781ea4f8a83d6a",
+    "e4fcf040b028d3782da845f623e1c157bd8df67d",
+    "10dc997f272098dfa1de9124b5217c9cbe1e1c90",
+    "81422a5648ae65de35866f08fac093ffec9f53dd",
+    "6cbb4b8f853f2b7ceb170551b3a88914c357cd8e",
+    "0745e6f3afe4730888e850c40dfd0b4485ea2d82",
+    "de89321883ddade3c2d1a954e4406ea80d4fa972",
+    "850f48902d17df78cf9edf5dbe7387497143c508"
+  ],
+  "branchHeads": [
+    {
+      "name": "main",
+      "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+    },
+    {
+      "name": "mejoras-v2-2026-11-18",
+      "sha": "85e0a6a9411137ed65532dc46a03bb5c62969e2d"
+    },
+    {
+      "name": "version-anterior-2026-11-18",
+      "sha": "913425d042c681d1682bd7df11facda70d26c4d2"
+    }
+  ]
+}

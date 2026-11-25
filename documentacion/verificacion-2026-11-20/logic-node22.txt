@@ -1,0 +1,49 @@
+$ npm exec --yes --package=node@22.22.0 -- node scripts/check-v2.mjs
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+(node:1034) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1041) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Sintaxis JavaScript: 46 archivos OK.
+(node:1370) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estadísticas financieras: resultados, cobertura, factores, expectativa, curva, drawdown, recuperación, rachas, BE y costes OK.
+(node:1377) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Reconciliación local: guardado, metadatos, revisiones, eliminación y referencias OK.
+(node:1384) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Riesgo: cobertura, parciales fechados, long/short, BE, cuentas y límites OK.
+(node:1391) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Restauración: versiones históricas, duplicados, referencias, conflictos y lotes OK.
+(node:1398) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Pantallas de acceso: estados, escapado, JSON privado y borradores incompletos verificados.
+(node:1405) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Calculadoras: 15 casos OK.
+Calculadoras adicionales: 17 casos OK.
+(node:1412) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Gestión de parciales: 7 casos OK.
+Regresión de parciales: ceros, long/short, cierre completo, stops inválidos y precisión OK.
+(node:1419) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Cuentas: 8 casos OK.
+(node:1426) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Restore compare: 6 casos OK
+(node:1433) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estados de acceso: 10 casos OK
+(node:1440) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Estadísticas y meses: 16 casos OK
+(node:1447) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Cobertura monetaria: 7 casos OK.
+(node:1454) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Paginación y capturas: 8 casos OK.
+Módulos: 14/14 aprobados
